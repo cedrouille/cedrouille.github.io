@@ -1,0 +1,1463 @@
+{
+  "ACTION": {
+    "UPDATE": "Update\n",
+    "SAVE": "Save",
+    "REFRESH": "Refresh",
+    "CLOSE": "Close",
+    "RELOAD": "Reload",
+    "CANCEL": "Cancel",
+    "DOWNLOAD": "Download",
+    "EXPORT": "Export",
+    "ADD": "Add",
+    "MODIFY": "Modify",
+    "FILTER": "Filter",
+    "OK": "Ok",
+    "LOADING": "Loading...",
+    "VALIDATE": "Validate",
+    "VALIDATE_INVENTORY": "Validate inventory",
+    "INVENTORY": "Inventory",
+    "SEARCH": "Search",
+    "CLICK_EDIT": "click to modify",
+    "CLEAN": "empty",
+    "CONFIRM": "confirm",
+    "CONFIRMATION": "Confirmation",
+    "GOTO": "Go to the page",
+    "LEAVE_PAGE": "Leave the page",
+    "NEXT": "next",
+    "PREVIOUS": "Previous",
+    "SEND": "Send",
+    "CREATE-USER": "Create a user",
+    "DECONNECT_ME": "Disconnect"
+  },
+  "COMMONS": {
+    "UNDER_CONSTRUCTION": "Under construction",
+    "GENERAL_INFORMATION": "General informations",
+    "ID": "ID",
+    "NAME": "Name",
+    "FIRSTNAME": "Firstname",
+    "COUNTRY": "Country",
+    "CITY": "City",
+    "SALARY": "Salary",
+    "MAIL": "E-mail adress",
+    "LOGIN": "Login",
+    "CREATE": "Create",
+    "CAPACITY": "Capacity",
+    "UNDER_CONSTRUCTION_DATA": "Under construction",
+    "ANIMAUX_INFORMATION": "animal informations",
+    "RFID": "RFID",
+    "STAGE_PHYSIOLOGICAL": "Physiological stage",
+    "CONGRATS": "Congratulations!",
+    "BANDE_INFORMATION": "Band information\n",
+    "GLOBAL": "General",
+    "ALL": "All",
+    "CATEGORY": "category",
+    "TYPE": "Type",
+    "SITE": "website",
+    "BATIMENT": "building",
+    "SALLE": "room",
+    "CASE": "box",
+    "DISCARD_CHANGES_PAGE": "You are close to leave the page. <br/> All unsaved data will be lost.",
+    "PDF": "PDF",
+    "CSV": "CSV",
+    "OFFLINE_CONNECTION_TITLE": "No internet connection",
+    "OFFLINE_CONNECTION_MESSAGE": "You must be logged in to use the app",
+    "ONLINE_CONNECTION": "Connection found",
+    "NEW_VERSION_APP_TITLE": "A new version of the application is available",
+    "NEW_VERSION_APP_MESSAGE": "Click to update",
+    "INSTALL_APP_TITLE": "Would you like to install My Cooperl Suite?",
+    "INSTALL_APP_MESSAGE": "Click to add the application on your home page",
+    "CATEGORIE": "Category",
+    "DU": "Du",
+    "AU": "au"
+  },
+  "ERROR": {
+    "NOT_FOUND": {
+      "PAGE": "We can not find the page you are looking for.",
+      "SITE": {
+        "TITLE": "Site ### does not exist",
+        "MESSAGE": "Press the button below to disconnect"
+      }
+    },
+    "NOT_AUTHORIZED": "You do not have the necessary rights to access this page.",
+    "UNKNOWN": "An unknown error occurred",
+    "CODE_STATUS": "Error code :",
+    "NO_DATA": "No data available",
+    "FILTER_REQUIRED": "This field is required"
+  },
+  "PAGE": {
+    "ADMIN": {
+      "USERS": {
+        "DESCRIPTION": {
+          "FIRST": "You have opened the user administration console.",
+          "SECOND": "If you clicked on a user's \"impersonate\" button, please reload the page to switch to its session.",
+          "THIRD": "Otherwise, you can hide this message."
+        },
+        "LIST": "Users list",
+        "SITE": {
+          "MARKING": "Site marking"
+        },
+        "ACTION": "Action"
+      }
+    },
+    "CHEPTEL": {
+      "BANDE": "Band",
+      "MORTALITY": "Mortality",
+      "TREATMENTS": "Treatments",
+      "WEIGHING": "Weighing",
+      "HISTORICAL": "Historical",
+      "DEPARTURES": "Departures",
+      "MY_CHEPTEL": "My reproducteur",
+      "SELECT_BANDE": "Select a band",
+      "NUMERO": {
+        "BANDE": "N° band",
+        "INTERN": "N° intern",
+        "ERROR_INTERN": "Only characters authorized : A-Z et 0-9."
+      },
+      "LOSS_RATE": {
+        "TITLE": "Loss rate",
+        "DESCRIPTION": "Loss rate of all animals identified at birth.",
+        "NUMBER_DEATH": "Number of deaths",
+        "RATE_DEATH": "Rate of deaths",
+        "BUTTON_DETAIL": "Detail",
+        "BUTTON_DETAIL_TOOLTIP": "Loss history",
+        "GRAPH_UNIT": "pigs"
+      },
+      "ACCESS_TIME": "generated data ago {{access_time}}",
+      "LIST_ANIMAL": {
+        "TITLE": "List of animals"
+      },
+      "MY_BANDES": "Reproducteur",
+      "TREATMENT_RATE": "Treatment rate :",
+      "SOWS_FILE": "Sows file",
+      "NUMBER": {
+        "SOWS": "Nb. animals",
+        "MALE": "Nb. males",
+        "FEMALE": "Nb. females",
+        "SLAUGHTERHOUSE": "Nb. slaughterhouse",
+        "PRODUCTING_SOWS": "Nb. melting sows "
+      },
+      "ERROR": "No bands availables",
+      "MODAL": {
+        "TITLE": "Update general informations",
+        "NUMERO_INTERNE_PLACEHOLDER": "Enter intern number",
+        "ERROR_NUMERO_INTERNE": "Missing intern number"
+      },
+      "DEATH_CARD": {
+        "CAUSES": "Causes of death"
+      },
+      "TOAST": {
+        "NO_ANIMALS_PDF": "No animal in this band, or report is not built",
+        "ERROR_PDF": "An error occured on server",
+        "VALIDATION_PDF": "PDF file created"
+      },
+      "INFO_COMMERCIALE_CARD": {
+        "TITLE": "Commercial informations",
+        "NOMBRE_TRAITE": "Nb. treated",
+        "TAUX_TRAITEMENT": "Treatment rate",
+        "CAHIER_DES_CHARGES": "specification",
+        "BUTTON_DETAIL": "Detail",
+        "BUTTON_DETAIL_TOOLTIP": "List of animals",
+        "BUTTON_EDIT": "Edition",
+        "BUTTON_EDIT_TOOLTIP": "Edit the tband",
+        "GRAPH_UNIT": "pigs"
+      },
+      "INFO_CARD": {
+        "BUTTON_DETAIL": "Detail",
+        "BUTTON_DETAIL_TOOLTIP": "List of animals",
+        "BUTTON_EDIT": "Edition",
+        "BUTTON_EDIT_TOOLTIP": "Edit the band",
+        "BUTTON_RAPPORT_TOOLIP": "Consulter le rapport Historique truie"
+      },
+      "LISTE_PORCELET_MODAL": {
+        "TITLE": "Animals list",
+        "RFID": "RFID",
+        "DATE_NAISSANCE": "Birthday",
+        "MERE_COURANTE": "Current mother",
+        "CAHIER_DES_CHARGES": "Specifications",
+        "DERNIER_TRAITEMENT_ANTIBIO": "Last antibiotic treatment"
+      },
+      "LISTE_PERTES_MODAL": {
+        "TITLE": "Losses History",
+        "RFID": "RFID",
+        "DATE_MORT": "Death date",
+        "AGE_MORT": "Age at death",
+        "CAUSE": "Reason",
+        "COMMENTAIRE": "Comment"
+      },
+      "STATUTS_TRUIES_CARD": {
+        "TITLE": "The Sows status ",
+        "LACTATION": "Lactation",
+        "PLEINE": "Full",
+        "PRETROUPEAU": "Before herd",
+        "INCONNU": "Unknown",
+        "VIDE": "Empty",
+        "ANIMAL": "animal",
+        "ANIMALS": "Animals"
+      },
+      "DEMOGRAPHIE_WIDGET": {
+        "TITLE": "Sows demography ",
+        "NOMBRE_ANIMAUX": "Number of animals",
+        "RANG": "Rank"
+      },
+      "HISTORIQUE_TRAITEMENT_MODAL": {
+        "TITLE": "Treatment history",
+        "DATE": "Date",
+        "TYPE_TRAITEMENT": "Treatment type",
+        "PRODUIT": "Product",
+        "QUANTITE": "Quantity",
+        "UNITE": "Unit",
+        "PATHOLOGIE": "Pathology",
+        "ANTIBIO": "Antibiotics"
+      }
+    },
+    "REPORT": {
+      "CHART": {
+        "GOAL": "Value of the objective"
+      },
+      "TARGET": "Goal"
+    },
+    "STRUCTURE": {
+      "TITLE": "My structures",
+      "CREATE_BATIMENT": "Create building",
+      "CREATE_SALLE": "Create room",
+      "CREATE_CASE": "Create case",
+      "ENTER_NAME_BATIMENT": "Entrer name of the building",
+      "ENTER_NAME_CASE": "Enter name of the case",
+      "ENTER_NAME_SALLE": "Enter name of the room",
+      "ENTER_CAPACITY_SALLE": "Enter capacity of the room",
+      "ENTER_CAPACITY_CASE": "Enter capacity of the case",
+      "REQUIRED_NAME": "Name is required",
+      "REQUIRED_CAPACITY": "Capacity is required",
+      "VALIDATION_CREATION_BATIMENT": "Building created",
+      "VALIDATION_CREATION_SALLE": "Room created",
+      "VALIDATION_CREATION_CASE": "Case created",
+      "ERROR_CREATION_BATIMENT": "Error while creating building",
+      "ERROR_CREATION_SALLE": "Error while creating room : ",
+      "ERROR_CREATION_CASE": "Error while creating case : ",
+      "TOOLTIP": {
+        "ANIMALS_ALIVE": "animals alive",
+        "DISABLED_BUTTON_CASE": "The room contains animals",
+        "CREATE_BATIMENT": "Create building",
+        "CREATE_SALLE": "Create room",
+        "CREATE_CASE": "Create case",
+        "REORDER_TREE": "Reorder the structures",
+        "TRANSFERT_ANIMALS": "To move the animals "
+      },
+      "REQUIRED_STADE": "The physiological stage is obligatory",
+      "SELECT_STADE": "Select a physiological stage",
+      "NB_TOTAL_ANIMAUX": "Nb. total",
+      "BANDES": "Date of entry",
+      "NB_MALE": "Nb. males",
+      "NB_FEMALE": "Nb. females",
+      "RFID": "RFID",
+      "SELECT_STRUCTURE": "Filters",
+      "UPDATE_BATIMENT": "Building modification",
+      "UPDATE_SALLE": "room modification",
+      "UPDATE_CASE": "box modification",
+      "INVALID_CAPACITY_CASE": "A box capacity must be between 1 and 1000",
+      "VALIDATION_UPDATE_BATIMENT": "Updated building",
+      "VALIDATION_UPDATE_SALLE": "Updated room",
+      "VALIDATION_UPDATE_CASE": "updated box",
+      "DEPLACER_ANIMAUX_TITLE": "To move the animals ",
+      "DEPART_TITLE": "Departure",
+      "DESTINATION_TITLE": "Destination",
+      "DATE_DEPART": "Departure date",
+      "CHECK_VALIDATION": "Click on \"confirm\" to validate the move ",
+      "DEPLACER_ANIMAUX_PLACEHOLDER_SELECTBOX": "Choose a structure ",
+      "ERROR_MESSAGE_DESTINATION": "The destination structure is compulsory ",
+      "ERROR_MESSAGE_DEPART": "The departure structure is compulsory",
+      "INFO_TOAST_1": "The animals will be moved from the structure ",
+      "INFO_TOAST_2": "to the structure ",
+      "INFO_TOAST_3": "This process can take few minutes",
+      "CLEAN": {
+        "CONTENT": "To empty a structure caused the definitive suppression of earrings still present. <br/>It will not be possible to record animals data. <br/><b> Are you sure you want to continue ? </b><br/><br/><i>You have the possibility to put earrings or to move these animals in an other structure</i>",
+        "VALID_BUTTON": "Empty the structure",
+        "SUCCESS": "Emptying the ongoing structure"
+      },
+      "DATE_DERNIER_LAVAGE": "Date of last wash",
+      "NUMERO_TRAVAIL_TRUIE": "Sow job number",
+      "NB_TOTAL_PORCELETS": "Number of piglets",
+      "NB_TRUIES": "Number of sows"
+    },
+    "PHARMACY": {
+      "TABLE": {
+        "LABEL": {
+          "ARTICLE": "Article",
+          "NUMBER_DRUGS_NOT_USED": "Number of not used drugs",
+          "NUMBER_DRUGS_LEAD_OFF": "Quantity of lead off drugs",
+          "ACTION": "Action",
+          "ARTICLE_PLACEHOLDER": "Select a product"
+        }
+      },
+      "ACTION": {
+        "HISTORY": "Movement history",
+        "ADD_STOCK": "add a medicine"
+      },
+      "MOUVEMENT": {
+        "TITLE": "Movement history",
+        "LEGEND": "Legend",
+        "TABLE-HEADER": {
+          "TYPE": "Type",
+          "QUANTITE": "Quantity",
+          "DATE": "Date",
+          "MOTIF": "Reason"
+        },
+        "TYPE": {
+          "LIVRAISON_ENTREE": "Delivery entry",
+          "TRAITEMENT_SORTIE": "Treatment output",
+          "SORTIE_MANUELLE": "Manual output",
+          "REGULE_INVENTAIRE_ENTREE": "Regulates entry inventory",
+          "REGULE_INVENTAIRE_SORTIE": "Regulates exit inventory",
+          "REGULE_LIVRAISON_SUP": "Regulates superior delivery",
+          "REGULE_LIVRAISON_INF": "Regulates inferior delivery",
+          "TRANSFERT_VERS_PHARMACIE": "Transfer to pharmacy",
+          "TRANSFERT_DEPUIS_PHARMACIE": "Transfer from pharmacy"
+        }
+      },
+      "TOOLTIP": {
+        "STOCK_NEGATIF": "Negative product stock"
+      },
+      "NO_STOCK": {
+        "FIRST_USE": "this is you first access to a pharmacy ",
+        "INIT_INFO": "You must make a first inventory to initialize your pharmacy ",
+        "INIT_BUTTON": "to start the initilization",
+        "FINISH_BUTTON": "approve"
+      },
+      "INIT": {
+        "DELETE_BUTTON": "delete",
+        "FINISH_BUTTON": "to finish initializaton"
+      },
+      "NEW_ARTICLE": {
+        "TITLE": "To add a new medicine",
+        "ARTICLE": "item",
+        "NUMBER_DRUGS_NOT_USED": "Number of not used products",
+        "NUMBER_DRUGS_LEAD_OFF": "Quantity of initiated products",
+        "TOAST_VALIDE": "added medicine",
+        "PLACEHOLDER": "select a medicine"
+      }
+    },
+    "DEPARTURES": {
+      "FORM_SELECTION": {
+        "TITLE": "Selection",
+        "OPEN_MODAL": "Edit filters"
+      }
+    },
+    "STATISTIQUE": {
+      "ALL": "All",
+      "MESSAGE": {
+        "UPDATED": "Update"
+      },
+      "FILTER": {
+        "TITLE": "Filters",
+        "DATE_FILTER": {
+          "SELECT": "Select a date",
+          "MONTHS": {
+            "THREE": "3 last months",
+            "SIX": "6 last months",
+            "NINE": "9 last months",
+            "TWELVE": "12 last months",
+            "TWENTY_FOUR": "24 last months",
+            "THIRTY_SIX": "36 last months"
+          },
+          "CUSTOMIZED": "Customized period",
+          "DATE_FIN": "End date",
+          "DATE_DEBUT": "Start date"
+        },
+        "REQUIRED": "This field is required",
+        "GLOBAL": "General"
+      },
+      "SPECIFIC": {
+        "PILOTAGE_CHEPTEL": {
+          "MESSAGE": {
+            "REFRESH": "Refresh data"
+          },
+          "HEADER": {
+            "REFCAA": "REF CAA",
+            "PERIOD": "Period",
+            "SITES": "Sites",
+            "AVERAGE": "Average",
+            "REFCAAEXPLAIN": "Cooperl Arc Atlantique reference of the year 2017 for all farms out of scheme"
+          },
+          "LABEL": {
+            "PRODUCTIVITY": "Productivity",
+            "RESUlT_SCOPE": "Results by litter",
+            "BORN_TOTAL_SCOPE": "Total born per litter",
+            "BORN_ALIVE_SCOPE": "Born alive by litter",
+            "BORN_DEAD_SCOPE": "Stillborns by litter",
+            "CRUSHED_SCOPE": "Crushed by litter",
+            "WEANED_SCOPE": "Weaned by litter",
+            "LOSS_RATE_ALL_SCOPE": "Rate total birth losses",
+            "LOSS_RATE_ALIVE_SCOPE": "Rate live birth losses",
+            "LOSS_DEAD_ALIVE_ALL_SCOPE": "Rate stillborn babies born",
+            "REPRODUCTION": "Reproduction",
+            "AGE_PIGLETS_WEANING": "Age of piglets weaning",
+            "ISS1": "ISS1",
+            "ISSF": "ISSF",
+            "AVERAGE_RANK_SCOPE": "Average rank of the litter",
+            "FULL_RATE_SCAN": "Rate full on ultrasound",
+            "FULL_RATE_FARROWING": "Rate farrowing",
+            "PREGNANCY_TIME": "Pregnancy time",
+            "RATE_WEANING_BEFORE_EIGHTEEN_DAYS": "Rate weaned before 18d",
+            "RATE_FARROWING_BEFORE_365_DAYS": "Rate calving before 365d of age",
+            "REFORMS": "Reforms",
+            "NUMBER_FEMALES_REFORMED": "Number of females reformed",
+            "NUMBER_FEMALES_DEAD": "Number of dead females",
+            "RATE_ANNUAL_REFORM": "Rate of annual reform",
+            "INTERVAL_LAST_WEANING_REFORM": "Interval last weaning-reform",
+            "EFFECTIVE": "Animal population",
+            "NUMBER_SOWS_PRESENT": "Number of sows present",
+            "NUMBER_TOTAL_LIVE_BIRTHS": "Number of total live births",
+            "NUMBER_TOTAL_WEANED": "Number of total weaned",
+            "NUMBER_WEANED_NORMAL_SCOPE": "Number of weaned / normal litters",
+            "NUMBER_WEANED_ADOPTIVE_SCOPE": "Number of weaned / adopted litters",
+            "NUMBER_NORMAL_SCOPE": "Number of normal litters",
+            "NUMBER_WEANED_SOW_PRODUCTIVITY_YEAR": "Number of producers weaned / productive sow / year",
+            "NUMBER_WEANED_SOW_PRESENT_YEAR": "Number of weaned producers / sow present / year"
+          },
+          "PDF": {
+            "IDENTIFIANT_SITE": "Site id:"
+          }
+        },
+        "DASHBOARD": {
+          "TITLE": "Informations",
+          "MESSAGE": {
+            "NO_DATA": "No data available",
+            "TITLE_GOALS": "Goals"
+          },
+          "INFORMATIONS": {
+            "SOW_VISIBLE": "Goal visible sows :",
+            "WEANED_BY_BAND": "Goal weaned by band :",
+            "STEARING": "Stearing :",
+            "BAND": "bands",
+            "DAYS": "days",
+            "WEANING": "Weaning :",
+            "UPDATE": "Updated on:"
+          },
+          "ACTIONS": {
+            "EXPORT_CSV": "Export in CSV format",
+            "MANAGE_GOAL": "Manage goals",
+            "ACTIVATE_COLOR_CODE": "Enable goals color codes",
+            "DESACTIVATE_COLOR_CODE": "Disable goals color codes",
+            "EXPORT_PDF": "Export in PDF format"
+          }
+        },
+        "HISTORIQUE_TRUIE": {
+          "TITLE": "Sow history"
+        },
+        "HISTORIQUE_TRUIE_ET_PORCELET": {
+          "TITLE": "Sow history"
+        },
+        "TAUX_PERTE_BANDE_STADE_PHYSIO": {
+          "TITLE": "Loss rate per group per physiological stage"
+        }
+      },
+      "TILE": {
+        "REPORT_TITLE": "Report label"
+      },
+      "TABLE": {
+        "EMPTY": "No data available",
+        "LENGTH_MENU": "Show _MENU_ entries"
+      },
+      "RAPPORT_CSV": {
+        "DATE_MISE_A_JOUR": "Update date",
+        "DATE_EXPORT": "Export date",
+        "NO_DATA": "No data available"
+      },
+      "SORT": {
+        "SORT_BY": "Sort by",
+        "PLACEHOLDER_CRITERIA": "Criterion 1, criterion 2, ...",
+        "ADD_CRITERIA": "To add a criterion",
+        "REMOVE_CRITERIA": "Remove this criterion",
+        "ASC_LABEL": "Increasing order",
+        "DESC_LABEL": "descending order"
+      },
+      "REFRESH_TITLE": "New data available",
+      "REFRESH_MESSAGE": "click to update the report"
+    },
+    "PARAMETRES": {
+      "STADE_PHYSIO": "List of physiological stages",
+      "PORCELET": {
+        "TAB": "Pass'Porc",
+        "GLOBAL": "Global parameters",
+        "PHYSIO": "Lists of physiological stages of the site",
+        "OBS": "Pig observations"
+      },
+      "CHEPTEL": {
+        "TAB": "Pass'Cheptel",
+        "OBS": "Sow observations"
+      },
+      "ADMIN": {
+        "CAUSE_MORTS": {
+          "TAB": "Reform causes",
+          "PLACEHOLDER": "New cause"
+        },
+        "OBSERVATIONS": {
+          "TAB": "Observations",
+          "PLACEHOLDER": "New observation"
+        },
+        "PATHOLOGIES": {
+          "TAB": "Pathologies",
+          "PLACEHOLDER": "New pathology"
+        },
+        "CAUSE_REFORME": {
+          "TAB": "Reform cause",
+          "PLACEHOLDER": "New reform cause"
+        },
+        "TYPE_REFORME": {
+          "TAB": "Reform type",
+          "PLACEHOLDER": "New type of reform"
+        },
+        "TYPE_SAILLIE": {
+          "TAB": "Melting types\n",
+          "PLACEHOLDER": "New melting type"
+        },
+        "TYPE_ABATTOIR": {
+          "TAB": "Slaughterhouses",
+          "PLACEHOLDER": "New slaughterhouse"
+        },
+        "GROUPEMENT": {
+          "TAB": "Grouping",
+          "PLACEHOLDER": "New grouping"
+        },
+        "CATEGORIE_ELEVEUR": {
+          "TAB": "farmer category",
+          "PLACEHOLDER": "New farmer category"
+        },
+        "TYPE_RACE": {
+          "TAB": "Breeds",
+          "PLACEHOLDER": "New breed"
+        },
+        "TYPE_CROISEMENT": {
+          "TAB": "Crossings",
+          "PLACEHOLDER": "New crossing"
+        },
+        "ANOMALIE": {
+          "TAB": "Anomalies porcelets",
+          "PLACEHOLDER": "Nouvelle anomalie porcelet"
+        },
+        "MISEBAS_FACILITE": {
+          "TAB": "Facilité",
+          "PLACEHOLDER": "Nouvelle mise bas facilité"
+        },
+        "MISEBAS_COMPORTEMENT_TRUIE": {
+          "TAB": "Comportement",
+          "PLACEHOLDER": "Nouvelle mise bas comportement"
+        },
+        "MISEBAS_INDUCTION": {
+          "TAB": "Induction",
+          "PLACEHOLDER": "Nouvelle mise bas induction"
+        }
+      },
+      "ADD": "Adding a new value",
+      "TABLE-HEADER": {
+        "CODE_IFIP": "IFIP code",
+        "LABEL": "Wording",
+        "ACTION": "Action",
+        "CODE_TYPE_GENETIQUE": "Genetic code type",
+        "CODE_TYPE_GENETIQUE_PERE": "Genetic code type father",
+        "CODE_TYPE_GENETIQUE_MERE": "Genetic code type mother",
+        "CODE_TYPE_GENETIQUE_ENFANT": "Genetic code type child",
+        "CARACTERISTIQUE": "Characteristic"
+      },
+      "CREATE": {
+        "SUCCESS": "created successfully",
+        "FAILED": "Parameter creation failed"
+      },
+      "UPDATE": {
+        "SUCCESS": " updated",
+        "FAILED": "Parameter update failed"
+      },
+      "MODAL": {
+        "TITLE": {
+          "NEW": "New value",
+          "MODIFY": "Modification of "
+        },
+        "CODE_IFIP": "IFIP code"
+      }
+    },
+    "PROBLEMATIC": {
+      "NEW_PROBLEMATIC": "Choose another problem",
+      "ROLLBACK": "Return to this question",
+      "PROPOSED_ACTIONS": "Proposed actions",
+      "PROPOSED_NEW_PROBLEMATIC": "Choose another problem",
+      "GO_DASHBOARD": "Go to the dashboard",
+      "CLICK_PROPOSITION": "Click on the proposal of your choice",
+      "WHAT_PROBLEMATIC": "What is your problem?",
+      "SELECT_PROBLEMATIC": "Select your problem",
+      "LIST_GUIDE": "in the opposite list and let yourself be guided."
+    },
+    "SITE-MANAGEMENT": {
+      "TABLE-HEADER": {
+        "SITE": "IDM",
+        "SOCIAL-REASON": "Social reason",
+        "ADDRESS": "Address",
+        "CP": "Postal code",
+        "CITY": "City",
+        "ACTION": "Action",
+        "PARTNER-SITES": "Partner sites",
+        "CATEGORY": "farming category",
+        "CONSORTIUM": "Grouping",
+        "TITLE_SITES": "Sites",
+        "TITLE_USERS": "Users",
+        "LASTNAME_AND_FIRSTNAME": "Last name & First name",
+        "USERNAME": "Username",
+        "EMAIL": "Email",
+        "LANGUAGE": "Language",
+        "ACCES": "Access",
+        "STATUS": "Current condition",
+        "WAITING_FOR_ACTIVATION": "awaiting activation",
+        "ACTIVATED": "activated",
+        "EMAIL_NOT_SENT": "Email not sent"
+      },
+      "TOOLTIP": {
+        "ACTION": "Edit site settings",
+        "SHOW_PARTNERS": "View the list of partners",
+        "ACTION_USERS": "Modify user information",
+        "ACTION-EMAIL": "Send user an activation link",
+        "SHOW_MODULES": "Show a module list"
+      },
+      "MODAL": {
+        "TITLE": "Editing site settings",
+        "NO_DATA": "No parameters found for this site",
+        "ADD": "Create a site",
+        "SEARCH": {
+          "TITLE": "Creation of a new site",
+          "FORM": {
+            "TITLE": "Search in the Cooperl database",
+            "PLACEHOLDER": "Marking ID",
+            "SITE-REQUIRED": "Site is obligatory",
+            "SITE-LENGTH": "Site length must be at least 3 characters",
+            "REASON-REQUIRED": "Company name is obligatory",
+            "REASON-LENGTH": "Company name must be at least 5 characters",
+            "ADDRESS-REQUIRED": "Address is obligatory",
+            "ADDRESS-LENGTH": "Address must be at least 5 characters",
+            "POSTAL-CODE-REQUIRED": "Postal code is obligatory",
+            "POSTAL-CODE-LENGTH": "Post code must be at least 5 characters",
+            "CITY-REQUIRED": "Commune is obligatory",
+            "CITY-LENGTH": "Commune must be at least 2 characters",
+            "CATEGORY-REQUIRED": "Farm category is obligatory",
+            "GROUPEMENT-REQUIRED": "Grouping is obligatory"
+          },
+          "RESULT": {
+            "TITLE": "Result of the research",
+            "PRINCIPAL": "Main site",
+            "PARTENAIRE": "Partner",
+            "SITE": {
+              "RAISON": "Social reason",
+              "IDM": "IDM",
+              "RUE": "Street",
+              "CP": "Postal code",
+              "COMMUNE": "City"
+            }
+          },
+          "NO_DATA": "No sites found matching to",
+          "CREATE": "Create the site",
+          "CREATE_SUCCESS": "site created successfully",
+          "CREATE_FAILED": "Site creation failed",
+          "EXIST": "The site already exists in the breeder reference system",
+          "PARAMETERS": {
+            "TITLE": "settings",
+            "PLACEHOLDER": "select a value",
+            "CATEGORY": "farming category",
+            "GROUPEMENT": "Grouping"
+          },
+          "UPDATE_SUCCESS": "Website updated successfully",
+          "UPDATE_FAILED": "The site update failed",
+          "CREATE_DUPLICATED": "The user or the email already exists",
+          "STEPS": {
+            "SITE": "Site information",
+            "USER": "User information"
+          },
+          "CREATE_USER_SUCCESS": "User has created successfully",
+          "CREATE_USER_FAILED": "User creation has failed",
+          "UPDATE_USER_FAILED": "User update has failed",
+          "UPDATE_USERS_SUCCESS": "User has been updated successfully",
+          "SEND_EMAIL_SUCCESS": "Email has been sent successfully",
+          "SEND_EMAIL_FAILED": "Email sending has failed"
+        },
+        "TABS": {
+          "INFOS_GENERALES": "General information",
+          "PARAMETRES": "Site Settings"
+        },
+        "ADD-USER": "Create user"
+      },
+      "MODAL-PARTNER": {
+        "TITLE": "List of partner sites",
+        "TABLE-HEADER": {
+          "IDM": "IDM",
+          "RAISON-SOCIALE": "Social reason"
+        }
+      },
+      "USER": {
+        "TITLE": "Creating a user",
+        "USERNAME": "Account",
+        "E-MAIL-ADDRESS": "E-mail adress",
+        "FIRST-NAME": "Firstname",
+        "LASTNAME": "Name",
+        "LANGUAGE": "Language",
+        "ACTIVE-ROLES": "activated roles",
+        "PLACEHOLDER": {
+          "USERNAME": "Enter your account name",
+          "USERNAME-REQUIERD": "Name is required",
+          "USERNAME-MINLENGTH": "Name must be at least 5 characters long",
+          "E-MAIL-ADDRESS": "E-mail adress",
+          "FIRST-NAME": "Firstname",
+          "LASTNAME": "Lastname",
+          "LANGUAGE": "Default language",
+          "ACTIVE-ROLES": "Access to the modules ...",
+          "E-MAIL-ADDRESS-REQUIRED": "Email is obligatory",
+          "LANG-REQUIRED": "Language is obligatory",
+          "SOCIAL-REASON": "Company name is obligatory",
+          "ROLES-REQUIRED": "At least one role must be chosen"
+        },
+        "ACTIVE-NEW": "Activate now",
+        "TAMPORARY-PASSWORD": "Temporary password:",
+        "TEXT-INFO-1": "In order to activate the user's account, you need to connect to",
+        "TEXT-INFO-2": "You will be invited to set a permanent password"
+      },
+      "MODAL-ROLES": {
+        "TITLE": "Module list"
+      },
+      "MODAL-USERS": {
+        "TITLE": "Modification of user information",
+        "TITLE-CREATE": "Create user"
+      },
+      "MODAL-EMAIL": {
+        "TITLE": "Sending of account activation link",
+        "MODAL_BODY_1": "by pressing on \"Send\"",
+        "MODAL_BODY_2": "will receive an email inviting him to activate his account on My Cooperl Suite.",
+        "MODAL_BODY_3": "He will have to create his personal password before being able to connect to web and mobile applications "
+      }
+    },
+    "VSI": {
+      "MODAL": {
+        "IMPORT": {
+          "TITLE": "Import VSI",
+          "DROP-ZONE": "Drag and drop ZIP files into this area",
+          "DROP-ZONE-EXTRA": "or click here",
+          "ERROR": "Problem when importing the file",
+          "UNAUTHORIZED": "VSI import not allowed on this site",
+          "SUCCESS": {
+            "TITLE": "VSI import in progress",
+            "MESSAGE": "Import request completed successfully."
+          }
+        },
+        "EXPORT": {
+          "TITLE": "VSI export in ZIP format",
+          "ERROR": "Error downloading file",
+          "LABEL": "File name"
+        },
+        "RESULT": {
+          "TITLE": "Result of the last import VSI"
+        }
+      },
+      "TABLE-HEADER": {
+        "SITE": "IDM",
+        "NAME": "Name",
+        "SOCIAL-REASON": "Social reason",
+        "ADDRESS": "Address",
+        "CP": "P",
+        "CITY": "City",
+        "ACTION": "Action",
+        "DATE": "Import status"
+      },
+      "RESULT": {
+        "UPDATED": "Update",
+        "ADDED": "Created",
+        "IGNORED": "Ignored",
+        "NO_CHANGE": "Not modified",
+        "REFORMED": "Reformed",
+        "ERROR": "Not imported"
+      },
+      "ACTION": {
+        "UPLOAD": "Import VSI",
+        "DOWNLOAD": "Export VSI",
+        "UPLOAD_IN_PROGRESS": "Impossible import.\nA VSI import is in progress."
+      },
+      "STATUS": {
+        "SUCCESS": "View the latest VSI import report",
+        "ERROR": "Error",
+        "ERROR_TITLE": "An error occurred during the last VSI import",
+        "PROGRESS": "Importing ...\nStarted",
+        "DEFAULT": "no import",
+        "TODO": "waiting",
+        "TODO_TITLE": "Import pending ...\nRequest"
+      },
+      "NO_IMPORT": "no import"
+    },
+    "DEPART": {
+      "DESTINATION": "Destination",
+      "NUMBER_WITH_RFID": "Nb. tagged",
+      "BY_BANDE": "Per band",
+      "SELECT_RANGE": "Dates",
+      "TYPE_DEPART": "Departure type",
+      "SELECT_TYPE": "Select a type",
+      "SELECT_DATE": "Select a date",
+      "TYPE_DEPARTS": {
+        "SALE": "Sale",
+        "ALL": "All",
+        "TRANSFER": "Transfer",
+        "SLAUGHTERHOUSE": "Slaughterhouse"
+      },
+      "NO_DEPARTURE": "No departure for this period",
+      "REQUIRED_TYPE_DEPART": "Departure type is required",
+      "SELECT_RANGE_START": "Start date",
+      "SELECT_RANGE_END": "End date",
+      "DESTINATION_NON_PRECISE": "Unspecified",
+      "NUMBER_WITHOUT_RFID": "Nb. without chips",
+      "BY_PSA": "Per specification",
+      "REQUIRED_DATE_DEBUT": "Begin date is obligatory",
+      "REQUIRED_DATE_FIN": "End date is obligatory"
+    },
+    "DASHBOARD": {
+      "CONFIG": {
+        "WIDGET_TOOLTIP": "Configure the widget",
+        "PERIOD_HELP": "the time is proper to each user",
+        "TARGET_HELP": "the aim is shared by all the website users",
+        "WIDGET_SWITCH_COLUMN_TOOLTIP": "View in histogram",
+        "WIDGET_SWITCH_SPLINE_TOOLTIP": "View in curve "
+      },
+      "PORCS_ABATTUS_WIDGET": {
+        "TITLE": "Evolution of the number of pigs sent to slaughterhouse",
+        "X_AXYS_TITLE": "Animals slaughtered",
+        "Y_AXYS_FIXED_TITLE": "Goal",
+        "TOOLTIP": "Pigs"
+      },
+      "SEVRE_ANNUEL_WIDGET": {
+        "TITLE": "Weaned piglets / present sow / year"
+      },
+      "SEVRE_BANDE_WIDGET": {
+        "TITLE": "Weaned piglets / band"
+      },
+      "TAUX_PERTE_WIDGET": {
+        "TITLE": "Evolution of the birth-sale loss rate",
+        "X_AXIS_TITLE": "Loss rate",
+        "Y_AXYS_FIXED_TITLE": "aim",
+        "TOOLTIP": "%"
+      },
+      "TRUIES_PRESENTES_WIDGET": {
+        "TITLE": "Nb. present sows"
+      },
+      "TAUX_QUALIFICATION_WIDGET": {
+        "TITLE": "Commercial informations"
+      },
+      "PORCS_ABATTUS_ANNUEL_WIDGET": {
+        "TITLE": "Nb. pigs sent to slaughterhouse"
+      },
+      "TAUX_PERTE_ANNUEL_WIDGET": {
+        "TITLE": "Birth-loss loss rate"
+      },
+      "WIDGET_ANNUEL": {
+        "UPDATE_PERIODE": "Widget modification",
+        "PERIODE": "Period",
+        "TARGET": "objectif",
+        "DU": "From",
+        "AU": "to",
+        "LAST_MONTHS": "Last months",
+        "TODAY": "till today",
+        "TODAY_DATE": "Day date",
+        "REQUIRED_DATE_DEBUT": "Begin date is obligatory",
+        "REQUIRED_DATE_FIN": "End date is obligatory"
+      },
+      "TAUX_TRAITEMTENT_WIDGET": {
+        "TITLE": "Birth-sale treatment rate"
+      },
+      "ERROR_MESSAGE": {
+        "TARGET_MAX": "the maximum goal is overtaken"
+      },
+      "WIDGET_CONFIGURATION": {
+        "TITLE": "Widgets setup",
+        "BUTTON_TOOLTIP": "Configure widgets"
+      },
+      "COMMON": {
+        "TARGET": "Goal",
+        "TARGET_ABBREGE": "Obj."
+      },
+      "INVENTAIRE_PORCS_CHARCUTIERS_WIDGET": {
+        "TITLE": "Inventory  butcher pork with earrings",
+        "IND_VENDUS": "Sold",
+        "IND_VENDUS_SANS_BOUCLE": "Without earrings",
+        "IND_ENGRAISSEMENT": "Entry fat.",
+        "IND_SEVRES": "Weaned",
+        "IND_TAUX_PERTE_MATERNITE": "Lost mater. ",
+        "IND_TAUX_PERTE_ENGRAISSEMENT": "Lost fat.",
+        "IND_TAUX_PERTE_POST_SEVRAGE": "Lost PS",
+        "TOOLTIP": {
+          "RAPPORT_TABLEAU_BORD": "Consult the report Dashboard",
+          "RAPPORT_TAUX_PERTE_STRUCTURE": "Consult the report Losses rate per structure ",
+          "RAPPORT_TAUX_PERTE_BANDE": "See a report on death rate per group"
+        }
+      },
+      "INFO_SYNCHRO_WIDGET": {
+        "TITLE": "Last synchronisations ",
+        "LAST_IMPORT_VSI": "Import VSI",
+        "LAST_SYNCHRO_CHEPTEL": "Pass'Cheptel",
+        "LAST_SYNCHRO_PORC": "Pass'Porc",
+        "NO_SYNCHRO": "No Synchronisation"
+      },
+      "PORCS_STADE_PHYSIO_WIDGET": {
+        "TITLE": "NB animals per physiological stage",
+        "ANIMALS": "Animals"
+      },
+      "INVENTAIRE_TRUIES_WIDGET": {
+        "TITLE": "Sows inventory",
+        "IND_MISES_BAS": "Farrow",
+        "IND_MORTES": "dead",
+        "IND_TAUX_MISES_BAS": "farrowing rate",
+        "IND_TAUX_PERTE": "Loss rate",
+        "IND_NB_TRUIES": "Number of sows",
+        "TOOLTIP": {
+          "RAPPORT_HISTORIQUE_TRUIE": "See a rapport on sows' history",
+          "RAPPORT_PILOTAGE_CHEPTEL": "See a rappont on  herd management"
+        }
+      },
+      "DEMOGRAPHIE_TRUIE_WIDGET": {
+        "TITLE": "Reproductive herd demographics",
+        "X_AXYS_TITLE": "Rank",
+        "Y_AXYS_TITLE": "Number of sows",
+        "TOOLTIP": " Sows"
+      },
+      "EXPORT_BUTTONS": {
+        "CSV": "Export to CSV format",
+        "PDF": "Export to PDF format"
+      },
+      "INVENTAIRE_TRUIE_WIDGET": {
+        "TITLE": "Sow list"
+      },
+      "INVENTAIRE_TRUIE_PERTE_WIDGET": {
+        "TITLE": "TITLE"
+      },
+      "ONGLET": {
+        "TABLEAU_BORD": "Dashboard",
+        "SANITAIRE": "Sanitary",
+        "MORTALITE": "Mortality",
+        "PRODUCTIVITE": "Productivity",
+        "GENERAL": "General",
+        "BUTTON_FAVORITE_TOOLTIP": "Define as favorite"
+      }
+    },
+    "RAPPORT": {
+      "RAPPORTS": {
+        "TAUX_PERTE_BANDE_STADE_PHYSIO": {
+          "TITLE": "Loss rate per group per physiological stage",
+          "X_AXIS_LABEL": "N° Bande",
+          "Y_AXIS_LABEL": "Pourcentage de perte"
+        },
+        "TAUX_PERTE_RANG": {
+          "CATEGORIES_X_AXIS": {
+            "RANG1": "Rank 1",
+            "RANG2": "Rank 2",
+            "RANG35": "Rank 3-5",
+            "RANG6": "Rank 6+"
+          },
+          "TITLE": "Taux de perte par rang",
+          "X_AXIS_LABEL": "Rang",
+          "Y_AXIS_LABEL": "Pourcentage de perte"
+        }
+      },
+      "FILTRES": {
+        "SITE": {
+          "TITLE": "Site",
+          "PLACEHOLDER": "Site"
+        },
+        "TRUIES": {
+          "TITLE": "Sows",
+          "PLACEHOLDER": "All the sows"
+        },
+        "BANDES": {
+          "TITLE": "Groups",
+          "PLACEHOLDER": "All the groups"
+        },
+        "STADE_PHYSIO": {
+          "TITLE": "Physiological stage",
+          "PLACEHOLDER": "All the physiological stages"
+        },
+        "PERIODE": {
+          "TITLE": "Période",
+          "PLACEHOLDER": "Toutes les périodes"
+        }
+      },
+      "METRIQUES": {
+        "NUMERO_TRAVAIL": "Job number entry",
+        "RFID": "RFID",
+        "BANDE": "Group",
+        "RANG": "Rank",
+        "DATE_SAILLIE": "Insemination date",
+        "DATE_DERNIERE_ECHO": "Last ultrasound date",
+        "RESULTAT_DERNIERE_ECHO": "Last ultrasound results",
+        "DATE_RETOUR": "Return date",
+        "DATE_AVORTEMENT": "Abortion date",
+        "DATE_MISE_BAS": "Farrowing date",
+        "NV": "Born alive",
+        "MN": "Stillborn",
+        "NT": "total born",
+        "MO": "Mommified",
+        "AD": "Adopted",
+        "RE": "Removed",
+        "DATE_SEVRAGE": "Weaning date",
+        "NS": "Number of weaned",
+        "TAUX_TRAITEMENT_SEVRES": "rate treatment weaned by ",
+        "TAUX_PERTE_SEVRES": "Death rate weaned per",
+        "ELD1": "Back-fat thickness 1",
+        "ELD2": "Back-fat thickness 2",
+        "OBSERVATION": "Observation",
+        "DATE_REFORME": "Reform date",
+        "CAUSE_REFORME": "Reform cause",
+        "ELD_ENTREE_MATER": "ELD entrée mater.",
+        "ELD_SORTIE_MATER": "ELD sortie mater.",
+        "ELD_SALLIE": "ELD IA/Régumate",
+        "ELD_GESTANTE": "ELD gestante",
+        "ELD_AUTRE": "ELD autre",
+        "TYPE_REFORME": "Type réforme",
+        "NOMBRE_DOSES": "Nb. doses",
+        "TAUX_PERTE_NES_VIFS": "Tx perte / NV"
+      },
+      "LEGEND": {
+        "TITLE": "Causes sélectionnées",
+        "SUBTITLE": "(Cliquez pour masquer)"
+      }
+    }
+  },
+  "SHARED": {
+    "BREADCRUMB": {
+      "ADMIN": "Administration",
+      "CONNECT_WITH": "Login as",
+      "REPORT": "Report",
+      "PHARMACY": {
+        "TITLE": "My pharmacy",
+        "CONSULTATION": "Pharmacy consultation",
+        "INVENTORY": "Inventory",
+        "INIT": "pharmacy initialization"
+      },
+      "STATISTIQUES": "My Statistics",
+      "DEPARTURES": {
+        "TITLE": "Departure History"
+      },
+      "PROBLEMATIC": {
+        "TITLE": "My problems"
+      },
+      "PARAMETRES": {
+        "BREEDING": "My settings",
+        "ADMIN": "Common settings"
+      },
+      "SITE-MANAGEMENT": "Sites Management",
+      "VSI": "VSI data management",
+      "HISTORIQUES": {
+        "TITLE": "My history"
+      }
+    },
+    "LANGUAGE": {
+      "TOOLTIP": "Change language"
+    },
+    "OPTIONS": {
+      "YES": "Yes",
+      "NO": "No",
+      "ACTIVE": "Active",
+      "INACTIVE": "Inactive",
+      "LABEL": "wording"
+    },
+    "MODALS": {
+      "CSV_MODAL": {
+        "EXPORT": "Export data in CSV format",
+        "TITLE": "Name of the file to download"
+      },
+      "PDF_MODAL": {
+        "EXPORT": "Data export in PDF format",
+        "TITLE": "File name",
+        "FORMAT": "Format",
+        "ORIENTATION": "Orientation",
+        "ZOOM": "Zoom",
+        "DATA_UPDATE": "Data updated on",
+        "SELECT_FORMAT": "Select the PDF format",
+        "SELECT_ORIENTATION": "Select PDF orientation"
+      },
+      "MANDATORY_TARGET_MODAL": {
+        "FILL_TARGETS": "Please fill in these objectives"
+      },
+      "TARGET_MODAL": {
+        "UPDATE_TARGETS": "Changing goals"
+      },
+      "PHARAMCY_INVENTORY": {
+        "ANNULATION_CONFIRMATION_MESSAGE": "Are you sure you want to cancel your changes?",
+        "VALIDATE": "Validate the inventory",
+        "TOAST_VALIDATE": "The inventory has been updated",
+        "TOAST_CANCEL": "Inventory is not updated",
+        "CONFIRMATION": "Confirmation"
+      }
+    },
+    "COOKIES": {
+      "MESSAGE": "By pursuing your navigation on www.mycooperlsuite.com, you accept the use of cookies and other similar technologies to collect your data, the goal being to personalize your experience."
+    },
+    "NO_DATA": "No data available",
+    "LABELS": {
+      "PORCS": "Pigs"
+    }
+  },
+  "MENU": {
+    "LABEL": {
+      "DASHBOARD": "Dashboard",
+      "ANIMALS": "My animals",
+      "STRUCTURES": "My structures",
+      "DEPARTURES": "My departures",
+      "PHARMACY": "My pharmacy",
+      "HELP": "Help",
+      "REPRODUCERS": "Reproducers",
+      "PORK_BUTCHERS": "Pork butchers",
+      "SETTINGS": {
+        "TITLE": {
+          "BREEDING": "My settings"
+        },
+        "BREEDING": "Breeding",
+        "ADMIN": "Commons"
+      },
+      "ADMINISTRATION": {
+        "LABEL": "Administration",
+        "SETTINGS": {
+          "LABEL": "Common settings",
+          "DETAILS": "Com"
+        },
+        "SITE": {
+          "LABEL": "Site management",
+          "DETAILS": "Site"
+        },
+        "VSI": {
+          "LABEL": "VSI management",
+          "DETAILS": "VSI"
+        }
+      },
+      "STATISTIQUES": "My Statistics",
+      "PROBLEMATIC": "My problems",
+      "HISTORIQUES": "My history"
+    },
+    "DETAILS": {
+      "DASHBOARD": "Dashboard",
+      "ANIMALS": "My animals",
+      "STRUCTURES": "My structures",
+      "DEPARTURES": "Departures",
+      "PHARMACY": "8 new products",
+      "SETTINGS": "My settings",
+      "HELP": "Help",
+      "STATISTIQUES": "4 new reports",
+      "PROBLEMATIC": "PROBLEMATIC"
+    }
+  },
+  "HEADER": {
+    "ADMINISTRATION": "Administration",
+    "LOGIN_WITH": "Login as",
+    "LOGOUT": "Logout",
+    "CONFIGURATION": "setup"
+  },
+  "FOOTER": {
+    "COPYRIGHT": "Copyright © Socobati. All rights reserved.",
+    "LEGAL_MENTION": "Legal Notice",
+    "CONFIDENTIALITY": "Confidentiality",
+    "CONFIDENTIALITY_PAGE": "Privacy policy\n========\nPass'Web is an application published by Socobati, a subsidiary of the COOPERL group, which allows you to record all the events related to the life of your animals in breeding: the adoptions, the treatments, the weighings, the movements between structures, the back tagging, the addition of comments, or the departure of animals.\nWhen using these services, you share data with Socobati, a subsidiary of the COOPERL group. The privacy policy below will help you to understand the data we collect, how it is used, and with whom we share it.\n\nData we collect\n===========\nPass'Web receives or collects data when you use our services:\n\n1. The data we get when you use our services\n-------------------------\nData relating to the use of services:\nWe collect various data on the used services, the way you use them, the hours of use, the sequence of services performed.\n\nData about the used device:\nData related to the device used is automatically collected: the model, the version of the operating system, the language, its unique identifier.\n\nLog file data:\nData on services, diagnostics, incidents, and performance are collected in log files.\n\n2. The data you enter through the application\n-------------------------\nTo access our services, you must have a personal account. We must therefore collect personal information such as your login, your email address and your password.\nIn addition, data entered through our various services are also collected and stored.\n\n\nUse of collected data\n====================================================\nThe collected information are used to produce ever more functional and reliable services.\n\nThe objectives are as follows:\n- Improving the security of our services\n- Development, exploitation, improvement of our services\n- Research, develop and test new features\n- Track usage patterns and uses\n\nData we share\n======================================================\nNo data collected within our services is shared with third-party providers, third-party services or a third-party company.\nThe data we collect may be shared with companies of the Socobati Group, a subsidiary of the COOPERL Group.\nHowever, they are not shared with any third party.\n\nRetention period of collected data\n===================================================\nThe collected data are kept for the duration of use of the application. Once the application has been uninstalled from your phone, the data are kept for 5 years and then archived.\n\nPersonal data\n===================================================\nIn accordance with the \"computer and freedom\" law n ° 78-17 of 6 January 1978 modified, you are allowed to access, modify, rectify and delete data that concerns you (article 34). You can exercise this right by sending a letter to Société SOCOBATI - Service Clientèle 5 rue d'Armor BP 60328 - 22403 Lamballe cedex.",
+    "LEGAL_MENTION_PAGE": "Legal Notice\n\n1. INFORMATION ABOUT THE COMPANY\n=========================================================\nThis site is published by the company SOCOBATI: Simplified joint-stock company Unipersonal with capital of 3 972 400 euros.\nSIREN: 341 796 027 RCS SAINT BRIEUC\nHeadquarters: SOCOBATI, Industrial Zone, Rue de la Jeannaie, 22400 LAMBALLE\n\nCREDITS\n=========================================================\nSOCOBATI is the publisher of the website mycooperlsuite.io.\nDirectors of the publication: Mr. Pierre Le Guilloux, Director.\n\n3. TERMS OF USE\n=========================================================\nAnyone who accesses the mycooperlsuite.io website agrees to comply with the following terms of use.\nAnyone viewing the site is responsible for the data it disseminates, uses and / or transfers and undertakes as such to comply with the French regulations in force, particularly that relating to content that is clearly illegal (offenses against morality, incitement to racial hatred, pedophilia ...) or the protection of the rights of third parties (intellectual property rights ...). Socobati is not responsible for the use of the data, the content broadcast by another person and which, in particular, does not comply with the regulations in force.\nThe establishment of a hypertext link to the site requires prior written authorization from the company Socobati, which can in no way be held responsible for sites having a hypertext link with the site and declines all responsibility for their content and to their use.\nThe site is subject to French law, the French courts are only competent in case of dispute.\n\n4. PROPERTY - COPYRIGHT\n==========================================================\nThe presentation and content of the website mycooperlsuite.io together constitute a work protected by the laws in force of copyright, intellectual and industrial property. Trademarks, denominations or designations, logos, domain names are, unless otherwise specified, registered trademarks. The creations appearing on the site, drawings, photographs, images, texts, animated sequences with or without sound and other documentations represented, are subject to copyright, industrial property and / or intellectual property and are, as the case may be, owned by Socobati or third parties having authorized Socobati to use them. \nNo commercial exploitation, reproduction, representation, use, adaptation, modification, incorporation, translation, commercialization, partial or complete of these elements (including those downloadable or copiable) can not be made without the prior written consent of the company Socobati , except for use for private use subject to different or even more restrictive provisions of the Code of Intellectual Property.\n\n5. Personal data\n======================================================\nIn accordance with the \"computer and freedom\" law n ° 78-17 of 6 January 1978 modified, you are allowed to access, modify, rectify and delete data that concerns you (article 34). You can exercise this right by sending a letter to Société SOCOBATI - Service Clientèle 5 rue d'Armor BP 60328 - 22403 Lamballe cedex.\n\n6. DESIGN\n=====================================================\nThis site was designed by the company SOCOBATI.\n\n7. ACCOMMODATION\n=====================================================\nCooperl Arc Atlantique, Zone industrielle, 7 rue de la Jeannaie - BP 60328 - 22403 LAMBALLE Cedex."
+  },
+  "PDF": {
+    "BAND": "Band",
+    "FILENAME": "sow-plug",
+    "RANK": "Rank",
+    "SOWS_PLUG": {
+      "DATE_FARROWING": "Calving down the",
+      "NATIONAL_NUM": "N° national",
+      "DATE_BIRD": "Date of birth",
+      "DATE_ENTERED": "Date of entry",
+      "NO_DATA_HISTORY": "No career history",
+      "MESSAGE": "Message",
+      "HISTORIC": {
+        "MESSAGE": "Message",
+        "TITLE": "Career history",
+        "RANK": "Rank",
+        "FIRST_SAILLIE": "First covering day",
+        "ISSF": "ISSF",
+        "GESTATION_TIME": "Gestation duration",
+        "ELD_1": "ELD 1",
+        "ELD_2": "ELD 2",
+        "NV": "NV",
+        "MN": "MN",
+        "MO": "Mo",
+        "LOST": "Losses",
+        "WEANED": "Wea",
+        "OBSERVATIONS": "Observations"
+      },
+      "CYCLE": {
+        "TITLE": "Current cycle information",
+        "RANK": "Rank",
+        "ELD_1": "ELD 1",
+        "ELD_2": "ELD 2",
+        "DATE_FARROWING": "Date farrowed",
+        "NV": "NV",
+        "MN": "MN",
+        "MO": "Mo",
+        "AD": "Ad",
+        "RE": "Re",
+        "DATE_WEANED": "Date Wea",
+        "WEANED": "Weaned"
+      },
+      "REMARKS": "Remarques",
+      "AGE_MISE_BAS": "Age at the next farrowing"
+    },
+    "NUMERO_INTERNE": "Internal number",
+    "PATTERN": {
+      "NB_JOURS": "D 'day (s)'",
+      "NB_ANNEES_MOIS_JOURS": "Y 'year (s)' M 'month'  D 'day (s) '"
+    }
+  },
+  "DAYS": {
+    "1": "Sunday",
+    "2": "Monday",
+    "3": "Tuesday",
+    "4": "Wednesday",
+    "5": "Thursday",
+    "6": "Friday",
+    "7": "Saturday"
+  },
+  "DAY": {
+    "MONDAY": "Monday",
+    "TUESDAY": "Tuesday",
+    "WEDNESDAY": "Wednesday",
+    "THURSDAY": "Thursday",
+    "FRIDAY": "Friday",
+    "SATURDAY": "Saturday",
+    "SUNDAY": "Sunday",
+    "NONE": "NONE"
+  },
+  "sProcessing": "Processing...",
+  "sSearch": "Search:",
+  "sLengthMenu": "Show _MENU_ entries",
+  "sInfo": "Showing _START_ to _END_ of _TOTAL_ entries",
+  "sInfoEmpty": "Showing 0 to 0 of 0 entries",
+  "sInfoFiltered": "(filtered from _MAX_ total entries)",
+  "sInfoPostFix": " ",
+  "sLoadingRecords": "Loading...",
+  "sZeroRecords": "No matching records found",
+  "sEmptyTable": "No data available in table",
+  "oPaginate": {
+    "sFirst": "First",
+    "sPrevious": "Previous",
+    "sNext": "Next",
+    "sLast": "Last"
+  },
+  "oAria": {
+    "sSortAscending": ": activate to sort column ascending",
+    "sSortDescending": ": activate to sort column descending"
+  },
+  "select": {
+    "rows": {
+      "_": "%d selected lines",
+      "0": "No selected line",
+      "1": "1 selected line"
+    }
+  },
+  "PARAMETRE": {
+    "AGESEVRAGE": {
+      "LABEL": "Age of piglets at weaning",
+      "DESCRIPTION": "Used to determine the number of days from which piglets are weaned"
+    },
+    "GESTIONSEXAGE": {
+      "LABEL": "Sexage management",
+      "DESCRIPTION": "Allows to give a sex to the animal during its registration at the farrowing"
+    },
+    "JOURNAISSANCE": {
+      "LABEL": "Birthday",
+      "DESCRIPTION": "Used to determine the day of the week to which piglets are assigned during a farrowing"
+    },
+    "JOURSEVRAGE": {
+      "LABEL": "Weaning day",
+      "DESCRIPTION": "Used to determine the day of the week at which weaning is done"
+    },
+    "GESTIONTRUIES": {
+      "LABEL": "Sow management",
+      "DESCRIPTION": "Activate sow management in the application. The addition of piglets to a sow and sow treatment are then possible"
+    },
+    "AUTORENOUVELLEMENT": {
+      "LABEL": "Self-renewal management",
+      "DESCRIPTION": "Allows to pass production animals into breeding animals"
+    },
+    "GESTIONPHARMACIE": {
+      "LABEL": "Pharmacy Management",
+      "DESCRIPTION": "Allows to activate the pharmacy management and to propose on the mobiles the veterinary products present in the stock during a treatment"
+    },
+    "GESTIONSTADEPHYSIO": {
+      "LABEL": "Management of physiological stages",
+      "DESCRIPTION": "Allows to activate the management of physiological stages"
+    },
+    "CONDUITEBANDE": {
+      "LABEL": "Band managment",
+      "DESCRIPTION": "Allows to specify the  band managment which is set up in the breeding.",
+      "PLACEHOLDER": "Band steering"
+    },
+    "GESTIONSTRUCTURES": {
+      "LABEL": "Structure Management",
+      "DESCRIPTION": "Allows activating the management of structures on the farm."
+    },
+    "IMMPORTVSI": {
+      "LABEL": "VSI import",
+      "DESCRIPTION": "Allows the authorization of the import VSI on the breeding."
+    },
+    "PASSPORC": {
+      "LABEL": "Access Pass'Porc",
+      "DESCRIPTION": "Allows the site user to have access to Pass'Porc"
+    },
+    "PASSCHEPTEL": {
+      "LABEL": "Access Pass'Cheptel",
+      "DESCRIPTION": "Allows the site user to have access to Pass'Cheptel"
+    },
+    "GMQ": {
+      "LABEL": "Average Daily Gain",
+      "DESCRIPTION": "Allows to define the average daily gain of the site (grams / day)"
+    },
+    "POIDSTHEORIQUESEVRAGE": {
+      "LABEL": "Theoretical weight at weaning",
+      "DESCRIPTION": "Used to determine the theoretical weight of the animals at the time of weaning.",
+      "VALIDATIONERROR": "The value must be between {{min}} and {{max}}"
+    },
+    "DUREEGESTATION": {
+      "LABEL": "Gestation period",
+      "DESCRIPTION": "It allows you to clarify the average gestation period of a sow",
+      "PLACEHOLDER": "Gestation period"
+    },
+    "SMARTPIG": {
+      "LABEL": "Access Smart'Pig",
+      "DESCRIPTION": "Allows the site user to have access to Smart'Pig"
+    },
+    "SMARTSOW": {
+      "LABEL": "Access Smart'Sow",
+      "DESCRIPTION": "Allows the site user to have access to Smart'Sow"
+    },
+    "RACES": {
+      "LABEL": "Races site",
+      "DESCRIPTION": "Permet de choisir les races du site."
+    }
+  },
+  "MONTHS": [
+    "Jan",
+    "Feb",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "Aug",
+    "Sept",
+    "Oct",
+    "Nov",
+    "Dec",
+    ""
+  ],
+  "ERROR_MESSAGE": {
+    "TARGET": {
+      "TARGET.GET": "Error while loading targets",
+      "UPDATE_TARGETS": "Error while updating goals"
+    },
+    "DATA": {
+      "GET_BY_ID_AND_FILTER": "Error while loading data"
+    },
+    "USER_PREFERENCES": {
+      "GET": "Error while loading user preferences.",
+      "CREATE": "Error while creating user preferences.",
+      "UPDATE": "Error while updating user preferences."
+    },
+    "PARAMETRES_ADMIN": {
+      "GET": "Error while loading user settings.",
+      "CREATE": "Error while creating user settings.",
+      "UPDATE": "Error while updating user settings."
+    },
+    "PHARMACIE": {
+      "LOAD_STOCK": "Error while loading the pharmacy stock.",
+      "UPDATE_STOCK": "Error while updating the pharmacy stock.",
+      "GET_LABEL_MEDICAMENTS": "Error while loading drug labels",
+      "GET_MOUVEMENT_MEDICAMENTS": "Error while loading drug movements",
+      "GET_MEDICAMENTS": "Error during the loading of drugs"
+    },
+    "SITE": {
+      "GET_ALL": "Error while loading sites",
+      "CREATE": "Error while creating the site",
+      "SEARCH": "Error while searching for the site"
+    },
+    "STRUCTURE": {
+      "LOAD_STRUCTURES": "Error while loading structures",
+      "GET_SITE_INFO": "Error while loading site information",
+      "CREATE_SITE": "Error while creating the site",
+      "GET_BATIMENT_INFO": "Error while loading building information",
+      "CREATE_BATIMENT": "Error while creating the building",
+      "GET_SALLE_INFO": "Error while loading room information",
+      "GET_SALLE_INFO_COMMERCIALE": "Error while loading business information of the room",
+      "CREATE_SALLE": "Error while creating the room",
+      "GET_CASE_INFO": "Error while loading box information",
+      "CREATE_CASE": "Error while creating box",
+      "UPDATE_RANG": "Error while updating the rank of the structure",
+      "GET_TAUX_PERTE": "Error while loading structure loss rate",
+      "GET_INFO_COMMERCIALE": "Error while loading business information",
+      "UPDATE": "Error during the structure update",
+      "VIDER": "Error throughout  emptying the structure",
+      "DEPLACER_SALLE": "Error throughout the move of the room",
+      "DEPLACER_CASE": "Error throughout the move of the room"
+    },
+    "ADMIN": {
+      "GET_ALL_CLIENT_USERS_ADMIN": "Error while loading users",
+      "IMPERSONATE_ADMIN": "Impossible to connect"
+    },
+    "WIDGET": {
+      "GET_PORCS_SEVRES_INDICATOR": "Error while loading weaning pig indicator data",
+      "GET_PORCS_ABATTUS_CHART": "Error while loading pig slaughtered graph data",
+      "GET_TAUX_PERTE_CHART": "Error while loading chart data loss rate",
+      "GET_PORCS_SEVRES_BANDE_INDICATOR": "Error while loading indicator data of pigs weaned band",
+      "GET_INFO_SYNCHRO": "Error while loading synchronization information data",
+      "GET_PORCS_STADE_PHYSIO": "Error while loading pig data by physiological stages",
+      "GET_TRUIES_PRESENTES_INDICATOR": "Error while loading the sow indicator data present",
+      "GET_TAUX_QUALIFICATION": "Error while loading qualifying rate data",
+      "GET_PORCS_ABATTUS_INDICATOR": "Error while loading slaughtered pig indicator data",
+      "GET_TAUX_PERTE_INDICATOR": "Error while loading the loss rate indicator data",
+      "GET_TAUX_TRAITEMENT_INDICATOR": "Error while loading treatment rate indicator data",
+      "GET_DEMOGRAPHIE_BANDE": "Error throughout the loading of data of the demography band",
+      "GET_INVENTAIRE_PORCS_CHARCUTIER": "Error throughout  the loading of pork pigs inventory indicator data ",
+      "GET_INVENTAIRE_TRUIES": "Error loading sow inventory indicator data",
+      "GET_DEMOGRAPHIE_TRUIE": "Error during loading sow demographic indicator data"
+    },
+    "DEPART": {
+      "GET_ALL": "Errorwhile loading departures"
+    },
+    "PROBLEMATIQUE": {
+      "LOAD_ALL": "Error while loading problems",
+      "GET_TOPIC": "Error while loading topic"
+    },
+    "BANDE": {
+      "LOAD_ALL": "Error while loading bands",
+      "UPDATE": "Error while updating bands",
+      "GET_INFO_PERTE": "Error while loading band loss information",
+      "GET_INFO": "Error while loading band information",
+      "GET_INFO_COMMERCIALE": "Error while loading band business information",
+      "GET_TAUX_PERTE": "Error while loading the band loss rate\n",
+      "GET_STATUTS_TRUIES": "Error throughout the sows status loading",
+      "GET_HISTORIQUE_TRAITEMENT": "Error during loading"
+    },
+    "RAPPORT": {
+      "GET_DW_FILTERS": "Error while loading filters",
+      "GET": "Error while loading report",
+      "GET_ALL": "Error while loading reports"
+    },
+    "VSI": {
+      "DOWNLOAD": "Error while downloading VSI",
+      "GET_ALL_RAPPORTS": "Error while loading reports",
+      "GET_RAPPORT": "Error while loading report"
+    },
+    "USERS_KEYCLOAK": {
+      "CREATE": "Error while creating the user.",
+      "GET": "Error while loading users."
+    },
+    "ROLES_KEYCLOAK": {
+      "GET": "Error loading roles."
+    },
+    "PARAMETRES_RACE": {
+      "GET": "Error while loading breed parameters."
+    },
+    "PARAMETRES_CROISEMENT": {
+      "GET": "Error while loading crossing parameters."
+    },
+    "LANGUAGE_KEYCLOAK": {
+      "GET": "Error while loading languages."
+    }
+  }
+}

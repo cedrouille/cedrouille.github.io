@@ -1,0 +1,220 @@
+{
+    "data": [
+        {
+            "articleId": 267,
+            "libelle": "ASPIRINE 50%   SAC 5KG",
+            "nombreProduits": 15.0,
+            "quantiteRestanteDansProduitEntame": "0 GR",
+            "conditionnement": 5000.0,
+            "uniteConditionnement": "GR",
+            "ratioEntame": 0.0
+        },
+        {
+            "articleId": 334,
+            "libelle": "BIAMINTHIC 5%   BID 5L",
+            "nombreProduits": 3.0,
+            "quantiteRestanteDansProduitEntame": "0 ML",
+            "conditionnement": 5000.0,
+            "uniteConditionnement": "ML",
+            "ratioEntame": 0.0
+        },
+        {
+            "articleId": 42,
+            "libelle": "BIOCYTOCINE   FL 50ML",
+            "nombreProduits": 3.0,
+            "quantiteRestanteDansProduitEntame": "0 ML",
+            "conditionnement": 50.0,
+            "uniteConditionnement": "ML",
+            "ratioEntame": 0.0
+        },
+        {
+            "articleId": 38,
+            "libelle": "COFAVIT C   SEAU 5KG",
+            "nombreProduits": 9.0,
+            "quantiteRestanteDansProduitEntame": "0 GR",
+            "conditionnement": 5000.0,
+            "uniteConditionnement": "GR",
+            "ratioEntame": 0.0
+        },
+        {
+            "articleId": 468,
+            "libelle": "COLIPRO 2 MUI   BID 1L",
+            "nombreProduits": 1.0,
+            "quantiteRestanteDansProduitEntame": "0 ML",
+            "conditionnement": 1000.0,
+            "uniteConditionnement": "ML",
+            "ratioEntame": 0.0
+        },
+        {
+            "articleId": 463,
+            "libelle": "DEXA-JECT SOLUTION   FL 100ML",
+            "nombreProduits": 19.0,
+            "quantiteRestanteDansProduitEntame": "11 ML",
+            "conditionnement": 100.0,
+            "uniteConditionnement": "ML",
+            "ratioEntame": 0.75
+        },
+        {
+            "articleId": 244,
+            "libelle": "DRAXXIN SOL INJ   FL 100ML",
+            "nombreProduits": 1.0,
+            "quantiteRestanteDansProduitEntame": "0 ML",
+            "conditionnement": 100.0,
+            "uniteConditionnement": "ML",
+            "ratioEntame": 0.0
+        },
+        {
+            "articleId": 193,
+            "libelle": "DUPHAMOX L.A.   FL 250ML",
+            "nombreProduits": 15.0,
+            "quantiteRestanteDansProduitEntame": "9 ML",
+            "conditionnement": 250.0,
+            "uniteConditionnement": "ML",
+            "ratioEntame": 0.75
+        },
+        {
+            "articleId": 169,
+            "libelle": "ESTOCELAN   FL 100ML",
+            "nombreProduits": 4.0,
+            "quantiteRestanteDansProduitEntame": "0 ML",
+            "conditionnement": 100.0,
+            "uniteConditionnement": "ML",
+            "ratioEntame": 0.0
+        },
+        {
+            "articleId": 185,
+            "libelle": "LONGICINE   FL 250ML",
+            "nombreProduits": 4.0,
+            "quantiteRestanteDansProduitEntame": "57 ML",
+            "conditionnement": 250.0,
+            "uniteConditionnement": "ML",
+            "ratioEntame": 0.75
+        },
+        {
+            "articleId": 56,
+            "libelle": "MONZAL   FL 50ML",
+            "nombreProduits": 1.0,
+            "quantiteRestanteDansProduitEntame": "0 ML",
+            "conditionnement": 50.0,
+            "uniteConditionnement": "ML",
+            "ratioEntame": 0.0
+        },
+        {
+            "articleId": 95,
+            "libelle": "MYCOFLOR 30%   FL 100ML",
+            "nombreProduits": 2.0,
+            "quantiteRestanteDansProduitEntame": "98 ML",
+            "conditionnement": 100.0,
+            "uniteConditionnement": "ML",
+            "ratioEntame": 0.0
+        },
+        {
+            "articleId": 202,
+            "libelle": "PIRETAMOL   BID 5 L",
+            "nombreProduits": 2.0,
+            "quantiteRestanteDansProduitEntame": "0 ML",
+            "conditionnement": 5000.0,
+            "uniteConditionnement": "ML",
+            "ratioEntame": 0.0
+        },
+        {
+            "articleId": 432,
+            "libelle": "PORCILIS PCV M HYO  FL 100ML/50D",
+            "nombreProduits": 3.0,
+            "quantiteRestanteDansProduitEntame": "0 ML",
+            "conditionnement": 100.0,
+            "uniteConditionnement": "ML",
+            "ratioEntame": 0.0
+        },
+        {
+            "articleId": 433,
+            "libelle": "PORCILIS PCV M HYO  FL 200ML/100",
+            "nombreProduits": 5.0,
+            "quantiteRestanteDansProduitEntame": "180 ML",
+            "conditionnement": 200.0,
+            "uniteConditionnement": "       ML",
+            "ratioEntame": 0.0
+        },
+        {
+            "articleId": 183,
+            "libelle": "POTENCIL   FL 250ML",
+            "nombreProduits": 3.0,
+            "quantiteRestanteDansProduitEntame": "131 ML",
+            "conditionnement": 250.0,
+            "uniteConditionnement": "ML",
+            "ratioEntame": 0.5
+        },
+        {
+            "articleId": 341,
+            "libelle": "PROLONGAL   FL 100ML",
+            "nombreProduits": 9.0,
+            "quantiteRestanteDansProduitEntame": "50 ML",
+            "conditionnement": 100.0,
+            "uniteConditionnement": "ML",
+            "ratioEntame": 0.5
+        },
+        {
+            "articleId": 32,
+            "libelle": "RECOCAM 20MG/ML   FL 100ML",
+            "nombreProduits": 3.0,
+            "quantiteRestanteDansProduitEntame": "0 ML",
+            "conditionnement": 100.0,
+            "uniteConditionnement": "ML",
+            "ratioEntame": 0.0
+        },
+        {
+            "articleId": 135,
+            "libelle": "SEPTOTRYL 24%   FL 250ML",
+            "nombreProduits": 1.0,
+            "quantiteRestanteDansProduitEntame": "125 ML",
+            "conditionnement": 250.0,
+            "uniteConditionnement": "ML",
+            "ratioEntame": 0.5
+        },
+        {
+            "articleId": 445,
+            "libelle": "SERGOTONINE FL 20 ML",
+            "nombreProduits": 80.0,
+            "quantiteRestanteDansProduitEntame": "0 ML",
+            "conditionnement": 20.0,
+            "uniteConditionnement": "ML",
+            "ratioEntame": 0.0
+        },
+        {
+            "articleId": 184,
+            "libelle": "SHOTAPEN   FL 250ML",
+            "nombreProduits": 3.0,
+            "quantiteRestanteDansProduitEntame": "199 ML",
+            "conditionnement": 250.0,
+            "uniteConditionnement": "ML",
+            "ratioEntame": 0.25
+        },
+        {
+            "articleId": 94,
+            "libelle": "STRESNIL   FL 100ML",
+            "nombreProduits": 1.0,
+            "quantiteRestanteDansProduitEntame": "0 ML",
+            "conditionnement": 100.0,
+            "uniteConditionnement": "ML",
+            "ratioEntame": 0.0
+        },
+        {
+            "articleId": 180,
+            "libelle": "VETRIMOXIN 48H CLAS   FL 250ML",
+            "nombreProduits": 1.0,
+            "quantiteRestanteDansProduitEntame": "0 ML",
+            "conditionnement": 250.0,
+            "uniteConditionnement": "ML",
+            "ratioEntame": 0.0
+        },
+        {
+            "articleId": 103,
+            "libelle": "VIRGOCILLINE   FL 250ML",
+            "nombreProduits": 1.0,
+            "quantiteRestanteDansProduitEntame": "61 ML",
+            "conditionnement": 250.0,
+            "uniteConditionnement": "ML",
+            "ratioEntame": 0.75
+        }
+    ]
+}

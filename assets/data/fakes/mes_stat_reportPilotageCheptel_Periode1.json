@@ -1,0 +1,595 @@
+{
+  "structure": {
+    "id": "pilotageCheptel",
+    "title": "Pilotage Cheptel",
+    "description": "Consultez les résultats techniques de vos truies sur les périodes de votre choix et comparez-les à la référence Cooperl.",
+    "category": "Rapports Truies",
+    "thumbnail": "fal fa-table",
+    "paginated": false,
+    "disabled": false,
+    "defaultTarget": {
+      "hidden": null,
+      "value": null,
+      "mode": "ASCENDING",
+      "perfect": {
+        "threshold": 1.0,
+        "color": "4cd137"
+      },
+      "good": {
+        "threshold": 0.99,
+        "color": "ffa502"
+      },
+      "medium": {
+        "threshold": 0.95,
+        "color": "ff4757"
+      },
+      "bad": {
+        "threshold": 0.95,
+        "color": "ff4757"
+      }
+    },
+    "config": {
+      "displayMode": "CLASSIC",
+      "displayType": null,
+      "displayOption": null,
+      "dynamicMetrics": null,
+      "metrics": [
+        {
+          "id": "nesTotauxPortee",
+          "label": "Naissance par portée",
+          "category": "Résultats par portée",
+          "tooltip": "Naissance par portée",
+          "defaultValue": null,
+          "type": "NONE",
+          "datatype": "NUMBER_FRACTION",
+          "target": null
+        },
+        {
+          "id": "nesVivantPortee",
+          "label": "Vivant par portée",
+          "category": "Résultats par portée",
+          "tooltip": "Vivant par portée",
+          "defaultValue": null,
+          "type": "NONE",
+          "datatype": "NUMBER_FRACTION",
+          "target": null
+        },
+        {
+          "id": "mortNesPortee",
+          "label": "Mort-nés par portée",
+          "category": "Résultats par portée",
+          "tooltip": "Mort-nés par portée",
+          "defaultValue": null,
+          "type": "NONE",
+          "datatype": "NUMBER_FRACTION",
+          "target": {
+            "hidden": null,
+            "value": null,
+            "mode": "DESCENDING",
+            "perfect": null,
+            "good": null,
+            "medium": null,
+            "bad": null
+          }
+        },
+        {
+          "id": "ecrasesPortee",
+          "label": "Écrasés par portée",
+          "category": "Résultats par portée",
+          "tooltip": "Écrasés par portée",
+          "defaultValue": null,
+          "type": "NONE",
+          "datatype": "NUMBER_FRACTION",
+          "target": {
+            "hidden": null,
+            "value": null,
+            "mode": "DESCENDING",
+            "perfect": null,
+            "good": null,
+            "medium": null,
+            "bad": null
+          }
+        },
+        {
+          "id": "nombreSevrePortee",
+          "label": "Sevrés par portée",
+          "category": "Résultats par portée",
+          "tooltip": "Sevrés par portée",
+          "defaultValue": null,
+          "type": "NONE",
+          "datatype": "NUMBER_FRACTION",
+          "target": null
+        },
+        {
+          "id": "pourcentagePerteNesTotaux",
+          "label": "Tx pertes sur nés totaux",
+          "category": "Résultats par portée",
+          "tooltip": "Tx pertes sur nés totaux",
+          "defaultValue": null,
+          "type": "NONE",
+          "datatype": "PERCENT_FRACTION",
+          "target": {
+            "hidden": null,
+            "value": null,
+            "mode": "DESCENDING",
+            "perfect": null,
+            "good": null,
+            "medium": null,
+            "bad": null
+          }
+        },
+        {
+          "id": "pourcentagePerteNesVivant",
+          "label": "Tx pertes sur nés vivants",
+          "category": "Résultats par portée",
+          "tooltip": "Tx pertes sur nés vivants",
+          "defaultValue": null,
+          "type": "NONE",
+          "datatype": "PERCENT_FRACTION",
+          "target": {
+            "hidden": null,
+            "value": null,
+            "mode": "DESCENDING",
+            "perfect": null,
+            "good": null,
+            "medium": null,
+            "bad": null
+          }
+        },
+        {
+          "id": "pourcentageMortNesTotaux",
+          "label": "Tx morts-nés sur nés totaux",
+          "category": "Résultats par portée",
+          "tooltip": "Tx morts-nés sur nés totaux",
+          "defaultValue": null,
+          "type": "NONE",
+          "datatype": "PERCENT_FRACTION",
+          "target": {
+            "hidden": null,
+            "value": null,
+            "mode": "DESCENDING",
+            "perfect": null,
+            "good": null,
+            "medium": null,
+            "bad": null
+          }
+        },
+        {
+          "id": "agePorceletSevrage",
+          "label": "Age de sevrage",
+          "category": "Reproduction",
+          "tooltip": "Age de sevrage",
+          "defaultValue": null,
+          "type": "NONE",
+          "datatype": "NUMBER_FRACTION",
+          "target": {
+            "hidden": null,
+            "value": null,
+            "mode": "MIRROR",
+            "perfect": null,
+            "good": null,
+            "medium": null,
+            "bad": null
+          }
+        },
+        {
+          "id": "iss1",
+          "label": "ISS1",
+          "category": "Reproduction",
+          "tooltip": "ISS1",
+          "defaultValue": null,
+          "type": "NONE",
+          "datatype": "NUMBER_FRACTION",
+          "target": {
+            "hidden": null,
+            "value": null,
+            "mode": "MIRROR",
+            "perfect": null,
+            "good": null,
+            "medium": null,
+            "bad": null
+          }
+        },
+        {
+          "id": "issf",
+          "label": "ISSF",
+          "category": "Reproduction",
+          "tooltip": "ISSF",
+          "defaultValue": null,
+          "type": "NONE",
+          "datatype": "NUMBER_FRACTION",
+          "target": {
+            "hidden": null,
+            "value": null,
+            "mode": "MIRROR",
+            "perfect": null,
+            "good": null,
+            "medium": null,
+            "bad": null
+          }
+        },
+        {
+          "id": "rangMoyenPortee",
+          "label": "Rang moyen de la portée",
+          "category": "Reproduction",
+          "tooltip": "Rang moyen de la portée",
+          "defaultValue": null,
+          "type": "NONE",
+          "datatype": "NUMBER_FRACTION",
+          "target": {
+            "hidden": null,
+            "value": null,
+            "mode": "MIRROR",
+            "perfect": null,
+            "good": null,
+            "medium": null,
+            "bad": null
+          }
+        },
+        {
+          "id": "pourcentageFecondationEcho",
+          "label": "Tx pleines à l'écho",
+          "category": "Reproduction",
+          "tooltip": "Tx pleines à l'écho",
+          "defaultValue": null,
+          "type": "NONE",
+          "datatype": "PERCENT_FRACTION",
+          "target": null
+        },
+        {
+          "id": "pourcentageMiseBas",
+          "label": "Tx mise bas",
+          "category": "Reproduction",
+          "tooltip": "Tx mise bas",
+          "defaultValue": null,
+          "type": "NONE",
+          "datatype": "PERCENT_FRACTION",
+          "target": null
+        },
+        {
+          "id": "dureeGestation",
+          "label": "Durée de gestation",
+          "category": "Reproduction",
+          "tooltip": "Durée de gestation",
+          "defaultValue": null,
+          "type": "NONE",
+          "datatype": "NUMBER_FRACTION",
+          "target": {
+            "hidden": null,
+            "value": null,
+            "mode": "MIRROR",
+            "perfect": null,
+            "good": null,
+            "medium": null,
+            "bad": null
+          }
+        },
+        {
+          "id": "pourcentageSevreAv18j",
+          "label": "Tx sevrés avant 18j",
+          "category": "Reproduction",
+          "tooltip": "Tx sevrés avant 18j",
+          "defaultValue": null,
+          "type": "NONE",
+          "datatype": "PERCENT_FRACTION",
+          "target": {
+            "hidden": null,
+            "value": null,
+            "mode": "DESCENDING",
+            "perfect": null,
+            "good": null,
+            "medium": null,
+            "bad": null
+          }
+        },
+        {
+          "id": "pourcentageMBAAv365j",
+          "label": "Tx mise bas avant 365j d'âge",
+          "category": "Reproduction",
+          "tooltip": "Tx mise bas avant 365j d'âge",
+          "defaultValue": null,
+          "type": "NONE",
+          "datatype": "PERCENT_FRACTION",
+          "target": {
+            "hidden": null,
+            "value": null,
+            "mode": "DESCENDING",
+            "perfect": null,
+            "good": null,
+            "medium": null,
+            "bad": null
+          }
+        },
+        {
+          "id": "nombreFemelleReforme",
+          "label": "Nombre de femelles réformés",
+          "category": "Réformes",
+          "tooltip": "Nombre de femelles réformés",
+          "defaultValue": null,
+          "type": "NONE",
+          "datatype": "NUMBER_FRACTION",
+          "target": {
+            "hidden": null,
+            "value": null,
+            "mode": "MIRROR",
+            "perfect": null,
+            "good": null,
+            "medium": null,
+            "bad": null
+          }
+        },
+        {
+          "id": "nombreFemelleMorte",
+          "label": "Nombre de femelles mortes",
+          "category": "Réformes",
+          "tooltip": "Nombre de femelles mortes",
+          "defaultValue": null,
+          "type": "NONE",
+          "datatype": "NUMBER_FRACTION",
+          "target": {
+            "hidden": null,
+            "value": null,
+            "mode": "MIRROR",
+            "perfect": null,
+            "good": null,
+            "medium": null,
+            "bad": null
+          }
+        },
+        {
+          "id": "pourcentageReformeAnnuel",
+          "label": "Tx de réforme annuel",
+          "category": "Réformes",
+          "tooltip": "Tx de réforme annuel",
+          "defaultValue": null,
+          "type": "NONE",
+          "datatype": "PERCENT_FRACTION",
+          "target": {
+            "hidden": null,
+            "value": null,
+            "mode": "MIRROR",
+            "perfect": null,
+            "good": null,
+            "medium": null,
+            "bad": null
+          }
+        },
+        {
+          "id": "intervalleSevrageReforme",
+          "label": "Intervalle dernier sevrage-réforme",
+          "category": "Réformes",
+          "tooltip": "Intervalle dernier sevrage-réforme",
+          "defaultValue": null,
+          "type": "NONE",
+          "datatype": "NUMBER_FRACTION",
+          "target": null
+        },
+        {
+          "id": "nombreTruiePresente",
+          "label": "Nombre de truies présentes",
+          "category": "report.pilotageCheptel.metrics.category.effectif",
+          "tooltip": "Nombre de truies présentes",
+          "defaultValue": null,
+          "type": "NONE",
+          "datatype": "NUMBER_FRACTION",
+          "target": {
+            "hidden": null,
+            "value": null,
+            "mode": "MIRROR",
+            "perfect": null,
+            "good": null,
+            "medium": null,
+            "bad": null
+          }
+        },
+        {
+          "id": "nombreTotalNeVivant",
+          "label": "Nombre de nés vivants totaux",
+          "category": "report.pilotageCheptel.metrics.category.effectif",
+          "tooltip": "Nombre de nés vivants totaux",
+          "defaultValue": null,
+          "type": "NONE",
+          "datatype": "NUMBER_FRACTION",
+          "target": null
+        },
+        {
+          "id": "nombreTotalSevres",
+          "label": "Nombre de sevrés totaux",
+          "category": "report.pilotageCheptel.metrics.category.effectif",
+          "tooltip": "Nombre de sevrés totaux",
+          "defaultValue": null,
+          "type": "NONE",
+          "datatype": "NUMBER_FRACTION",
+          "target": null
+        },
+        {
+          "id": "nbSevresPortesNormales",
+          "label": "Nombre de sevrés/portées normales",
+          "category": "report.pilotageCheptel.metrics.category.effectif",
+          "tooltip": "Nombre de sevrés/portées normales",
+          "defaultValue": null,
+          "type": "NONE",
+          "datatype": "NUMBER_FRACTION",
+          "target": null
+        },
+        {
+          "id": "nbSevresPortesAdoptives",
+          "label": "Nombre de sevrés/portées adoptives",
+          "category": "report.pilotageCheptel.metrics.category.effectif",
+          "tooltip": "Nombre de sevrés/portées adoptives",
+          "defaultValue": null,
+          "type": "NONE",
+          "datatype": "NUMBER_FRACTION",
+          "target": null
+        },
+        {
+          "id": "nombrePortee",
+          "label": "Nombre de portées normales",
+          "category": "report.pilotageCheptel.metrics.category.effectif",
+          "tooltip": "Nombre de portées normales",
+          "defaultValue": null,
+          "type": "NONE",
+          "datatype": "NUMBER_FRACTION",
+          "target": null
+        },
+        {
+          "id": "nbPorceletsSevreTrProdAn",
+          "label": "Nb de producteurs sevrés/truie productive/an",
+          "category": "Productivité",
+          "tooltip": "Nb de producteurs sevrés/truie productive/an",
+          "defaultValue": null,
+          "type": "NONE",
+          "datatype": "NUMBER_FRACTION",
+          "target": null
+        },
+        {
+          "id": "nbPorceletsSevreTrPresentAn",
+          "label": "Nb producteurs sevrés/truie présente/an",
+          "category": "Productivité",
+          "tooltip": "Nb producteurs sevrés/truie présente/an",
+          "defaultValue": null,
+          "type": "NONE",
+          "datatype": "NUMBER_FRACTION",
+          "target": null
+        }
+      ],
+      "consolidation": null
+    },
+    "filters": [
+      {
+        "id": "dateBefore",
+        "label": "Fin",
+        "metricId": "date",
+        "type": "DATE",
+        "mandatory": true,
+        "datasource": null,
+        "config": {
+          "placeholder": null,
+          "operator": "LOWER_THAN",
+          "defaultValue": null,
+          "slidingDate": false
+        }
+      },
+      {
+        "id": "dateAfter",
+        "label": "Début",
+        "metricId": "date",
+        "type": "DATE",
+        "mandatory": true,
+        "datasource": null,
+        "config": {
+          "placeholder": null,
+          "operator": "GREATER_THAN",
+          "defaultValue": null,
+          "slidingDate": false
+        }
+      },
+      {
+        "id": "refcaa",
+        "label": "Pourcentage",
+        "metricId": "refcaa",
+        "type": "LIST",
+        "mandatory": false,
+        "datasource": {
+          "datasourceType": "STATIC",
+          "datasourceName": "REFCAA",
+          "values": [
+            {
+              "label": "10% meilleurs",
+              "value": "10"
+            },
+            {
+              "label": "25% meilleurs",
+              "value": "25"
+            },
+            {
+              "label": "Moyenne",
+              "value": "100"
+            }
+          ],
+          "filterName": null
+        },
+        "config": {
+          "placeholder": "Pourcentage",
+          "operator": "EQUALS",
+          "defaultValue": "10",
+          "multipleSelect": false,
+          "notNullable": false
+        }
+      },
+      {
+        "id": "identifiantSite",
+        "label": "Sites",
+        "metricId": "identifiantSite",
+        "type": "LIST",
+        "mandatory": true,
+        "datasource": {
+          "datasourceType": "GLOBAL",
+          "datasourceName": "SITE",
+          "values": null,
+          "filterName": null
+        },
+        "config": {
+          "placeholder": "Sélectionnez un ou plusieurs site(s)",
+          "operator": "IN",
+          "defaultValue": null,
+          "multipleSelect": true,
+          "notNullable": false
+        }
+      }
+    ]
+  },
+  "data": [
+    {
+      "agePorceletSevrage": 21.597487711632986,
+      "dureeGestation": 115.41758241758242,
+      "ecrasesPortee": 0,
+      "intervalleSevrageReforme": 0.5454545454545454,
+      "iss1": 0,
+      "issf": 0,
+      "mortNesPortee": 1.2527472527472527,
+      "nbEchoNegative": 0,
+      "nbEchoPositive": 0,
+      "nbJour": 91.0416666667,
+      "nbSevresPortesAdoptives": 12.0,
+      "nesTotaux": 1435.0,
+      "nesTotauxPortee": 15.76923076923077,
+      "nesVivantPortee": 14.516483516483516,
+      "nombreEcrases": 0.0,
+      "nombreFemelleMorte": 2.0,
+      "nombreFemelleReforme": 11.0,
+      "nombreMiseBas": 91.0,
+      "nombreMiseBasAvant365J": 0.0,
+      "nombreMiseBasCochette": 0.0,
+      "nombreMortNes": 114.0,
+      "nombrePortee": 91.0,
+      "nombrePorteeAdoptive": 1.0,
+      "nombreRangPortee": 358.0,
+      "nombreSaillieMiseBas": 111.0,
+      "nombreSevrePortee": 20.12087912087912,
+      "nombreSevresAdoptifs": 12.0,
+      "nombreTotalNeVivant": 1321.0,
+      "nombreTotalSevres": 1831.0,
+      "nombreTruiePresente": 529.2851258579,
+      "nombreTruieSevreAvant18J": 3.0,
+      "nombreTruiesSevres": 91,
+      "pourcentageFecondationEcho": 0,
+      "pourcentageMBAAv365j": 0,
+      "pourcentageMiseBas": 81.98198198198197,
+      "pourcentageMortNesTotaux": 7.94425087108014,
+      "pourcentagePerteNesTotaux": -27.595818815331008,
+      "pourcentagePerteNesVivant": -38.60711582134746,
+      "pourcentageReformeAnnuel": 8.337829705107861,
+      "pourcentageSevreAv18j": 0.03296703296703297,
+      "rangMoyenPortee": 3.934065934065934,
+      "nbPorceletsSevreTrProdAn": 15.0,
+      "nbPorceletsSevreTrPresentAn": 21.0
+    }
+  ],
+  "metadata": {
+    "dateExecution": "2018-12-11T00:00:00.000+0000",
+    "filteredRows": 1,
+    "pages": null,
+    "totalRows": 30437
+  }
+}

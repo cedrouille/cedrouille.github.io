@@ -1,0 +1,145 @@
+{
+  "metadatas": {
+    "dateExecution": "2019-01-10T10:24:14.224+0000",
+    "totalRows": 9
+  },
+  "data": [
+    {
+      "date": "2019-01-06",
+      "departures": [
+        {
+          "departure": "ABATTOIR",
+          "bandes": [
+            {
+              "nb": 2
+            }
+          ],
+          "date": "2019-01-06T16:52:33.000+0000",
+          "nbBoucles": 2,
+          "nbFemelle": 0,
+          "nbMale": 0,
+          "nbIndeterminee": 2
+        }
+      ]
+    },
+    {
+      "date": "2019-01-03",
+      "departures": [
+        {
+          "departure": "ABATTOIR",
+          "bandes": [
+            {
+              "nb": 3
+            },
+            {
+              "nb": 3
+            }
+          ],
+          "date": "2019-01-03T16:33:25.000+0000",
+          "nbBoucles": 6,
+          "nbFemelle": 0,
+          "nbMale": 3,
+          "nbIndeterminee": 3
+        }
+      ]
+    },
+    {
+      "date": "2018-12-02",
+      "departures": [
+        {
+          "departure": "ABATTOIR",
+          "bandes": [
+            {
+              "nb": 17
+            }
+          ],
+          "date": "2018-12-02T16:51:25.000+0000",
+          "nbBoucles": 17,
+          "nbFemelle": 0,
+          "nbMale": 0,
+          "nbIndeterminee": 17
+        }
+      ]
+    },
+    {
+      "date": "2018-06-01",
+      "departures": [
+        {
+          "departure": "ABATTOIR",
+          "bandes": [
+            {
+              "nb": 11
+            }
+          ],
+          "date": "2018-06-01T15:47:52.000+0000",
+          "nbBoucles": 11,
+          "nbFemelle": 0,
+          "nbMale": 0,
+          "nbIndeterminee": 11
+        }
+      ]
+    },
+    {
+      "date": "2018-02-03",
+      "departures": [
+        {
+          "departure": "ABATTOIR",
+          "bandes": [
+            {
+              "nb": 5
+            }
+          ],
+          "date": "2018-02-03T16:45:12.000+0000",
+          "nbBoucles": 5,
+          "nbFemelle": 0,
+          "nbMale": 0,
+          "nbIndeterminee": 5
+        },
+        {
+          "departure": "ABATTOIR",
+          "bandes": [
+            {
+              "nb": 4
+            }
+          ],
+          "date": "2018-02-03T16:24:02.000+0000",
+          "nbBoucles": 4,
+          "nbFemelle": 3,
+          "nbMale": 1,
+          "nbIndeterminee": 0
+        }
+      ]
+    },
+    {
+      "date": "2018-01-27",
+      "departures": [
+        {
+          "departure": "ABATTOIR",
+          "bandes": [
+            {
+              "nb": 4
+            }
+          ],
+          "date": "2018-01-27T16:43:51.000+0000",
+          "nbBoucles": 4,
+          "nbFemelle": 0,
+          "nbMale": 0,
+          "nbIndeterminee": 4
+        },
+        {
+          "departure": "ABATTOIR",
+          "bandes": [
+            {
+              "nb": 4
+            }
+          ],
+          "date": "2018-01-27T16:18:07.000+0000",
+          "nbBoucles": 4,
+          "nbFemelle": 2,
+          "nbMale": 2,
+          "nbIndeterminee": 0
+        }
+      ]
+    }
+  ]
+}

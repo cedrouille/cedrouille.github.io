@@ -1,0 +1,1462 @@
+{
+  "ACTION": {
+    "UPDATE": "Обновить",
+    "SAVE": "Сохранить",
+    "REFRESH": "Обновить",
+    "CLOSE": "Закрыть",
+    "RELOAD": "Перегрузить",
+    "CANCEL": "Отменить",
+    "DOWNLOAD": "Скачать",
+    "EXPORT": "Экспортировать",
+    "ADD": "Добавить",
+    "MODIFY": "Изменить",
+    "FILTER": "Фильтр",
+    "OK": "ОК",
+    "LOADING": "Загрузка...",
+    "VALIDATE": "Подтвердить",
+    "VALIDATE_INVENTORY": "Подтвердить перечень",
+    "INVENTORY": "Перечень",
+    "SEARCH": "Искать",
+    "CLICK_EDIT": "Кликните, чтобы внести изменения",
+    "CLEAN": "Очистить",
+    "CONFIRM": "Подтвердить",
+    "CONFIRMATION": "Подтверждение",
+    "GOTO": "Перейти на страницу",
+    "LEAVE_PAGE": "Покинуть страницу",
+    "NEXT": "Следующий",
+    "PREVIOUS": "предыдущий",
+    "SEND": "Отправить",
+    "CREATE-USER": "Создать пользователя",
+    "DECONNECT_ME": "Выйти"
+  },
+  "COMMONS": {
+    "UNDER_CONSTRUCTION": "Страница находится на стадии разработки",
+    "GENERAL_INFORMATION": "Общая информация",
+    "ID": "ID",
+    "NAME": "Фамилия",
+    "FIRSTNAME": "Имя",
+    "COUNTRY": "Страна",
+    "CITY": "Город",
+    "SALARY": "Заработная плата",
+    "MAIL": "E-mail адрес",
+    "LOGIN": "Имя пользователя",
+    "CREATE": "Создать",
+    "CAPACITY": "Вместимость",
+    "UNDER_CONSTRUCTION_DATA": "в процессе строительства",
+    "ANIMAUX_INFORMATION": "Информация по животным",
+    "RFID": "автоматическая идентификация объектов",
+    "STAGE_PHYSIOLOGICAL": "Физиологическая стадия",
+    "CONGRATS": "Поздравляем!",
+    "BANDE_INFORMATION": "Группа",
+    "GLOBAL": "Oбщий",
+    "ALL": "Все",
+    "CATEGORY": "категория",
+    "TYPE": "Тип",
+    "SITE": "Площадка",
+    "BATIMENT": "здание",
+    "SALLE": "помещение",
+    "CASE": "Станок",
+    "DISCARD_CHANGES_PAGE": "Вы согласны покинуть страницу. <br/> Все несохраненные данные будут потеряны.",
+    "PDF": "PDF",
+    "CSV": "CSV",
+    "OFFLINE_CONNECTION_TITLE": "Нет подключения к интернету",
+    "OFFLINE_CONNECTION_MESSAGE": "Вы должны быть подключены, чтобы использовать приложение",
+    "ONLINE_CONNECTION": "Подключение восстановлено",
+    "NEW_VERSION_APP_TITLE": "Доступна новая версия приложения",
+    "NEW_VERSION_APP_MESSAGE": "Нажмите для обновления",
+    "INSTALL_APP_TITLE": "Хотите ли Вы установить My Cooperl Suite?",
+    "INSTALL_APP_MESSAGE": "Нажмите, чтобы добавить приложение на Вашу стартовую страницу",
+    "CATEGORIE": "категория",
+    "DU": "Du",
+    "AU": "au"
+  },
+  "ERROR": {
+    "NOT_FOUND": {
+      "PAGE": "Нам не удается найти страницу, которую Вы ищете",
+      "SITE": {
+        "TITLE": "Площадка ### не существует",
+        "MESSAGE": "Для выхода нажмите на кнопку внизу"
+      }
+    },
+    "NOT_AUTHORIZED": "У вас недостаточно прав, чтобы получить доступ к этой странице",
+    "UNKNOWN": "Возникла неизвестная ошибка",
+    "CODE_STATUS": "Код ошибки:",
+    "NO_DATA": "Нет данных по фильтрам",
+    "FILTER_REQUIRED": "Данное поле является обязательным"
+  },
+  "PAGE": {
+    "ADMIN": {
+      "USERS": {
+        "DESCRIPTION": {
+          "FIRST": "Вы открыли страницу управления пользователями",
+          "SECOND": "Если вы хотите подключиться через учетную запись другого пользователя, просьба перезагрузить страницу от его имени.",
+          "THIRD": "В противном случае, Вы можете закрыть данное сообщение."
+        },
+        "LIST": "Список пользователей",
+        "SITE": {
+          "MARKING": "Маркировка площадки"
+        },
+        "ACTION": "Действие"
+      }
+    },
+    "CHEPTEL": {
+      "BANDE": "Группа",
+      "MORTALITY": "Падеж",
+      "TREATMENTS": "Лечение",
+      "WEIGHING": "Взвешивания",
+      "HISTORICAL": "История",
+      "DEPARTURES": "Отправки",
+      "MY_CHEPTEL": "Мое поголовье",
+      "SELECT_BANDE": "Выберите группу",
+      "NUMERO": {
+        "BANDE": "N° группы",
+        "INTERN": "Внутренний N°",
+        "ERROR_INTERN": "Единственные разрешенные символы: A-Z, a-z, 0-9 и ."
+      },
+      "LOSS_RATE": {
+        "TITLE": "Доля потерь",
+        "DESCRIPTION": "Доля потерь от общего кол-ва животных, идентифицированных при рождении.",
+        "NUMBER_DEATH": "Кол-во смертей",
+        "RATE_DEATH": "Уровень смертности",
+        "BUTTON_DETAIL": "деталь",
+        "BUTTON_DETAIL_TOOLTIP": "История потерь",
+        "GRAPH_UNIT": "свиньи"
+      },
+      "ACCESS_TIME": "Данные получены {{access_time}} назад",
+      "LIST_ANIMAL": {
+        "TITLE": "Список животных"
+      },
+      "MY_BANDES": "Мои группы",
+      "TREATMENT_RATE": "Уровень обработки",
+      "SOWS_FILE": "Файл свиноматки",
+      "NUMBER": {
+        "SOWS": "Кол-во животных на дату",
+        "MALE": "Кол-во мужских особей",
+        "FEMALE": "Кол-во женский особей",
+        "SLAUGHTERHOUSE": "Кол-во забитых животных",
+        "PRODUCTING_SOWS": "количество спарившихся свиноматок"
+      },
+      "ERROR": "Нет доступных групп",
+      "MODAL": {
+        "TITLE": "Изменения в общей информации",
+        "NUMERO_INTERNE_PLACEHOLDER": "Введите внутренний номер",
+        "ERROR_NUMERO_INTERNE": "Обязательный внутренний номер"
+      },
+      "DEATH_CARD": {
+        "CAUSES": "Причины смерти"
+      },
+      "TOAST": {
+        "NO_ANIMALS_PDF": "Животных в этой группе нет, или связь не установлена",
+        "ERROR_PDF": "Возникла ошибка на сервере",
+        "VALIDATION_PDF": "Файл PDF создан"
+      },
+      "INFO_COMMERCIALE_CARD": {
+        "TITLE": "Коммерческие данные",
+        "NOMBRE_TRAITE": "Количество обработанных",
+        "TAUX_TRAITEMENT": "Уровень обработки",
+        "CAHIER_DES_CHARGES": "Спецификация",
+        "BUTTON_DETAIL": "деталь",
+        "BUTTON_DETAIL_TOOLTIP": "Список животных",
+        "BUTTON_EDIT": "редактирование",
+        "BUTTON_EDIT_TOOLTIP": "редактировать группу",
+        "GRAPH_UNIT": "свиньи"
+      },
+      "INFO_CARD": {
+        "BUTTON_DETAIL": "деталь",
+        "BUTTON_DETAIL_TOOLTIP": "Список животных",
+        "BUTTON_EDIT": "редактирование",
+        "BUTTON_EDIT_TOOLTIP": "редактировать группу",
+        "BUTTON_RAPPORT_TOOLIP": "Consulter le rapport Historique truie"
+      },
+      "LISTE_PORCELET_MODAL": {
+        "TITLE": "список животных",
+        "RFID": "автоматическая идентификация объектов",
+        "DATE_NAISSANCE": "Дата рождения",
+        "MERE_COURANTE": "текущая мать",
+        "CAHIER_DES_CHARGES": "Спецификация",
+        "DERNIER_TRAITEMENT_ANTIBIO": "последнее лечение антибиотиками"
+      },
+      "LISTE_PERTES_MODAL": {
+        "TITLE": "история потерь",
+        "RFID": "автоматическая идентификация объектов",
+        "DATE_MORT": "Дата смерти",
+        "AGE_MORT": "возраст смерти (день)",
+        "CAUSE": "Причина",
+        "COMMENTAIRE": "Комментарий"
+      },
+      "STATUTS_TRUIES_CARD": {
+        "TITLE": "Статусы свиноматок",
+        "LACTATION": "Лактация",
+        "PLEINE": "Супоросная",
+        "PRETROUPEAU": "Молодое поголовье",
+        "INCONNU": "Неизвестно",
+        "VIDE": "Неоплодотворённая",
+        "ANIMAL": "животное",
+        "ANIMALS": "животные"
+      },
+      "DEMOGRAPHIE_WIDGET": {
+        "TITLE": "Демография свиноматок",
+        "NOMBRE_ANIMAUX": "Кол-во животных",
+        "RANG": "Порядковый номер опороса"
+      },
+      "HISTORIQUE_TRAITEMENT_MODAL": {
+        "TITLE": "История лечений",
+        "DATE": "Дата",
+        "TYPE_TRAITEMENT": "Тип лечения",
+        "PRODUIT": "Продукт",
+        "QUANTITE": "количество",
+        "UNITE": "Единица",
+        "PATHOLOGIE": "Патология",
+        "ANTIBIO": "антибиотик"
+      }
+    },
+    "REPORT": {
+      "CHART": {
+        "GOAL": "Значимость цели"
+      },
+      "TARGET": "Цель"
+    },
+    "STRUCTURE": {
+      "TITLE": "Мои структуры",
+      "CREATE_BATIMENT": "Создать здание",
+      "CREATE_SALLE": "Создать зал",
+      "CREATE_CASE": "Создать станок",
+      "ENTER_NAME_BATIMENT": "Введите название здания",
+      "ENTER_NAME_CASE": "Введите название станка",
+      "ENTER_NAME_SALLE": "Введите название зала",
+      "ENTER_CAPACITY_SALLE": "Введите вместимость зала",
+      "ENTER_CAPACITY_CASE": "Введите вместимость станка",
+      "REQUIRED_NAME": "Название обязательно",
+      "REQUIRED_CAPACITY": "мощность обязательна",
+      "VALIDATION_CREATION_BATIMENT": "Созданное здание",
+      "VALIDATION_CREATION_SALLE": "Созданное помещение",
+      "VALIDATION_CREATION_CASE": "Созданный станок",
+      "ERROR_CREATION_BATIMENT": "Ошибка во время создания здания",
+      "ERROR_CREATION_SALLE": "Ошибка во время создания помещения",
+      "ERROR_CREATION_CASE": "Ошибка во время создания станка",
+      "TOOLTIP": {
+        "ANIMALS_ALIVE": "Живые животные",
+        "DISABLED_BUTTON_CASE": "Зал вмещает животных",
+        "CREATE_BATIMENT": "Создать здание",
+        "CREATE_SALLE": "Создать зал",
+        "CREATE_CASE": "Создать станок",
+        "REORDER_TREE": "переупорядочить структуры",
+        "TRANSFERT_ANIMALS": "Переместить животных"
+      },
+      "REQUIRED_STADE": "Физиологическая стадия обязательна",
+      "SELECT_STADE": "Выбрать физиологический этап",
+      "NB_TOTAL_ANIMAUX": "Общее количество",
+      "BANDES": "Дата поступления",
+      "NB_MALE": "количество мужских особей",
+      "NB_FEMALE": "количество женских особей",
+      "RFID": "автоматическая идентификация объектов",
+      "SELECT_STRUCTURE": "Фильтры",
+      "UPDATE_BATIMENT": "изменение здания",
+      "UPDATE_SALLE": "изменение помещения",
+      "UPDATE_CASE": "изменение станка",
+      "INVALID_CAPACITY_CASE": "вместимость станка должна быть от 1 до 1000",
+      "VALIDATION_UPDATE_BATIMENT": "обновленное здание",
+      "VALIDATION_UPDATE_SALLE": "обновленное помещение",
+      "VALIDATION_UPDATE_CASE": "обновленный станок",
+      "DEPLACER_ANIMAUX_TITLE": "Переместить животных",
+      "DEPART_TITLE": "Отправление",
+      "DESTINATION_TITLE": "назначение",
+      "DATE_DEPART": "Дата отправления",
+      "CHECK_VALIDATION": "Нажмите на 'Подтвердить', чтобы одобрить перемещение",
+      "DEPLACER_ANIMAUX_PLACEHOLDER_SELECTBOX": "Выбрать структуру",
+      "ERROR_MESSAGE_DESTINATION": "Структура назначения обязательна",
+      "ERROR_MESSAGE_DEPART": "Структура отправления обязательна",
+      "INFO_TOAST_1": "Животные будут перемещены из структуры",
+      "INFO_TOAST_2": " в структуре",
+      "INFO_TOAST_3": "Данная операция может занять несколько минут",
+      "CLEAN": {
+        "CONTENT": "Очистка структуры приведет к окончательному удалению еще имеющихся ушных бирок.<br/>Больше не будет возможности записывать данные по этим животным.<br/><b>Вы уверены, что хотите продолжить?</b><br/><br/><i>У Вас есть возможность повторно установить бирки или переместить этих животных в другую структуру.</i>",
+        "VALID_BUTTON": "Очистить структуру",
+        "SUCCESS": "Проводится очистка структуры"
+      },
+      "DATE_DERNIER_LAVAGE": "Дата последней мойки",
+      "NUMERO_TRAVAIL_TRUIE": "№ работы свиноматка",
+      "NB_TOTAL_PORCELETS": "Количество поросят",
+      "NB_TRUIES": "Количество свиноматок"
+    },
+    "PHARMACY": {
+      "TABLE": {
+        "LABEL": {
+          "ARTICLE": "Статья",
+          "NUMBER_DRUGS_NOT_USED": "Количество неиспользуемых продуктов",
+          "NUMBER_DRUGS_LEAD_OFF": "Количество используемых продуктов",
+          "ACTION": "Действие",
+          "ARTICLE_PLACEHOLDER": "Выберите продукт"
+        }
+      },
+      "ACTION": {
+        "HISTORY": "История движений",
+        "ADD_STOCK": "Добавить медикамент"
+      },
+      "MOUVEMENT": {
+        "TITLE": "История движений",
+        "LEGEND": "Легенда",
+        "TABLE-HEADER": {
+          "TYPE": "Тип",
+          "QUANTITE": "количество",
+          "DATE": "Дата",
+          "MOTIF": "Мотив"
+        },
+        "TYPE": {
+          "LIVRAISON_ENTREE": "Поступление доставка",
+          "TRAITEMENT_SORTIE": "выход из лечения",
+          "SORTIE_MANUELLE": "ручной выход",
+          "REGULE_INVENTAIRE_ENTREE": "регулирует поступление товара",
+          "REGULE_INVENTAIRE_SORTIE": "регулирует выход товара",
+          "REGULE_LIVRAISON_SUP": "регулирует доставку выше уровня",
+          "REGULE_LIVRAISON_INF": "регулирует доставку ниже уровня",
+          "TRANSFERT_VERS_PHARMACIE": "передача в аптеку",
+          "TRANSFERT_DEPUIS_PHARMACIE": "передача после аптеки"
+        }
+      },
+      "TOOLTIP": {
+        "STOCK_NEGATIF": "склад отрицательного товара"
+      },
+      "NO_STOCK": {
+        "FIRST_USE": "Это ваше первое посещение аптеки",
+        "INIT_INFO": "вы должны выполнить первую инвентацирацию, чтобы запустить вашу аптеку",
+        "INIT_BUTTON": "начать инициализацию",
+        "FINISH_BUTTON": "Подтвердить"
+      },
+      "INIT": {
+        "DELETE_BUTTON": "Удалить",
+        "FINISH_BUTTON": "Закончить инициализацию"
+      },
+      "NEW_ARTICLE": {
+        "TITLE": "Добавить новый медикамент",
+        "ARTICLE": "Статья",
+        "NUMBER_DRUGS_NOT_USED": "Количество неиспользуемых продуктов",
+        "NUMBER_DRUGS_LEAD_OFF": "Количество используемых продуктов",
+        "TOAST_VALIDE": "Добавленный медикамент",
+        "PLACEHOLDER": "Выбрать медикамент"
+      }
+    },
+    "DEPARTURES": {
+      "FORM_SELECTION": {
+        "TITLE": "Отбор",
+        "OPEN_MODAL": "Изменить фильтры"
+      }
+    },
+    "STATISTIQUE": {
+      "ALL": "Все",
+      "MESSAGE": {
+        "UPDATED": "Обновление"
+      },
+      "FILTER": {
+        "TITLE": "Фильтры",
+        "DATE_FILTER": {
+          "SELECT": "Выберите дату",
+          "MONTHS": {
+            "THREE": "3 последних месяца",
+            "SIX": "6 последних месяцев",
+            "NINE": "9 последних месяцев",
+            "TWELVE": "12 последних месяцев",
+            "TWENTY_FOUR": "24 последних месяца",
+            "THIRTY_SIX": "36 последних месяцев"
+          },
+          "CUSTOMIZED": "Персонализированный период",
+          "DATE_FIN": "Дата окончания",
+          "DATE_DEBUT": "Дата начала"
+        },
+        "REQUIRED": "Это поле обязательное",
+        "GLOBAL": "Oбщий"
+      },
+      "SPECIFIC": {
+        "PILOTAGE_CHEPTEL": {
+          "MESSAGE": {
+            "REFRESH": "Обновить данные"
+          },
+          "HEADER": {
+            "REFCAA": "Уникальный номер САА",
+            "PERIOD": "Период",
+            "SITES": "Площадки",
+            "AVERAGE": "Среднее число",
+            "REFCAAEXPLAIN": "Образец Кооперль Арк Атлантик от 2017г для всех свиноферм вне схемы"
+          },
+          "LABEL": {
+            "PRODUCTIVITY": "Продуктивность",
+            "RESUlT_SCOPE": "Результат по приплодам",
+            "BORN_TOTAL_SCOPE": "Всего рожденных в приплоде",
+            "BORN_ALIVE_SCOPE": "Живорожденных в приплоде",
+            "BORN_DEAD_SCOPE": "Мертворожденных в приплоде",
+            "CRUSHED_SCOPE": "Задавленных в приплоде",
+            "WEANED_SCOPE": "Отнятых в приплоде",
+            "LOSS_RATE_ALL_SCOPE": "Процент потерь от общего кол-ва рожденных",
+            "LOSS_RATE_ALIVE_SCOPE": "Процент потерь от живорожденных",
+            "LOSS_DEAD_ALIVE_ALL_SCOPE": "Процент мертворожденных от общего количества рожденных",
+            "REPRODUCTION": "Репродукция",
+            "AGE_PIGLETS_WEANING": "Возраст поросят при отъеме",
+            "ISS1": "Временной интервал между отъемом и первым осеменением\n",
+            "ISSF": "Интервал отъем-осеменение",
+            "AVERAGE_RANK_SCOPE": "Среднее количество приплодов ",
+            "FULL_RATE_SCAN": "Процент супоросных свиноматок на УЗИ",
+            "FULL_RATE_FARROWING": "Процент опоросов",
+            "PREGNANCY_TIME": "Длительность супоросности",
+            "RATE_WEANING_BEFORE_EIGHTEEN_DAYS": "Процент отнятых до 18 дней",
+            "RATE_FARROWING_BEFORE_365_DAYS": "Процент опоросов до 365 дня жизни",
+            "REFORMS": "Выбраковки",
+            "NUMBER_FEMALES_REFORMED": "Кол-во выбракованных маток",
+            "NUMBER_FEMALES_DEAD": "Кол-во умерших маток",
+            "RATE_ANNUAL_REFORM": "Ежегодный процент выбраковки",
+            "INTERVAL_LAST_WEANING_REFORM": "Интервал между последним отъемом и выбраковкой",
+            "EFFECTIVE": "Эффективность",
+            "NUMBER_SOWS_PRESENT": "Кол-во присутствующих свиноматок",
+            "NUMBER_TOTAL_LIVE_BIRTHS": "Общее кол-во живорожденных",
+            "NUMBER_TOTAL_WEANED": "Общее кол-во отнятых",
+            "NUMBER_WEANED_NORMAL_SCOPE": "Кол-во отнятых/нормальные приплоды",
+            "NUMBER_WEANED_ADOPTIVE_SCOPE": "Кол-во отнятых/подсаженные приплоды",
+            "NUMBER_NORMAL_SCOPE": "Кол-во нормальных приплодов",
+            "NUMBER_WEANED_SOW_PRODUCTIVITY_YEAR": "Количество отнятых производителей/продуктивная свиноматка/год",
+            "NUMBER_WEANED_SOW_PRESENT_YEAR": "Количество отнятых производителей/представленная свиноматка/год"
+          },
+          "PDF": {
+            "IDENTIFIANT_SITE": "Идентификатор площадки"
+          }
+        },
+        "DASHBOARD": {
+          "TITLE": "Полезная информация",
+          "MESSAGE": {
+            "NO_DATA": "Нет данных по фильтрам",
+            "TITLE_GOALS": "Цели"
+          },
+          "INFORMATIONS": {
+            "SOW_VISIBLE": "Цели присутствующих свиноматок",
+            "WEANED_BY_BAND": "Цели отъема по группам",
+            "STEARING": "Управление группой:",
+            "BAND": "Группы",
+            "DAYS": "день (дни)",
+            "WEANING": "Отъем",
+            "UPDATE": "Обновлено:"
+          },
+          "ACTIONS": {
+            "EXPORT_CSV": "Экспорт в формате CSV",
+            "MANAGE_GOAL": "Управление целями",
+            "ACTIVATE_COLOR_CODE": "Активировать ",
+            "DESACTIVATE_COLOR_CODE": "Дезактивировать цветовые коды целей",
+            "EXPORT_PDF": "Экспортировать в формат PDF"
+          }
+        },
+        "HISTORIQUE_TRUIE": {
+          "TITLE": "История свиноматки"
+        },
+        "HISTORIQUE_TRUIE_ET_PORCELET": {
+          "TITLE": "История свиноматки"
+        },
+        "TAUX_PERTE_BANDE_STADE_PHYSIO": {
+          "TITLE": "Коэффициент потерь в группе на физиологический этап"
+        }
+      },
+      "TILE": {
+        "REPORT_TITLE": "Составление отчета"
+      },
+      "TABLE": {
+        "EMPTY": "Нет данных для этих фильтров",
+        "LENGTH_MENU": "Отобразить МЕНЮ поступления "
+      },
+      "RAPPORT_CSV": {
+        "DATE_MISE_A_JOUR": "Дата обновления",
+        "DATE_EXPORT": "Дата экспорта",
+        "NO_DATA": "Нет доступных данных"
+      },
+      "SORT": {
+        "SORT_BY": "сортировать по ",
+        "PLACEHOLDER_CRITERIA": "показатель 1, показатель 2, ...",
+        "ADD_CRITERIA": "Добавить показатель",
+        "REMOVE_CRITERIA": "Убрать этот критерий",
+        "ASC_LABEL": "Упорядоченность по возрастанию",
+        "DESC_LABEL": "Упорядоченность по убыванию"
+      },
+      "REFRESH_TITLE": "Доступные новые данные",
+      "REFRESH_MESSAGE": "Нажмите, чтобы обновить отчет"
+    },
+    "PARAMETRES": {
+      "STADE_PHYSIO": "Список этапов физиологического развития",
+      "PORCELET": {
+        "TAB": "Pass'Porc",
+        "GLOBAL": "Общие параметры",
+        "PHYSIO": "Список этапов физиологического развития данной площадки",
+        "OBS": "Наблюдения за поросятами"
+      },
+      "CHEPTEL": {
+        "TAB": "Pass'Cheptel",
+        "OBS": "Наблюдения за свиноматками"
+      },
+      "ADMIN": {
+        "CAUSE_MORTS": {
+          "TAB": "Причины смерти",
+          "PLACEHOLDER": "Новая причина"
+        },
+        "OBSERVATIONS": {
+          "TAB": "Наблюдения",
+          "PLACEHOLDER": "Новое наблюдение"
+        },
+        "PATHOLOGIES": {
+          "TAB": "Патологии",
+          "PLACEHOLDER": "Новая патология"
+        },
+        "CAUSE_REFORME": {
+          "TAB": "Причина выбраковки",
+          "PLACEHOLDER": "Новая причина выбраковки"
+        },
+        "TYPE_REFORME": {
+          "TAB": "Тип выбраковки",
+          "PLACEHOLDER": "Новый тип выбраковки"
+        },
+        "TYPE_SAILLIE": {
+          "TAB": "Тип спаривания",
+          "PLACEHOLDER": "Новый тип спаривания"
+        },
+        "TYPE_ABATTOIR": {
+          "TAB": "Скотобойни",
+          "PLACEHOLDER": "Новая скотобойня"
+        },
+        "GROUPEMENT": {
+          "TAB": "объединение",
+          "PLACEHOLDER": "новое объединение"
+        },
+        "CATEGORIE_ELEVEUR": {
+          "TAB": "категория свиновода",
+          "PLACEHOLDER": "новая категория свиновода"
+        },
+        "TYPE_RACE": {
+          "TAB": "Породы",
+          "PLACEHOLDER": "Новая порода"
+        },
+        "TYPE_CROISEMENT": {
+          "TAB": "Пересечения",
+          "PLACEHOLDER": "Новое пересечение"
+        },
+        "ANOMALIE": {
+          "TAB": "Anomalies porcelets",
+          "PLACEHOLDER": "Nouvelle anomalie porcelet"
+        },
+        "MISEBAS_FACILITE": {
+          "TAB": "Facilité",
+          "PLACEHOLDER": "Nouvelle mise bas facilité"
+        },
+        "MISEBAS_COMPORTEMENT_TRUIE": {
+          "TAB": "Comportement",
+          "PLACEHOLDER": "Nouvelle mise bas comportement"
+        },
+        "MISEBAS_INDUCTION": {
+          "TAB": "Induction",
+          "PLACEHOLDER": "Nouvelle mise bas induction"
+        }
+      },
+      "ADD": "Добавление нового значения",
+      "TABLE-HEADER": {
+        "CODE_IFIP": "код IFIP (Институт свиноводства)",
+        "LABEL": "Запись",
+        "ACTION": "Действие",
+        "CODE_TYPE_GENETIQUE": "Тип генетического кода",
+        "CODE_TYPE_GENETIQUE_PERE": "Тип генетического кода отец",
+        "CODE_TYPE_GENETIQUE_MERE": "Тип генетического кода мать",
+        "CODE_TYPE_GENETIQUE_ENFANT": "Тип генетического кода ребенок",
+        "CARACTERISTIQUE": "Характеристика"
+      },
+      "CREATE": {
+        "SUCCESS": "создано успешно",
+        "FAILED": "Создание параметра не выполнено"
+      },
+      "UPDATE": {
+        "SUCCESS": "обновлено",
+        "FAILED": "Обновление параметра не выполнено"
+      },
+      "MODAL": {
+        "TITLE": {
+          "NEW": "Новое значение",
+          "MODIFY": "Изменение"
+        },
+        "CODE_IFIP": "код IFIP (Институт свиноводства)"
+      }
+    },
+    "PROBLEMATIC": {
+      "NEW_PROBLEMATIC": "Выбрать другую проблематику",
+      "ROLLBACK": "Вернуться к этому вопросу",
+      "PROPOSED_ACTIONS": "Предложенные действия",
+      "PROPOSED_NEW_PROBLEMATIC": "Выбрать другую проблематику",
+      "GO_DASHBOARD": "перейти в информационную панель",
+      "CLICK_PROPOSITION": "кликните на предложение вашего выбора",
+      "WHAT_PROBLEMATIC": "В чем заключается ваша проблема?",
+      "SELECT_PROBLEMATIC": "Выберите вашу проблему",
+      "LIST_GUIDE": "в списке напротив и следуйте инструкциям"
+    },
+    "SITE-MANAGEMENT": {
+      "TABLE-HEADER": {
+        "SITE": "Площадка",
+        "SOCIAL-REASON": "Фирменное наименование",
+        "ADDRESS": "Адрес",
+        "CP": "Почтовый индекс",
+        "CITY": "Город",
+        "ACTION": "Действие",
+        "PARTNER-SITES": "Площадки партнеров",
+        "CATEGORY": "категория свинофермы",
+        "CONSORTIUM": "объединение",
+        "TITLE_SITES": "Площадки",
+        "TITLE_USERS": "Пользователи",
+        "LASTNAME_AND_FIRSTNAME": "Имя и Фамилия",
+        "USERNAME": "Имя пользователя",
+        "EMAIL": "Электронная почта",
+        "LANGUAGE": "Язык",
+        "ACCES": "Доступ",
+        "STATUS": "Статус",
+        "WAITING_FOR_ACTIVATION": "В ожидании активации",
+        "ACTIVATED": "Активировано",
+        "EMAIL_NOT_SENT": "Электронное письмо не отправлено"
+      },
+      "TOOLTIP": {
+        "ACTION": "Изменить параметры площадки",
+        "SHOW_PARTNERS": "Отобразить список партнеров",
+        "ACTION_USERS": "Изменить данные пользователя",
+        "ACTION-EMAIL": "Отправить пользователю ссылку для активации",
+        "SHOW_MODULES": "Отобразить список модулей"
+      },
+      "MODAL": {
+        "TITLE": "Изменение параметров площадки",
+        "NO_DATA": "Параметров для этой площадки не обнаружено",
+        "ADD": "Создать площадку",
+        "SEARCH": {
+          "TITLE": "Создание новой площадки",
+          "FORM": {
+            "TITLE": "Поиск в базе Кооперль",
+            "PLACEHOLDER": "Идентификационный номер",
+            "SITE-REQUIRED": "Площадка обязательна",
+            "SITE-LENGTH": "Название площадки должно содержать минимум 3 знака",
+            "REASON-REQUIRED": "Юридическое название обязательно",
+            "REASON-LENGTH": "Юридическое название должно содержать минимум 5 знаков",
+            "ADDRESS-REQUIRED": "Адрес обязателен",
+            "ADDRESS-LENGTH": "адрес должен содержать минимум 5 символов",
+            "POSTAL-CODE-REQUIRED": "Почтовый индекс обязателен",
+            "POSTAL-CODE-LENGTH": "Почтовый индекс должен содержать минимум 5 знаков",
+            "CITY-REQUIRED": "Название города обязательно",
+            "CITY-LENGTH": "Название города должно включать в себя минимум 2 знака",
+            "CATEGORY-REQUIRED": "Категория фермы обязательна",
+            "GROUPEMENT-REQUIRED": "Образование групп обязательно"
+          },
+          "RESULT": {
+            "TITLE": "Результат поиска",
+            "PRINCIPAL": "Главная площадка",
+            "PARTENAIRE": "Партнер",
+            "SITE": {
+              "RAISON": "Фирменное наименование",
+              "IDM": "Площадка",
+              "RUE": "Улица",
+              "CP": "Почтовый индекс",
+              "COMMUNE": "Город"
+            }
+          },
+          "NO_DATA": "Не обнаружено площадок, соответствующих...",
+          "CREATE": "создать площадку",
+          "CREATE_SUCCESS": "Площадка успешно создана",
+          "CREATE_FAILED": "создание площадки не удалось",
+          "EXIST": "Площадка существует в справочной системе свиновода",
+          "PARAMETERS": {
+            "TITLE": "параметры",
+            "PLACEHOLDER": "выберите значение",
+            "CATEGORY": "категория фермы",
+            "GROUPEMENT": "объединение"
+          },
+          "UPDATE_SUCCESS": "Площадка успешно обновлена",
+          "UPDATE_FAILED": "Обновление площадки не удалось",
+          "CREATE_DUPLICATED": "Пользователь или адрес электронной почты уже существует",
+          "STEPS": {
+            "SITE": "Информация по площадке",
+            "USER": "Информация по пользователю"
+          },
+          "CREATE_USER_SUCCESS": "Пользователь создан успешно",
+          "CREATE_USER_FAILED": "Не удалось создать пользователя",
+          "UPDATE_USER_FAILED": "Не удалось обновить пользователя",
+          "UPDATE_USERS_SUCCESS": "Пользователь успешно обновлен",
+          "SEND_EMAIL_SUCCESS": "Электронное письмо успешно отправлено",
+          "SEND_EMAIL_FAILED": "Отправка электронного письма не удалась"
+        },
+        "TABS": {
+          "INFOS_GENERALES": "Общая информация",
+          "PARAMETRES": "Параметры площадки"
+        },
+        "ADD-USER": "Создать пользователя"
+      },
+      "MODAL-PARTNER": {
+        "TITLE": "Список площадок партнеров",
+        "TABLE-HEADER": {
+          "IDM": "Площадка",
+          "RAISON-SOCIALE": "Фирменное наименование"
+        }
+      },
+      "USER": {
+        "TITLE": "Создание пользователя",
+        "USERNAME": "Счет",
+        "E-MAIL-ADDRESS": "Адрес электронной почты",
+        "FIRST-NAME": "Имя",
+        "LASTNAME": "Фамилия",
+        "LANGUAGE": "Язык",
+        "ACTIVE-ROLES": "Активные роли",
+        "PLACEHOLDER": {
+          "USERNAME": "Введите Ваше имя пользователя",
+          "USERNAME-REQUIERD": "Имя пользователя обязательно",
+          "USERNAME-MINLENGTH": "Имя пользователя должно содержать минимум 5 символов",
+          "E-MAIL-ADDRESS": "пример@mail.com",
+          "FIRST-NAME": "Жан",
+          "LASTNAME": "Бон",
+          "LANGUAGE": "Язык по умолчанию",
+          "ACTIVE-ROLES": "Доступ к модулям",
+          "E-MAIL-ADDRESS-REQUIRED": "Электронная почта обязательна",
+          "LANG-REQUIRED": "Язык обязателен",
+          "SOCIAL-REASON": "Юридическое название обязательно",
+          "ROLES-REQUIRED": "Должна быть выбрана минимум одна роль"
+        },
+        "ACTIVE-NEW": "Активировать сейчас",
+        "TAMPORARY-PASSWORD": "Временный пароль:",
+        "TEXT-INFO-1": "Для активации аккаунта пользователя, вы должны войти в",
+        "TEXT-INFO-2": "Вам будет предложено установить постоянный пароль"
+      },
+      "MODAL-ROLES": {
+        "TITLE": "Список модулей"
+      },
+      "MODAL-USERS": {
+        "TITLE": "Изменение информации по пользователю",
+        "TITLE-CREATE": "Создать пользователя"
+      },
+      "MODAL-EMAIL": {
+        "TITLE": "Отправка ссылки активации аккаунта",
+        "MODAL_BODY_1": "Нажав на кнопку \"Отправить\"",
+        "MODAL_BODY_2": "получит электронное письмо с предложением активировать свой счет My Cooperl Suite",
+        "MODAL_BODY_3": "Затем будет необходимо создать собственный пароль"
+      }
+    },
+    "VSI": {
+      "MODAL": {
+        "IMPORT": {
+          "TITLE": "импорт VSI",
+          "DROP-ZONE": "Перетащите файлы в формате ZIP в эту зону",
+          "DROP-ZONE-EXTRA": "или нажмите здесь",
+          "ERROR": "Проблема во время импорта файла",
+          "UNAUTHORIZED": "импорт VSI не разрешен на этой площадке",
+          "SUCCESS": {
+            "TITLE": "идет импорт VSI",
+            "MESSAGE": "запрос успешно выполненного импорта"
+          }
+        },
+        "EXPORT": {
+          "TITLE": "Экспорт VSI в формате ZIP",
+          "ERROR": "Ошибка во время загрузки файла",
+          "LABEL": "Название файла"
+        },
+        "RESULT": {
+          "TITLE": "результаты последнего импорта VSI"
+        }
+      },
+      "TABLE-HEADER": {
+        "SITE": "Площадка",
+        "NAME": "Название",
+        "SOCIAL-REASON": "Фирменное наименование",
+        "ADDRESS": "Адрес",
+        "CP": "Почтовый индекс",
+        "CITY": "Город",
+        "ACTION": "Действие",
+        "DATE": "статус импорта"
+      },
+      "RESULT": {
+        "UPDATED": "Обновление",
+        "ADDED": "Созданные",
+        "IGNORED": "проигнорированные",
+        "NO_CHANGE": "не исправленные",
+        "REFORMED": "Выбракованные",
+        "ERROR": "Не испортированные"
+      },
+      "ACTION": {
+        "UPLOAD": "импорт VSI",
+        "DOWNLOAD": "экспорт VSI",
+        "UPLOAD_IN_PROGRESS": "Импорт невозможен.\nИдет импорт VSI."
+      },
+      "STATUS": {
+        "SUCCESS": "просмотреть последний отчет по импорту VSI",
+        "ERROR": "Ошибка",
+        "ERROR_TITLE": "возникла ошибка во время последнего импорта VSI",
+        "PROGRESS": "Идет импорт...\nЗапущено...",
+        "DEFAULT": "Нет импорта",
+        "TODO": "Ожидается",
+        "TODO_TITLE": "Ожидается импорт...\nЗапрошено..."
+      },
+      "NO_IMPORT": "Нет импорта"
+    },
+    "DEPART": {
+      "DESTINATION": "назначение",
+      "NUMBER_WITH_RFID": "количество животных с бирками",
+      "BY_BANDE": "на группу",
+      "SELECT_RANGE": "даты",
+      "TYPE_DEPART": "тип отправления",
+      "SELECT_TYPE": "выберите тип",
+      "SELECT_DATE": "выберите дату",
+      "TYPE_DEPARTS": {
+        "SALE": "Продажа",
+        "ALL": "Все",
+        "TRANSFER": "переход",
+        "SLAUGHTERHOUSE": "Убойный пункт"
+      },
+      "NO_DEPARTURE": "Нет отправлений в этот период",
+      "REQUIRED_TYPE_DEPART": "Тип отправления обязателен",
+      "SELECT_RANGE_START": "Дата начала",
+      "SELECT_RANGE_END": "Дата окончания",
+      "DESTINATION_NON_PRECISE": "Не уточнено",
+      "NUMBER_WITHOUT_RFID": "Количество животных без бирок",
+      "BY_PSA": "По спецификации",
+      "REQUIRED_DATE_DEBUT": "Дата начала обязательна",
+      "REQUIRED_DATE_FIN": "Дата окончания обязательна"
+    },
+    "DASHBOARD": {
+      "CONFIG": {
+        "WIDGET_TOOLTIP": "Конфигурировать виджет",
+        "PERIOD_HELP": "период индивидуален для каждого пользователя",
+        "TARGET_HELP": "Целья является общей для всех пользователей площадки",
+        "WIDGET_SWITCH_COLUMN_TOOLTIP": "Отобразить в виде гистограммы",
+        "WIDGET_SWITCH_SPLINE_TOOLTIP": "Отобразить в виде кривой"
+      },
+      "PORCS_ABATTUS_WIDGET": {
+        "TITLE": "Развитие числа свиней, отправленных на убой",
+        "X_AXYS_TITLE": "Забитые животные",
+        "Y_AXYS_FIXED_TITLE": "Цель",
+        "TOOLTIP": "Свиньи"
+      },
+      "SEVRE_ANNUEL_WIDGET": {
+        "TITLE": "Отнятых поросят на представленную свиноматку в год"
+      },
+      "SEVRE_BANDE_WIDGET": {
+        "TITLE": "Отнятых поросят на группу"
+      },
+      "TAUX_PERTE_WIDGET": {
+        "TITLE": "Развитие показателя потерь в период от рождения до продажи",
+        "X_AXIS_TITLE": "Показатель потерь",
+        "Y_AXYS_FIXED_TITLE": "Цель",
+        "TOOLTIP": "%"
+      },
+      "TRUIES_PRESENTES_WIDGET": {
+        "TITLE": "Количество представленных свиноматок"
+      },
+      "TAUX_QUALIFICATION_WIDGET": {
+        "TITLE": "коммерческая информация"
+      },
+      "PORCS_ABATTUS_ANNUEL_WIDGET": {
+        "TITLE": "Количество свиней, отправленных на убой"
+      },
+      "TAUX_PERTE_ANNUEL_WIDGET": {
+        "TITLE": "Уровень потерь в период от рождения до продажи у животных с бирками"
+      },
+      "WIDGET_ANNUEL": {
+        "UPDATE_PERIODE": "Изменение виджета",
+        "PERIODE": "Период",
+        "TARGET": "Цель",
+        "DU": "От",
+        "AU": "До",
+        "LAST_MONTHS": "последние месяцы",
+        "TODAY": "на сегодня",
+        "TODAY_DATE": "Дата дня",
+        "REQUIRED_DATE_DEBUT": "Дата начала обязательна",
+        "REQUIRED_DATE_FIN": "Дата окончания обязательна"
+      },
+      "TAUX_TRAITEMTENT_WIDGET": {
+        "TITLE": "Уровень обработки в период от рождения до продажи у животных с бирками"
+      },
+      "ERROR_MESSAGE": {
+        "TARGET_MAX": "превышена максимальная цель"
+      },
+      "WIDGET_CONFIGURATION": {
+        "TITLE": "конфигурация виджетов",
+        "BUTTON_TOOLTIP": "Конфигурировать виджеты"
+      },
+      "COMMON": {
+        "TARGET": "Цель",
+        "TARGET_ABBREGE": "Цель"
+      },
+      "INVENTAIRE_PORCS_CHARCUTIERS_WIDGET": {
+        "TITLE": "Список товарных свиней с ушными бирками",
+        "IND_VENDUS": "Проданные",
+        "IND_VENDUS_SANS_BOUCLE": "Без ушной бирки",
+        "IND_ENGRAISSEMENT": "Поступившие на откорм",
+        "IND_SEVRES": "Отнятые",
+        "IND_TAUX_PERTE_MATERNITE": "Потеря на опоросе",
+        "IND_TAUX_PERTE_ENGRAISSEMENT": "Потеря на откорме",
+        "IND_TAUX_PERTE_POST_SEVRAGE": "Потеря на доращивании",
+        "TOOLTIP": {
+          "RAPPORT_TABLEAU_BORD": "Просмотреть отчет Приборной панели",
+          "RAPPORT_TAUX_PERTE_STRUCTURE": "Просмотреть отчет по Уровню потери на структуру",
+          "RAPPORT_TAUX_PERTE_BANDE": "просмотреть отчет о коэффициенте потерь на группу"
+        }
+      },
+      "INFO_SYNCHRO_WIDGET": {
+        "TITLE": "Последние синхронизации",
+        "LAST_IMPORT_VSI": "импорт VSI",
+        "LAST_SYNCHRO_CHEPTEL": "Pass'Cheptel",
+        "LAST_SYNCHRO_PORC": "Pass'Porc",
+        "NO_SYNCHRO": "Синхронизация отсутствует"
+      },
+      "PORCS_STADE_PHYSIO_WIDGET": {
+        "TITLE": "Количество животных на физиологический этап",
+        "ANIMALS": "животные"
+      },
+      "INVENTAIRE_TRUIES_WIDGET": {
+        "TITLE": "Список свиноматок",
+        "IND_MISES_BAS": "Опоросы",
+        "IND_MORTES": "Смерти",
+        "IND_TAUX_MISES_BAS": "Коэффициент опоросов",
+        "IND_TAUX_PERTE": "Уровень потерь",
+        "IND_NB_TRUIES": "Количество свиноматок",
+        "TOOLTIP": {
+          "RAPPORT_HISTORIQUE_TRUIE": "Просмотреть отчет по истории свиноматок",
+          "RAPPORT_PILOTAGE_CHEPTEL": "Просмотреть отчет по управлению стадом"
+        }
+      },
+      "DEMOGRAPHIE_TRUIE_WIDGET": {
+        "TITLE": "Демография племенных свиней",
+        "X_AXYS_TITLE": "Порядковый номер",
+        "Y_AXYS_TITLE": "Количество свиноматок",
+        "TOOLTIP": " Свиноматки"
+      },
+      "EXPORT_BUTTONS": {
+        "CSV": "Экспортировать в формате CSV",
+        "PDF": "Экспортировать в формате PDF"
+      },
+      "INVENTAIRE_TRUIE_WIDGET": {
+        "TITLE": "Список свиноматок"
+      },
+      "INVENTAIRE_TRUIE_PERTE_WIDGET": {
+        "TITLE": "ЗАГОЛОВОК"
+      },
+      "ONGLET": {
+        "TABLEAU_BORD": "Сводная таблица",
+        "SANITAIRE": "Санитарный",
+        "MORTALITE": "Падеж",
+        "PRODUCTIVITE": "Продуктивность",
+        "GENERAL": "Oбщий",
+        "BUTTON_FAVORITE_TOOLTIP": "Установить как избранный"
+      }
+    },
+    "RAPPORT": {
+      "RAPPORTS": {
+        "TAUX_PERTE_BANDE_STADE_PHYSIO": {
+          "TITLE": "Коэффициент потерь в группе на физиологический этап",
+          "X_AXIS_LABEL": "N° Bande",
+          "Y_AXIS_LABEL": "Pourcentage de perte"
+        },
+        "TAUX_PERTE_RANG": {
+          "CATEGORIES_X_AXIS": {
+            "RANG1": "Номер опороса 1",
+            "RANG2": "Номер опороса 2",
+            "RANG35": "Номер опороса 3-5",
+            "RANG6": "Номер опороса 6+"
+          },
+          "TITLE": "Taux de perte par rang",
+          "X_AXIS_LABEL": "Rang",
+          "Y_AXIS_LABEL": "Pourcentage de perte"
+        }
+      },
+      "FILTRES": {
+        "SITE": {
+          "TITLE": "Площадка",
+          "PLACEHOLDER": "Площадка"
+        },
+        "TRUIES": {
+          "TITLE": "Свиноматки",
+          "PLACEHOLDER": "Все свиноматки"
+        },
+        "BANDES": {
+          "TITLE": "Группы",
+          "PLACEHOLDER": "Все группы"
+        },
+        "STADE_PHYSIO": {
+          "TITLE": "Физиологические этапы",
+          "PLACEHOLDER": "Все физиологические этапы"
+        },
+        "PERIODE": {
+          "TITLE": "Période",
+          "PLACEHOLDER": "Toutes les périodes"
+        }
+      },
+      "METRIQUES": {
+        "NUMERO_TRAVAIL": "Рабочий номер",
+        "RFID": "RFID",
+        "BANDE": "Группа",
+        "RANG": "Порядковый номер опороса",
+        "DATE_SAILLIE": "Дата осеменения",
+        "DATE_DERNIERE_ECHO": "Дата последнего УЗИ",
+        "RESULTAT_DERNIERE_ECHO": "Результат последнего УЗИ",
+        "DATE_RETOUR": "Дата возврата в охоту",
+        "DATE_AVORTEMENT": "Дата аборта",
+        "DATE_MISE_BAS": "Дата опороса",
+        "NV": "Живорожденные",
+        "MN": "Мертворожденные",
+        "NT": "Всего рожденных",
+        "MO": "Мумифицированные",
+        "AD": "Подсаженные",
+        "RE": "Переведенные",
+        "DATE_SEVRAGE": "Дата отъема",
+        "NS": "Количество отнятых",
+        "TAUX_TRAITEMENT_SEVRES": "Коэффициент лечения отнятых на",
+        "TAUX_PERTE_SEVRES": "Коэффициент потерь отнятых на",
+        "ELD1": "Толщина шпика 1",
+        "ELD2": "Толщина шпика 2",
+        "OBSERVATION": "Наблюдение",
+        "DATE_REFORME": "Дата выбраковки",
+        "CAUSE_REFORME": "Причина выбраковки",
+        "ELD_ENTREE_MATER": "ELD entrée mater.",
+        "ELD_SORTIE_MATER": "ELD sortie mater.",
+        "ELD_SALLIE": "ELD IA/Régumate",
+        "ELD_GESTANTE": "ELD gestante",
+        "ELD_AUTRE": "ELD autre",
+        "TYPE_REFORME": "Type réforme",
+        "NOMBRE_DOSES": "Nb. doses",
+        "TAUX_PERTE_NES_VIFS": "Tx perte / NV"
+      },
+      "LEGEND": {
+        "TITLE": "Causes sélectionnées",
+        "SUBTITLE": "(Cliquez pour masquer)"
+      }
+    }
+  },
+  "SHARED": {
+    "BREADCRUMB": {
+      "ADMIN": "Администратор",
+      "CONNECT_WITH": "Войти как",
+      "REPORT": "Отчет",
+      "PHARMACY": {
+        "TITLE": "Моя аптека",
+        "CONSULTATION": "Консультация с аптекой",
+        "INVENTORY": "Опись товаров",
+        "INIT": "приведение аптеки в исходное рабочее положение"
+      },
+      "STATISTIQUES": "Моя статистика",
+      "DEPARTURES": {
+        "TITLE": "История отправлений"
+      },
+      "PROBLEMATIC": {
+        "TITLE": "Моя проблематика"
+      },
+      "PARAMETRES": {
+        "BREEDING": "Мои параметры",
+        "ADMIN": "Общие параметры"
+      },
+      "SITE-MANAGEMENT": "Управление площадками",
+      "VSI": "Управление данными VSI",
+      "HISTORIQUES": {
+        "TITLE": "Моя история"
+      }
+    },
+    "LANGUAGE": {
+      "TOOLTIP": "Изменить язык"
+    },
+    "OPTIONS": {
+      "YES": "Да",
+      "NO": "Нет",
+      "ACTIVE": "Активный",
+      "INACTIVE": "Неактивный",
+      "LABEL": "Ярлык"
+    },
+    "MODALS": {
+      "CSV_MODAL": {
+        "EXPORT": "Экспорт данных в формате CSV",
+        "TITLE": "Имя скачиваемого файла"
+      },
+      "PDF_MODAL": {
+        "EXPORT": "Экспорт данных в формате PDF",
+        "TITLE": "Имя файла",
+        "FORMAT": "Формат",
+        "ORIENTATION": "Ориентация",
+        "ZOOM": "Увеличение масштаба изображения",
+        "DATA_UPDATE": "Данные обновлены",
+        "SELECT_FORMAT": "Выберите формат PDF",
+        "SELECT_ORIENTATION": "Выберите направление PDF"
+      },
+      "MANDATORY_TARGET_MODAL": {
+        "FILL_TARGETS": "Пожалуйста, введите информацию о своих целях"
+      },
+      "TARGET_MODAL": {
+        "UPDATE_TARGETS": "Изменение целей"
+      },
+      "PHARAMCY_INVENTORY": {
+        "ANNULATION_CONFIRMATION_MESSAGE": "Вы уверены, что хотите отменить ваши изменения?",
+        "VALIDATE": "Подтвердить список",
+        "TOAST_VALIDATE": "Список обновлен",
+        "TOAST_CANCEL": "Список не обновлен",
+        "CONFIRMATION": "Подтверждение"
+      }
+    },
+    "COOKIES": {
+      "MESSAGE": "Продолжая работу с сайтом www.mycooperlsuite.io, Вы даете согласие на использование куки и подобных технологий для сбора Ваших данных с целью персонализации"
+    },
+    "NO_DATA": "Нет доступных данных",
+    "LABELS": {
+      "PORCS": "Свиньи"
+    }
+  },
+  "MENU": {
+    "LABEL": {
+      "DASHBOARD": "Сводная таблица",
+      "ANIMALS": "Мои животные",
+      "STRUCTURES": "Мои структуры",
+      "DEPARTURES": "Мои отправки",
+      "PHARMACY": "Моя аптека",
+      "HELP": "Помощь",
+      "REPRODUCERS": "Репродуктивное поголовье",
+      "PORK_BUTCHERS": "Товарные свиньи",
+      "SETTINGS": {
+        "TITLE": {
+          "BREEDING": "Мои параметры"
+        },
+        "BREEDING": "Ферма",
+        "ADMIN": "Общие параметры"
+      },
+      "ADMINISTRATION": {
+        "LABEL": "Администрация",
+        "SETTINGS": {
+          "LABEL": "Общие параметры",
+          "DETAILS": "Ком"
+        },
+        "SITE": {
+          "LABEL": "Управление прощадкой",
+          "DETAILS": "Площадка"
+        },
+        "VSI": {
+          "LABEL": "Управление VSI",
+          "DETAILS": "VSI"
+        }
+      },
+      "STATISTIQUES": "Моя статистика",
+      "PROBLEMATIC": "Моя проблематика",
+      "HISTORIQUES": "Моя история"
+    },
+    "DETAILS": {
+      "DASHBOARD": "Сводная таблица",
+      "ANIMALS": "Мои животные",
+      "STRUCTURES": "Структуры",
+      "DEPARTURES": "Отправки",
+      "PHARMACY": "8 новых продуктов",
+      "SETTINGS": "Мои параметры",
+      "HELP": "Помощь",
+      "STATISTIQUES": "4 новых связи",
+      "PROBLEMATIC": "ПРОБЛЕМАТИКА"
+    }
+  },
+  "HEADER": {
+    "ADMINISTRATION": "Администратор",
+    "LOGIN_WITH": "Войти как",
+    "LOGOUT": "Выйти",
+    "CONFIGURATION": "конфигурация"
+  },
+  "FOOTER": {
+    "COPYRIGHT": "Авторское право © Socobati. Все права защищены.",
+    "LEGAL_MENTION": "Юридическая информация",
+    "CONFIDENTIALITY": "Конфиденциальность",
+    "CONFIDENTIALITY_PAGE": "Политика конфиденциальности\n==================================================\nПриложение Pass'Web разработано компанией SOCOBATI, филиалом группы Кооперль. Оно позволяет вам фиксировать все события, связанные с жизнью животных в животноводческом хозяйстве: подстадки, лечение, взвешивания, перемещения между структурами, повторное биркование, добавление комментариев и отправку животных.\nПри использовании данного приложения, вы соглашаетесь на передачу данных компании Socobati, филиалу группы Кооперль. Изложенная ниже политика конфиденциальности поможет вам понять, какие данные мы собираем, каким способом они используются и с кем мы ими делимся.\n\nДанные, которые мы собираем\n==================================================\nПриложение Pass'Web получает или собирает данные при пользовании вами нашими услугами:\n\n1.Данные, которые мы получаем при пользовании вами нашими услугами\n-----------------------------------------------------------------------------------------\nДанные, которые относятся к полтзованию услугами:\nМы собираем данные о том, как вы пользуетесь услугами и сервисами, то, как вы их используете, время пользования услугами, а также порядок.\n\nДанные, которые относятся к исползуемому устройству:\nДанные, которые относятся к используемому устройству, собираются автоматически: модель, версия используемой системы, язык, уникальное имя пользователя.\n\nДанные о файлах журналов:\nСобираются данные об услугах и сервисах, диагностические данные, проблемы и показатели, если они фигурируют в файлах журналов (logs).\n\n2. Данные, которые вы вводите в приложение\n-----------------------------------------------------------------------------------------\nЧтобы получить доступ к нашим услугам, у вас должна быть личная учетная запись. Таким образом, мы должны получить такие персональные данные, как имя пользователя, адрес электронный почты и пароль.\nБолее того, данные, которые вы вводите в приложение при пользовании различными услугами, также собираются и сохраняются.\n\nИспользование собранных данных\n==================================================\nСобранные данные используются для того, чтобы предоставить вам наиболее функциональные и надежные услуги и сервисы.\n\nСбор данных преследует следующие дели:\n- повышение безопасности наших сервисов\n- развитие, использование и улучшение нащих сервисов\n- поиск, развитие и тестирование новых функциональных возможностей\n- отслеживать тенденции использования и обыкновения пользователей\n\nДанные, которыми мы делимся\n==================================================\nНикакие данные из тех, что мы собираем в рамках наших решений, не передаются сторонним поставщикам, службам, организациям. Данные, которые мы собираем, могут быть переданы исключительно организациям, которые входят в состав группы Socobati, филиала компании Кооперль. Таким образом, никакие данные не могут быть переданы третьим лицам.\n\nСрок хранения собранных данных\n==================================================\nСобранные данные сохраняются на срок использования приложения. После того, как приложение удаляется с вашего устройства, все данные сохраняются в течение 5 лет, после чего они архивируются.\n\nПерсональные данные\n==================================================\nВ соответствии с законом \"информатика и свобода\" n° 78-17 от 6 января 1978 года с последующими изменениями и дополнениеями, вы имеете право доступа, изменения, исправления и удаления имеющих к вам отношение данных (ст. 34). Вы можете воспользоваться этим правом, обратившись в компанию Socobati посредством направления письма с соответствующим запросом на следующий адрес: Компания SOCOBATI - служба работы с клиентами - 5 ул. д'Армор, а/я 60328 - 22403 Ламбалль cedex.\n\n\n\n",
+    "LEGAL_MENTION_PAGE": "Юридическая информация\n\n1. ИНФОРМАЦИЯ О КОМПАНИИ\n=================================================\nДанный сайт разработан компанией SOCOBATI: Акционерное общество упрощенного типа с единственным участником. Учредительный капитал 3 972 400 евро.\nSIREN : 341 796 027 RCS SAINT BRIEUC\nЮр. адрес: Промышленная зона, ул. Жанне, 22400 ЛАМБАЛЛЬ\n\n2. ИНФОРМАЦИЯ ОБ АВТОРАХ и РАЗРАБОТЧИКАХ\n=================================================\nКомпания SOCOBATI является автором и разработчиком интернет-сайта mycooperlsuite.io.\nОтветственный редактор: г-н Пьерр Ле Гиллу, директор.\n\n3. ПРАВИЛА ПОЛЬЗОВАНИЯ\n=================================================\nЛюбое лицо, которое заходит на интернет-сайт mycooperlsuite.io, обязуется соблюдать изложенные ниже правила пользования.\nЛюбое лицо, использующее данный интернет сайт, является ответственным за данные, которые оно распространяет, использует и/или передает, и обязуется в этом отношении соблюдать действующее французское законодательство, в том числе нормы, которые относятся к распространению противозаконной информации (посягающей на общественные нормы морали и нравственности, побуждающей к межрасовой ненависти и вражде, педофилия...) или защита прав третьих лиц (право интеллектуальной собственности...). Компания Socobati не несет ответственности за пользование такими данными, за информацию, распространяемую третьими лицами, не соблюдающими нормы действующего законодательства.\nРазмещение гиперссылки на сайт требует получения предварительного письменного согласия со стороны компании Socobati, которая ни в каком случае не может нести ответственность за сайты, где размещены подобные гиперссылки, равно как и за их содержимое и использование.\nСайт находится в юрисдикции французского законодательства, единственным органом, обладающим правом разбирать претензии и иски, являются французские суды.\n\n4. ЧАСТНАЯ СОБСТВЕННОСТЬ - АВТОРСКОЕ ПРАВО\n=================================================\nВнешний вид и содержимое интернет-сайта mycooperlsuite.io составляют вместе объект авторского права, который находится под защитой соответствующего законодательства об авторском праве, интеллектуальной и промышленной собственности. Названия марок, коммерческие наименования и торговые знаки, логотипы, доменные имена, если не предусмотрено иное, являются торговыми марками. Информация, которая размещается на сайте, в том числе рисунки, фотографии, изображения, тексты, анимация со звуком и без являются объектами авторского права, промышленной и/или интеллектуальной собственности и, в ряде случаев, являются собственностью компании Socobati или иных лиц, предоставивших компании Socobati право на их использование.\nБез получения предварительного письменного разрешения со стороны компании Socobati запрещается использование в коммерческих целях, воспроизведение, демонстрация, использование, изменение, адаптация, заимствование, перевод, полная или частичная коммерциализация этих элементов (в том числе тех, которые можно скачать и скопировать), за исключением их использования в личных целых при условии соблюдения всех требований компании, которые могут также быть более строгими, чем те, которые предусмотрены законодательством об интеллектуальной собственности.\n\n5. ПЕРСОНАЛЬНЫЕ ДАННЫЕ\n=================================================\nДанные, собираемые сайтом, предназначены исключительно для пользования компанией Socobati.\nВ соответствии с законом \"информатика и свобода\" n° 78-17 от 6 января 1978 года с последующими изменениями и дополнениеями, вы имеете право доступа, изменения, исправления и удаления имеющих к вам отношение данных (ст. 34). Вы можете воспользоваться этим правом, обратившись в компанию Socobati посредством направления письма с соответствующим запросом на следующий адрес: Компания SOCOBATI - служба работы с клиентами - 5 ул. д'Армор, а/я 60328 - 22403 Ламбалль cedex.\n\n6. КОНЦЕПЦИЯ\n=================================================\nДанный сайт разработан компанией SOCOBATI.\n\n7. РАЗМЕЩЕНИЕ СЕРВЕРОВ\n=================================================\nCooperl Arc Atlantique, Промышленная зона, 7 ул. Жанне - а/я 60328 - 22403 Ламбалль Cedex."
+  },
+  "PDF": {
+    "BAND": "Группа",
+    "FILENAME": "Файл по свиноматкам",
+    "RANK": "Порядковый номер",
+    "SOWS_PLUG": {
+      "DATE_FARROWING": "Предполагаемая дата опороса",
+      "NATIONAL_NUM": "национальный номер",
+      "DATE_BIRD": "дата рождения\n",
+      "DATE_ENTERED": "Дата поступления",
+      "NO_DATA_HISTORY": "Отсутствует история карьеры",
+      "MESSAGE": "сообщение",
+      "HISTORIC": {
+        "MESSAGE": "Сообщение",
+        "TITLE": "История карьеры",
+        "RANK": "Порядковый номер",
+        "FIRST_SAILLIE": "День первого осеменения",
+        "ISSF": "Интервал отъем-осеменение",
+        "GESTATION_TIME": "Продолжительность супоросности",
+        "ELD_1": "толщина хребтового шпика 1",
+        "ELD_2": "толщина хребтового шпика 2",
+        "NV": "Живорожденные",
+        "MN": "Мертворожденные",
+        "MO": "Мумифицированные",
+        "LOST": "Потери",
+        "WEANED": "Отнятые",
+        "OBSERVATIONS": "Наблюдения"
+      },
+      "CYCLE": {
+        "TITLE": "Информация по текущему циклу",
+        "RANK": "Порядковый номер",
+        "ELD_1": "толщина хребтового шпика 1",
+        "ELD_2": "толщина хребтового шпика 2",
+        "DATE_FARROWING": "Дата опороса",
+        "NV": "Живорожденные",
+        "MN": "Мертворожденные",
+        "MO": "Мумифицированные",
+        "AD": "Подсаженные",
+        "RE": "Переведенные",
+        "DATE_WEANED": "Дата отъема",
+        "WEANED": "Отнято"
+      },
+      "REMARKS": "Замечания",
+      "AGE_MISE_BAS": "Возраст следующего опороса"
+    },
+    "NUMERO_INTERNE": "Внутренний N°",
+    "PATTERN": {
+      "NB_JOURS": "d 'день(и)'",
+      "NB_ANNEES_MOIS_JOURS": "Y 'год(а)' M 'месяц' D 'день(и)'"
+    }
+  },
+  "DAYS": {
+    "1": "Воскресенье",
+    "2": "Понедельник",
+    "3": "Вторник",
+    "4": "Среда",
+    "5": "Четверг",
+    "6": "Пятница",
+    "7": "Суббота"
+  },
+  "DAY": {
+    "MONDAY": "Понедельник",
+    "TUESDAY": "Вторник",
+    "WEDNESDAY": "Среда",
+    "THURSDAY": "Четверг",
+    "FRIDAY": "Пятница",
+    "SATURDAY": "Суббота",
+    "SUNDAY": "Воскресенье",
+    "NONE": "никакой"
+  },
+  "sProcessing": "Идет обработка...",
+  "sSearch": "Искать",
+  "sLengthMenu": "Показать меню",
+  "sInfo": "отображение элемента от СТАРТ до КОНЕЦ по ВСЕГО элементов",
+  "sInfoEmpty": "отображение элемента 0 до 0 из 0 элемента",
+  "sInfoFiltered": "(фильтр от МАКС элементов всего)",
+  "sInfoPostFix": " ",
+  "sLoadingRecords": "Загрузка...",
+  "sZeroRecords": "ни один элемент не отображается",
+  "sEmptyTable": "Нет данных в таблице",
+  "oPaginate": {
+    "sFirst": "Первый",
+    "sPrevious": "предыдущий",
+    "sNext": "Следующий",
+    "sLast": "Последний"
+  },
+  "oAria": {
+    "sSortAscending": ": активировать, чтобы сортировать столбец в порядке возрастания",
+    "sSortDescending": ": активировать, чтобы сортировать столбец в порядке убывания"
+  },
+  "select": {
+    "rows": {
+      "_": "выбранные строки",
+      "0": "ни одна строка не выбрана",
+      "1": "1 строка выбрана"
+    }
+  },
+  "PARAMETRE": {
+    "AGESEVRAGE": {
+      "LABEL": "Возраст поросят на момент отъема",
+      "DESCRIPTION": "Позволяет определить количество дней, начиная с которых поросята отнимаются"
+    },
+    "GESTIONSEXAGE": {
+      "LABEL": "Управление определением пола животного",
+      "DESCRIPTION": "позволяет присвоить пол животному во время его регистрации во время опороса"
+    },
+    "JOURNAISSANCE": {
+      "LABEL": "день рождения",
+      "DESCRIPTION": "Позволяет определить день недели, назначаемого поросятам во время опороса"
+    },
+    "JOURSEVRAGE": {
+      "LABEL": "День отъема",
+      "DESCRIPTION": "Позволяет определить день недели во время которого проводится отъем"
+    },
+    "GESTIONTRUIES": {
+      "LABEL": "Управление свиноматками",
+      "DESCRIPTION": "Позволяет активировать управление свиноматками в приложении. Добавление поросят к свиноматке, и лечение свиноматки теперь возможно."
+    },
+    "AUTORENOUVELLEMENT": {
+      "LABEL": "Управление авто-обновлением",
+      "DESCRIPTION": "Позволяет перевести производственных животных в племенных животных"
+    },
+    "GESTIONPHARMACIE": {
+      "LABEL": "управление аптекой",
+      "DESCRIPTION": "Позволяет активировать управление аптекой и предлагать на мобильных устройствах продукты Vétos, имеющиеся на складе во время лечения."
+    },
+    "GESTIONSTADEPHYSIO": {
+      "LABEL": "управление физиологическими этапами",
+      "DESCRIPTION": "Позволяет активировать управление физиологическими этапами"
+    },
+    "CONDUITEBANDE": {
+      "LABEL": "управление в группах",
+      "DESCRIPTION": "позволяет уточнить ведение в группах на ферме",
+      "PLACEHOLDER": "управление в группах"
+    },
+    "GESTIONSTRUCTURES": {
+      "LABEL": "управление структурами",
+      "DESCRIPTION": "позволяет активировать управление структурами на свиноферме"
+    },
+    "IMMPORTVSI": {
+      "LABEL": "импорт VSI",
+      "DESCRIPTION": "Разрешает импорт VSI на свиноферму"
+    },
+    "PASSPORC": {
+      "LABEL": "Доступ Pass'Porc",
+      "DESCRIPTION": "Дает пользователю площадки доступ к Pass'Cheptel"
+    },
+    "PASSCHEPTEL": {
+      "LABEL": "доступ Pass'Cheptel",
+      "DESCRIPTION": "Дает пользователю площадки доступ к Pass'Cheptel"
+    },
+    "GMQ": {
+      "LABEL": "среднесуточный привес",
+      "DESCRIPTION": "Позволяет определить средний среднесуточный привес на площадке (грамм/день)"
+    },
+    "POIDSTHEORIQUESEVRAGE": {
+      "LABEL": "Теоретический вес при отъеме",
+      "DESCRIPTION": "Позволяет определить теоретический вес животных в момент отъема",
+      "VALIDATIONERROR": "Значение должно учитываться между {{мин}} и {{макс}}"
+    },
+    "DUREEGESTATION": {
+      "LABEL": "продолжительность супоросности",
+      "DESCRIPTION": "позволяет уточнить продолжительность средней супоросности свиноматки",
+      "PLACEHOLDER": "подолжительность супоросности"
+    },
+    "SMARTPIG": {
+      "LABEL": "Доступ к Smart'Pig",
+      "DESCRIPTION": "Дает пользователю площадки доступ в Smart'Pig"
+    },
+    "SMARTSOW": {
+      "LABEL": "Доступ к Smart'Sow",
+      "DESCRIPTION": "Дает пользователю площадки доступ в Smart'Sow"
+    },
+    "RACES": {
+      "LABEL": "Races site",
+      "DESCRIPTION": "Permet de choisir les races du site."
+    }
+  },
+  "MONTHS": [
+    "Янв",
+    "Фев",
+    "Март",
+    "Апр",
+    "Май",
+    "Июнь",
+    "Июль",
+    "Авг",
+    "Сен",
+    "Окт",
+    "Ноябрь",
+    "Дек"
+  ],
+  "ERROR_MESSAGE": {
+    "TARGET": {
+      "TARGET.GET": "Ошибка во время загрузки целей",
+      "UPDATE_TARGETS": "Ошибка во время обновления целей"
+    },
+    "DATA": {
+      "GET_BY_ID_AND_FILTER": "Ошибка во время загрузки данных"
+    },
+    "USER_PREFERENCES": {
+      "GET": "Ошибка во время загрузки пользовательских настроек",
+      "CREATE": "Ошибка во время создания пользовательских настроек",
+      "UPDATE": "Ошибка во время обновления пользовательских настроек"
+    },
+    "PARAMETRES_ADMIN": {
+      "GET": "Ошибка во время загрузки пользовательских настроек",
+      "CREATE": "Ошибка во время создания пользовательских настроек",
+      "UPDATE": "Ошибка во время обновления пользовательских настроек"
+    },
+    "PHARMACIE": {
+      "LOAD_STOCK": "Ошибка во время загрузки аптеки",
+      "UPDATE_STOCK": "Ошибка во время обновления аптеки",
+      "GET_LABEL_MEDICAMENTS": "ошибка во время загрузки этикеток медикаментов",
+      "GET_MOUVEMENT_MEDICAMENTS": "ошибка во время загрузки перемещений медикаментов",
+      "GET_MEDICAMENTS": "Ошибка во время загрузки медикаментов"
+    },
+    "SITE": {
+      "GET_ALL": "ошибка во время загрузки прощадок",
+      "CREATE": "ошибка во время создания площадки",
+      "SEARCH": "ошибка во время поиска прощадки"
+    },
+    "STRUCTURE": {
+      "LOAD_STRUCTURES": "ошибка во время загрузки структур",
+      "GET_SITE_INFO": "ошибка во время загрузки информации по площадке",
+      "CREATE_SITE": "ошибка во время создания площадки",
+      "GET_BATIMENT_INFO": "ошибка во время загрузки информации по зданию",
+      "CREATE_BATIMENT": "ошибка во время создания здания",
+      "GET_SALLE_INFO": "Ошибка во время загрузки информации по помещению",
+      "GET_SALLE_INFO_COMMERCIALE": "ошибка во время загрузки коммерческой информации по помещению",
+      "CREATE_SALLE": "ошибка во время создания помещения",
+      "GET_CASE_INFO": "ошибка во время загрузки информации по станку",
+      "CREATE_CASE": "ошибка во время создания станка",
+      "UPDATE_RANG": "ошибка во время обновления ряда структуры",
+      "GET_TAUX_PERTE": "Ошибка во время загрузки уровня потерь по структуре",
+      "GET_INFO_COMMERCIALE": "Ошибка во время загрузки коммерческой информации",
+      "UPDATE": "Ошибка во время обновления структуры",
+      "VIDER": "Ошибка во время очистки структуры",
+      "DEPLACER_SALLE": "Ошибка во время перемещения помещения",
+      "DEPLACER_CASE": "Ошибка во время перемещения помещения"
+    },
+    "ADMIN": {
+      "GET_ALL_CLIENT_USERS_ADMIN": "ошибка во время загрузки пользователей",
+      "IMPERSONATE_ADMIN": "Невозможно подключиться"
+    },
+    "WIDGET": {
+      "GET_PORCS_SEVRES_INDICATOR": "Ошибка во время загрузки данных по показателю отнятых свиней",
+      "GET_PORCS_ABATTUS_CHART": "Ошибка во время загрузки графических данных по забитым свиньям",
+      "GET_TAUX_PERTE_CHART": "Ошибка во время загрузки графических данных по уровню потерь",
+      "GET_PORCS_SEVRES_BANDE_INDICATOR": "Ошибка во время загрузки данных по показателю отнятых свиней в группе",
+      "GET_INFO_SYNCHRO": "Ошибка во время загрузки данных по синхронизации",
+      "GET_PORCS_STADE_PHYSIO": "Ошибка во время загрузки данных по свиньям по физиологическим этапам",
+      "GET_TRUIES_PRESENTES_INDICATOR": "Ошибка во время загрузки данных по показателю представленных свиноматок",
+      "GET_TAUX_QUALIFICATION": "Ошибка во время загрузки данных по уровню квалификации",
+      "GET_PORCS_ABATTUS_INDICATOR": "Ошибка во время загрузки данных по показателю забитых свиней",
+      "GET_TAUX_PERTE_INDICATOR": "Ошибка во время загрузки данных по показателю уровня потерь",
+      "GET_TAUX_TRAITEMENT_INDICATOR": "Ошибка во время загрузки данных по показателю уровня обработки",
+      "GET_DEMOGRAPHIE_BANDE": "Ошибка во время загрузки демографии группы",
+      "GET_INVENTAIRE_PORCS_CHARCUTIER": "Ошибка во время загрузки данных по индикатору списка товарных свиней",
+      "GET_INVENTAIRE_TRUIES": "Ошибка во время загрузки данных индикатора списка свиноматок",
+      "GET_DEMOGRAPHIE_TRUIE": "Ошибка во время загрузки данных по показателю демографии свиноматок"
+    },
+    "DEPART": {
+      "GET_ALL": "Ошибка во время загрузки отправлений"
+    },
+    "PROBLEMATIQUE": {
+      "LOAD_ALL": "Ошибка во время загрузки проблематики",
+      "GET_TOPIC": "Ошибка во время загрузки темы"
+    },
+    "BANDE": {
+      "LOAD_ALL": "Ошибка во время загрузки групп",
+      "UPDATE": "Ошибка во время обновления групп",
+      "GET_INFO_PERTE": "Ошибка во время загрузки информации по потерям в группе",
+      "GET_INFO": "Ошибка во время загрузки информации по группе",
+      "GET_INFO_COMMERCIALE": "Ошибка во время загрузки коммерческой информации по группе",
+      "GET_TAUX_PERTE": "Ошибка во время загрузки уровня потерь по группе",
+      "GET_STATUTS_TRUIES": "Ошибка во время загрузки статусов свиноматок",
+      "GET_HISTORIQUE_TRAITEMENT": "Ошибка во время загрузки истории лечения группы"
+    },
+    "RAPPORT": {
+      "GET_DW_FILTERS": "ошибка во время загрузки фильтров",
+      "GET": "Ошибка во время загрузки отчета",
+      "GET_ALL": "ошибка во время загрузки отчетов"
+    },
+    "VSI": {
+      "DOWNLOAD": "ошибка во время загрузки VSI",
+      "GET_ALL_RAPPORTS": "ошибка во время загрузки отчетов",
+      "GET_RAPPORT": "Ошибка во время загрузки отчета "
+    },
+    "USERS_KEYCLOAK": {
+      "CREATE": "Ошибка во время создания пользователя",
+      "GET": "Ошибка во время загрузки пользователей"
+    },
+    "ROLES_KEYCLOAK": {
+      "GET": "Ошибка во время загрузки ролей"
+    },
+    "PARAMETRES_RACE": {
+      "GET": "Ошибка во время загрузки параметров породы"
+    },
+    "PARAMETRES_CROISEMENT": {
+      "GET": "Ошибка во время загрузки параметров пересечения"
+    },
+    "LANGUAGE_KEYCLOAK": {
+      "GET": "Ошибка во время загрузки языков"
+    }
+  }
+}

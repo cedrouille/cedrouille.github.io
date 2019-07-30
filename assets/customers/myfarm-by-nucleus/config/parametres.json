@@ -1,0 +1,142 @@
+{
+  "agePorceletsSevrage": {
+    "id": "agePorceletsSevrage",
+    "label": "PARAMETRE.AGESEVRAGE.LABEL",
+    "description": "PARAMETRE.AGESEVRAGE.DESCRIPTION",
+    "type": "radio",
+    "values": [
+      21,
+      28
+    ]
+  },
+  "autoRenouvellement": {
+    "id": "autoRenouvellement",
+    "label": "PARAMETRE.AUTORENOUVELLEMENT.LABEL",
+    "description": "PARAMETRE.AUTORENOUVELLEMENT.DESCRIPTION",
+    "type": "switch"
+  },
+  "dureeGestation": {
+    "id": "dureeGestation",
+    "label": "PARAMETRE.DUREEGESTATION.LABEL",
+    "description": "PARAMETRE.DUREEGESTATION.DESCRIPTION",
+    "type": "select",
+    "unite": "jours",
+    "values": [
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120
+    ]
+  },
+  "conduiteEnBande": {
+    "id": "conduiteEnBande",
+    "label": "PARAMETRE.CONDUITEBANDE.LABEL",
+    "placeholder": "PARAMETRE.CONDUITEBANDE.PLACEHOLDER",
+    "description": "PARAMETRE.CONDUITEBANDE.DESCRIPTION",
+    "type": "select",
+    "values": [
+      4,
+      5,
+      7,
+      10,
+      20,
+      21
+    ]
+  },
+  "gestionPharmacie": {
+    "id": "gestionPharmacie",
+    "label": "PARAMETRE.GESTIONPHARMACIE.LABEL",
+    "description": "PARAMETRE.GESTIONPHARMACIE.DESCRIPTION",
+    "type": "switch"
+  },
+  "gestionSexage": {
+    "id": "gestionSexage",
+    "label": "PARAMETRE.GESTIONSEXAGE.LABEL",
+    "description": "PARAMETRE.GESTIONSEXAGE.DESCRIPTION",
+    "type": "switch"
+  },
+  "gestionStadePhysio": {
+    "id": "gestionStadePhysio",
+    "label": "PARAMETRE.GESTIONSTADEPHYSIO.LABEL",
+    "description": "PARAMETRE.GESTIONSTADEPHYSIO.DESCRIPTION",
+    "type": "switch",
+    "relatedFrom": "gestionStructures"
+  },
+  "gestionStructures": {
+    "id": "gestionStructures",
+    "label": "PARAMETRE.GESTIONSTRUCTURES.LABEL",
+    "description": "PARAMETRE.GESTIONSTRUCTURES.DESCRIPTION",
+    "type": "switch",
+    "relatedTo": "gestionStadePhysio"
+  },
+  "gmq": {
+    "id": "gmq",
+    "label": "PARAMETRE.GMQ.LABEL",
+    "description": "PARAMETRE.GMQ.DESCRIPTION",
+    "type": "select",
+    "values": [
+      "620",
+      "640",
+      "660",
+      "680",
+      "700",
+      "720",
+      "740"
+    ]
+  },
+  "importVSIAutorise": {
+    "id": "importVSIAutorise",
+    "label": "PARAMETRE.IMMPORTVSI.LABEL",
+    "description": "PARAMETRE.IMMPORTVSI.DESCRIPTION",
+    "type": "switch"
+  },
+  "jourNaissance": {
+    "id": "jourNaissance",
+    "label": "PARAMETRE.JOURNAISSANCE.LABEL",
+    "description": "PARAMETRE.JOURNAISSANCE.DESCRIPTION",
+    "type": "DayOfWeek"
+  },
+  "jourSevrage": {
+    "id": "jourSevrage",
+    "label": "PARAMETRE.JOURSEVRAGE.LABEL",
+    "description": "PARAMETRE.JOURSEVRAGE.DESCRIPTION",
+    "type": "DayOfWeek"
+  },
+  "passCheptel": {
+    "id": "passCheptel",
+    "label": "PARAMETRE.SMARTSOW.LABEL",
+    "description": "PARAMETRE.SMARTSOW.DESCRIPTION",
+    "type": "switch",
+    "relatedTo": "gestionTruies"
+  },
+  "passPorc": {
+    "id": "passPorc",
+    "label": "PARAMETRE.SMARTPIG.LABEL",
+    "description": "PARAMETRE.SMARTPIG.DESCRIPTION",
+    "type": "switch"
+  },
+  "poidsTheoriqueSevrage": {
+    "id": "poidsTheoriqueSevrage",
+    "label": "PARAMETRE.POIDSTHEORIQUESEVRAGE.LABEL",
+    "description": "PARAMETRE.POIDSTHEORIQUESEVRAGE.DESCRIPTION",
+    "type": "number",
+    "min": 0,
+    "max": 50,
+    "step": 0.1,
+    "unite": "Kg",
+    "validationError": "PARAMETRE.POIDSTHEORIQUESEVRAGE.VALIDATIONERROR"
+  },
+  "races": {
+    "id": "races",
+    "label": "PARAMETRE.RACES.LABEL",
+    "description": "PARAMETRE.RACES.DESCRIPTION",
+    "type": "select-admin"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "name": "My Farm by Nucléus",
+  "short_name": "My Farm",
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "assets/customers/myfarm-by-nucleus/favicons/android-chrome-192x192.png?v=dLJMK42dGA",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/customers/myfarm-by-nucleus/favicons/android-chrome-512x512.png?v=dLJMK42dGA",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/customers/myfarm-by-nucleus/favicons/apple-touch-icon.png?v=dLJMK42dGA",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/customers/myfarm-by-nucleus/favicons/apple-touch-icon-60x60.png?v=dLJMK42dGA",
+      "sizes": "60x60",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/customers/myfarm-by-nucleus/favicons/apple-touch-icon-76x76.png?v=dLJMK42dGA",
+      "sizes": "76x76",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/customers/myfarm-by-nucleus/favicons/apple-touch-icon-120x120.png?v=dLJMK42dGA",
+      "sizes": "120x120",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/customers/myfarm-by-nucleus/favicons/apple-touch-icon-152x152.png?v=dLJMK42dGA",
+      "sizes": "152x152",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/customers/myfarm-by-nucleus/favicons/apple-touch-icon-180x180.png?v=dLJMK42dGA",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/customers/myfarm-by-nucleus/favicons/favicon-16x16.png?v=dLJMK42dGA",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/customers/myfarm-by-nucleus/favicons/favicon-32x32.png?v=dLJMK42dGA",
+      "sizes": "32x32",
+      "type": "image/png"
+    }
+  ]
+}

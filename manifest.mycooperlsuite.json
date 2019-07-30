@@ -1,0 +1,61 @@
+{
+  "name": "My Cooperl Suite",
+  "short_name": "MyCS",
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "assets/customers/mycooperlsuite/favicons/android-chrome-192x192.png?v=7koJ2jBd8q",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/customers/mycooperlsuite/favicons/android-chrome-512x512.png?v=7koJ2jBd8q",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/customers/mycooperlsuite/favicons/apple-touch-icon.png?v=7koJ2jBd8q",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/customers/mycooperlsuite/favicons/apple-touch-icon-60x60.png?v=7koJ2jBd8q",
+      "sizes": "60x60",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/customers/mycooperlsuite/favicons/apple-touch-icon-76x76.png?v=7koJ2jBd8q",
+      "sizes": "76x76",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/customers/mycooperlsuite/favicons/apple-touch-icon-120x120.png?v=7koJ2jBd8q",
+      "sizes": "120x120",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/customers/mycooperlsuite/favicons/apple-touch-icon-152x152.png?v=7koJ2jBd8q",
+      "sizes": "152x152",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/customers/mycooperlsuite/favicons/apple-touch-icon-180x180.png?v=7koJ2jBd8q",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/customers/mycooperlsuite/favicons/favicon-16x16.png?v=7koJ2jBd8q",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/customers/mycooperlsuite/favicons/favicon-32x32.png?v=7koJ2jBd8q",
+      "sizes": "32x32",
+      "type": "image/png"
+    }
+  ]
+}

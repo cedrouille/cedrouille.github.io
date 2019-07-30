@@ -1,0 +1,1958 @@
+{
+  "structure": {
+    "id": "tableauBord",
+    "title": "Tableau de bord élevage",
+    "description": "Ce rapport permet de donner une vue par bande à chaque étape du cycle (Saillie, Echographie, MBA, Sevrage). Grâce à un jeu de couleurs, l’éleveur pourra identifier rapidement les bandes pour lesquelles les objectifs prévus initialement n’ont pas été atteints.",
+    "category": "Rapports Truies",
+    "thumbnail": "fal fa-table",
+    "paginated": false,
+    "disabled": false,
+    "defaultTarget": {
+      "hidden": null,
+      "value": null,
+      "mode": "ASCENDING",
+      "perfect": {
+        "threshold": 1,
+        "color": "4cd137"
+      },
+      "good": {
+        "threshold": 0.99,
+        "color": "ffa502"
+      },
+      "medium": {
+        "threshold": 0.95,
+        "color": "ff4757"
+      },
+      "bad": {
+        "threshold": 0.95,
+        "color": "ff4757"
+      }
+    },
+    "config": {
+      "displayMode": "CLASSIC",
+      "displayType": "TABLE",
+      "displayOption": null,
+      "metrics": [
+        {
+          "id": "dateSaillie",
+          "label": "Date IA",
+          "category": null,
+          "tooltip": null,
+          "defaultValue": null,
+          "type": "NONE",
+          "datatype": "DATE",
+          "target": {
+            "hidden": true,
+            "value": null,
+            "mode": null,
+            "perfect": null,
+            "good": null,
+            "medium": null,
+            "bad": null
+          }
+        },
+        {
+          "id": "semaineDateSaillie",
+          "label": "Semaine IA",
+          "category": null,
+          "tooltip": null,
+          "defaultValue": null,
+          "type": "NONE",
+          "datatype": "NUMBER",
+          "target": {
+            "hidden": true,
+            "value": null,
+            "mode": null,
+            "perfect": null,
+            "good": null,
+            "medium": null,
+            "bad": null
+          }
+        },
+        {
+          "id": "nombreTruie",
+          "label": "Truies saillies",
+          "category": null,
+          "tooltip": null,
+          "defaultValue": null,
+          "type": "NONE",
+          "datatype": "NUMBER",
+          "target": {
+            "hidden": null,
+            "value": 55,
+            "mode": "ASCENDING",
+            "perfect": null,
+            "good": null,
+            "medium": null,
+            "bad": null
+          }
+        },
+        {
+          "id": "nombreTruiePleinEcho",
+          "label": "Nb pleines écho",
+          "category": null,
+          "tooltip": null,
+          "defaultValue": null,
+          "type": "NONE",
+          "datatype": "NUMBER",
+          "target": {
+            "hidden": null,
+            "value": 47,
+            "mode": "ASCENDING",
+            "perfect": null,
+            "good": null,
+            "medium": null,
+            "bad": null
+          }
+        },
+        {
+          "id": "pourcentagePleineEcho",
+          "label": "Tx pleines écho",
+          "category": null,
+          "tooltip": null,
+          "defaultValue": null,
+          "type": "NONE",
+          "datatype": "PERCENT",
+          "target": {
+            "hidden": null,
+            "value": 88,
+            "mode": "ASCENDING",
+            "perfect": null,
+            "good": null,
+            "medium": null,
+            "bad": null
+          }
+        },
+        {
+          "id": "dateMisBas",
+          "label": "Date mise bas",
+          "category": null,
+          "tooltip": null,
+          "defaultValue": null,
+          "type": "NONE",
+          "datatype": "DATE",
+          "target": {
+            "hidden": true,
+            "value": null,
+            "mode": null,
+            "perfect": null,
+            "good": null,
+            "medium": null,
+            "bad": null
+          }
+        },
+        {
+          "id": "nombreTruieMiseBas",
+          "label": "Nb. mise bas",
+          "category": null,
+          "tooltip": null,
+          "defaultValue": null,
+          "type": "NONE",
+          "datatype": "NUMBER",
+          "target": {
+            "hidden": null,
+            "value": 45,
+            "mode": "ASCENDING",
+            "perfect": null,
+            "good": null,
+            "medium": null,
+            "bad": null
+          }
+        },
+        {
+          "id": "tauxMiseBas",
+          "label": "Tx de mise bas",
+          "category": null,
+          "tooltip": null,
+          "defaultValue": null,
+          "type": "NONE",
+          "datatype": "PERCENT",
+          "target": {
+            "hidden": null,
+            "value": 85,
+            "mode": "ASCENDING",
+            "perfect": null,
+            "good": null,
+            "medium": null,
+            "bad": null
+          }
+        },
+        {
+          "id": "neeTotauxParPortee",
+          "label": "NT / portée",
+          "category": null,
+          "tooltip": null,
+          "defaultValue": null,
+          "type": "NONE",
+          "datatype": "NUMBER",
+          "target": null
+        },
+        {
+          "id": "nesVivantsParPortee",
+          "label": "NV / portée",
+          "category": null,
+          "tooltip": null,
+          "defaultValue": null,
+          "type": "NONE",
+          "datatype": "NUMBER",
+          "target": {
+            "hidden": null,
+            "value": 14.2,
+            "mode": "ASCENDING",
+            "perfect": null,
+            "good": null,
+            "medium": null,
+            "bad": null
+          }
+        },
+        {
+          "id": "nombreMortNesParPortee",
+          "label": "MN / portée",
+          "category": null,
+          "tooltip": null,
+          "defaultValue": null,
+          "type": "NONE",
+          "datatype": "NUMBER",
+          "target": {
+            "hidden": null,
+            "value": 0.8,
+            "mode": "DESCENDING",
+            "perfect": null,
+            "good": null,
+            "medium": null,
+            "bad": null
+          }
+        },
+        {
+          "id": "nombreEcrasesParPortee",
+          "label": "Ecrasés / portée",
+          "category": null,
+          "tooltip": null,
+          "defaultValue": null,
+          "type": "NONE",
+          "datatype": "NUMBER",
+          "target": {
+            "hidden": null,
+            "value": 0.7,
+            "mode": "DESCENDING",
+            "perfect": null,
+            "good": null,
+            "medium": null,
+            "bad": null
+          }
+        },
+        {
+          "id": "dateSevrage",
+          "label": "Date sevrage",
+          "category": null,
+          "tooltip": null,
+          "defaultValue": null,
+          "type": "NONE",
+          "datatype": "DATE",
+          "target": {
+            "hidden": true,
+            "value": null,
+            "mode": null,
+            "perfect": null,
+            "good": null,
+            "medium": null,
+            "bad": null
+          }
+        },
+        {
+          "id": "nombreSevresParPortee",
+          "label": "Sevrés / portée",
+          "category": null,
+          "tooltip": null,
+          "defaultValue": null,
+          "type": "NONE",
+          "datatype": "NUMBER_FRACTION",
+          "target": {
+            "hidden": null,
+            "value": 12,
+            "mode": "ASCENDING",
+            "perfect": null,
+            "good": null,
+            "medium": null,
+            "bad": null
+          }
+        },
+        {
+          "id": "pourcentagePerteNesVifs",
+          "label": "Tx pertes / NV",
+          "category": null,
+          "tooltip": null,
+          "defaultValue": null,
+          "type": "NONE",
+          "datatype": "PERCENT_FRACTION",
+          "target": {
+            "hidden": null,
+            "value": 12,
+            "mode": "DESCENDING",
+            "perfect": null,
+            "good": null,
+            "medium": null,
+            "bad": null
+          }
+        },
+        {
+          "id": "nombreSevres",
+          "label": "Nb total sevrés",
+          "category": null,
+          "tooltip": null,
+          "defaultValue": null,
+          "type": "NONE",
+          "datatype": "NUMBER",
+          "target": null
+        },
+        {
+          "id": "ecartSevres",
+          "label": "Ecart à l'objectif total sevrés",
+          "category": null,
+          "tooltip": null,
+          "defaultValue": null,
+          "type": "NONE",
+          "datatype": "NUMBER",
+          "target": null
+        },
+        {
+          "id": "ecartCumuleSevres",
+          "label": "Ecart cumulé",
+          "category": null,
+          "tooltip": null,
+          "defaultValue": null,
+          "type": "NONE",
+          "datatype": "NUMBER",
+          "target": null
+        }
+      ],
+      "consolidation": {
+        "id": "bande",
+        "label": "report.tableauBord.consolidation.bande.label",
+        "category": null,
+        "tooltip": null,
+        "defaultValue": null,
+        "type": "NONE",
+        "datatype": null,
+        "target": null
+      }
+    },
+    "filters": [
+      {
+        "id": "dateSaillie",
+        "label": "Période",
+        "metricId": "dateSaillie",
+        "type": "DATE",
+        "mandatory": true,
+        "datasource": null,
+        "config": {
+          "placeholder": "Sélectionnez une période d'IA",
+          "operator": "BETWEEN",
+          "defaultValue": "12",
+          "slidingDate": true
+        }
+      },
+      {
+        "id": "identifiantSite",
+        "label": "Sites",
+        "metricId": "identifiantSite",
+        "type": "LIST",
+        "mandatory": true,
+        "datasource": {
+          "datasourceType": "GLOBAL",
+          "datasourceName": "SITE",
+          "values": null,
+          "filterName": null
+        },
+        "config": {
+          "placeholder": "Sélectionnez un ou plusieurs site(s)",
+          "operator": "IN",
+          "defaultValue": null,
+          "multipleSelect": true,
+          "notNullable": false
+        }
+      }
+    ]
+  },
+  "data": [
+    {
+      "bande": "201812",
+      "dateMisBas": {
+        "value": "2018-03-19T00:00:00.000+0000",
+        "calculated": false
+      },
+      "dateSaillie": "2017-11-25T00:00:00.000+0000",
+      "dateSevrage": {
+        "value": "2018-05-02T00:00:00.000+0000",
+        "calculated": false
+      },
+      "identifiantSite": "22LVX",
+      "neeTotauxParPortee": 15.3157894737,
+      "nesVivantsParPortee": 13.8421052632,
+      "nombreEcrases": 0,
+      "nombreEcrasesParPortee": 0,
+      "nombreMortNes": 28,
+      "nombreMortNesParPortee": 1.4736842105,
+      "nombreNeVivant": 263,
+      "nombreSevres": 215,
+      "nombreSevresParPortee": 11.3157894737,
+      "nombreTotalPorcelet": 291,
+      "nombreTruie": 21,
+      "nombreTruieMiseBas": 19,
+      "nombreTruiePleinEcho": 21,
+      "pourcentagePerteNesVifs": 18.25095057,
+      "pourcentagePleineEcho": 100,
+      "resultatEchoVide": 0,
+      "semaineDateSaillie": 47,
+      "tauxMiseBas": 90.47619048
+    },
+    {
+      "bande": "201813",
+      "dateMisBas": {
+        "value": "2018-03-24T00:00:00.000+0000",
+        "calculated": false
+      },
+      "dateSaillie": "2017-12-01T00:00:00.000+0000",
+      "dateSevrage": {
+        "value": "2018-04-18T00:00:00.000+0000",
+        "calculated": false
+      },
+      "identifiantSite": "22LVX",
+      "neeTotauxParPortee": 15.5416666667,
+      "nesVivantsParPortee": 14.6666666667,
+      "nombreEcrases": 0,
+      "nombreEcrasesParPortee": 0,
+      "nombreMortNes": 21,
+      "nombreMortNesParPortee": 0.875,
+      "nombreNeVivant": 352,
+      "nombreSevres": 259,
+      "nombreSevresParPortee": 10.7916666667,
+      "nombreTotalPorcelet": 373,
+      "nombreTruie": 26,
+      "nombreTruieMiseBas": 24,
+      "nombreTruiePleinEcho": 26,
+      "pourcentagePerteNesVifs": 26.42045455,
+      "pourcentagePleineEcho": 100,
+      "resultatEchoVide": 0,
+      "semaineDateSaillie": 48,
+      "tauxMiseBas": 92.30769231
+    },
+    {
+      "bande": "201814",
+      "dateMisBas": {
+        "value": "2018-04-01T00:00:00.000+0000",
+        "calculated": false
+      },
+      "dateSaillie": "2017-12-08T00:00:00.000+0000",
+      "dateSevrage": {
+        "value": "2018-05-16T00:00:00.000+0000",
+        "calculated": false
+      },
+      "identifiantSite": "22LVX",
+      "neeTotauxParPortee": 14.7272727273,
+      "nesVivantsParPortee": 14.0454545455,
+      "nombreEcrases": 0,
+      "nombreEcrasesParPortee": 0,
+      "nombreMortNes": 15,
+      "nombreMortNesParPortee": 0.6818181818,
+      "nombreNeVivant": 309,
+      "nombreSevres": 266,
+      "nombreSevresParPortee": 12.0909090909,
+      "nombreTotalPorcelet": 324,
+      "nombreTruie": 23,
+      "nombreTruieMiseBas": 22,
+      "nombreTruiePleinEcho": 23,
+      "pourcentagePerteNesVifs": 13.91585761,
+      "pourcentagePleineEcho": 100,
+      "resultatEchoVide": 0,
+      "semaineDateSaillie": 49,
+      "tauxMiseBas": 95.65217391
+    },
+    {
+      "bande": "201815",
+      "dateMisBas": {
+        "value": "2018-04-10T00:00:00.000+0000",
+        "calculated": false
+      },
+      "dateSaillie": "2017-12-16T00:00:00.000+0000",
+      "dateSevrage": {
+        "value": "2018-05-09T00:00:00.000+0000",
+        "calculated": false
+      },
+      "identifiantSite": "22LVX",
+      "neeTotauxParPortee": 15.4210526316,
+      "nesVivantsParPortee": 14.5263157895,
+      "nombreEcrases": 0,
+      "nombreEcrasesParPortee": 0,
+      "nombreMortNes": 17,
+      "nombreMortNesParPortee": 0.8947368421,
+      "nombreNeVivant": 276,
+      "nombreSevres": 253,
+      "nombreSevresParPortee": 13.3157894737,
+      "nombreTotalPorcelet": 293,
+      "nombreTruie": 21,
+      "nombreTruieMiseBas": 19,
+      "nombreTruiePleinEcho": 21,
+      "pourcentagePerteNesVifs": 8.33333333,
+      "pourcentagePleineEcho": 100,
+      "resultatEchoVide": 0,
+      "semaineDateSaillie": 50,
+      "tauxMiseBas": 90.47619048
+    },
+    {
+      "bande": "201816",
+      "dateMisBas": {
+        "value": "2018-04-16T00:00:00.000+0000",
+        "calculated": false
+      },
+      "dateSaillie": "2017-12-23T00:00:00.000+0000",
+      "dateSevrage": {
+        "value": "2018-05-16T00:00:00.000+0000",
+        "calculated": false
+      },
+      "identifiantSite": "22LVX",
+      "neeTotauxParPortee": 16.8333333333,
+      "nesVivantsParPortee": 15.5833333333,
+      "nombreEcrases": 0,
+      "nombreEcrasesParPortee": 0,
+      "nombreMortNes": 30,
+      "nombreMortNesParPortee": 1.25,
+      "nombreNeVivant": 374,
+      "nombreSevres": 279,
+      "nombreSevresParPortee": 11.625,
+      "nombreTotalPorcelet": 404,
+      "nombreTruie": 28,
+      "nombreTruieMiseBas": 24,
+      "nombreTruiePleinEcho": 28,
+      "pourcentagePerteNesVifs": 25.40106952,
+      "pourcentagePleineEcho": 100,
+      "resultatEchoVide": 0,
+      "semaineDateSaillie": 51,
+      "tauxMiseBas": 85.71428571
+    },
+    {
+      "bande": "201817",
+      "dateMisBas": {
+        "value": "2018-04-22T00:00:00.000+0000",
+        "calculated": false
+      },
+      "dateSaillie": "2017-12-29T00:00:00.000+0000",
+      "dateSevrage": {
+        "value": "2018-05-23T00:00:00.000+0000",
+        "calculated": false
+      },
+      "identifiantSite": "22LVX",
+      "neeTotauxParPortee": 14.6538461539,
+      "nesVivantsParPortee": 14.1153846154,
+      "nombreEcrases": 0,
+      "nombreEcrasesParPortee": 0,
+      "nombreMortNes": 14,
+      "nombreMortNesParPortee": 0.5384615385,
+      "nombreNeVivant": 367,
+      "nombreSevres": 327,
+      "nombreSevresParPortee": 12.5769230769,
+      "nombreTotalPorcelet": 381,
+      "nombreTruie": 30,
+      "nombreTruieMiseBas": 26,
+      "nombreTruiePleinEcho": 30,
+      "pourcentagePerteNesVifs": 10.89918256,
+      "pourcentagePleineEcho": 100,
+      "resultatEchoVide": 0,
+      "semaineDateSaillie": 52,
+      "tauxMiseBas": 86.66666667
+    },
+    {
+      "bande": "201818",
+      "dateMisBas": {
+        "value": "2018-04-30T00:00:00.000+0000",
+        "calculated": false
+      },
+      "dateSaillie": "2018-01-05T00:00:00.000+0000",
+      "dateSevrage": {
+        "value": "2018-06-27T00:00:00.000+0000",
+        "calculated": false
+      },
+      "identifiantSite": "22LVX",
+      "neeTotauxParPortee": 14.84,
+      "nesVivantsParPortee": 13.92,
+      "nombreEcrases": 1,
+      "nombreEcrasesParPortee": 0.04,
+      "nombreMortNes": 23,
+      "nombreMortNesParPortee": 0.92,
+      "nombreNeVivant": 348,
+      "nombreSevres": 291,
+      "nombreSevresParPortee": 11.64,
+      "nombreTotalPorcelet": 371,
+      "nombreTruie": 26,
+      "nombreTruieMiseBas": 25,
+      "nombreTruiePleinEcho": 26,
+      "pourcentagePerteNesVifs": 16.37931034,
+      "pourcentagePleineEcho": 100,
+      "resultatEchoVide": 0,
+      "semaineDateSaillie": 1,
+      "tauxMiseBas": 96.15384615
+    },
+    {
+      "bande": "201819",
+      "dateMisBas": {
+        "value": "2018-05-07T00:00:00.000+0000",
+        "calculated": false
+      },
+      "dateSaillie": "2018-01-13T00:00:00.000+0000",
+      "dateSevrage": {
+        "value": "2018-07-13T00:00:00.000+0000",
+        "calculated": false
+      },
+      "identifiantSite": "22LVX",
+      "neeTotauxParPortee": 14.9444444444,
+      "nesVivantsParPortee": 14.3888888889,
+      "nombreEcrases": 2,
+      "nombreEcrasesParPortee": 0.1111111111,
+      "nombreMortNes": 10,
+      "nombreMortNesParPortee": 0.5555555556,
+      "nombreNeVivant": 259,
+      "nombreSevres": 249,
+      "nombreSevresParPortee": 13.8333333333,
+      "nombreTotalPorcelet": 269,
+      "nombreTruie": 19,
+      "nombreTruieMiseBas": 18,
+      "nombreTruiePleinEcho": 17,
+      "pourcentagePerteNesVifs": 3.86100386,
+      "pourcentagePleineEcho": 89.47368421,
+      "resultatEchoVide": 2,
+      "semaineDateSaillie": 2,
+      "tauxMiseBas": 94.73684211
+    },
+    {
+      "bande": "201820",
+      "dateMisBas": {
+        "value": "2018-05-14T00:00:00.000+0000",
+        "calculated": false
+      },
+      "dateSaillie": "2018-01-19T00:00:00.000+0000",
+      "dateSevrage": {
+        "value": "2018-06-14T00:00:00.000+0000",
+        "calculated": false
+      },
+      "identifiantSite": "22LVX",
+      "neeTotauxParPortee": 15.5,
+      "nesVivantsParPortee": 14.5454545455,
+      "nombreEcrases": 2,
+      "nombreEcrasesParPortee": 0.0909090909,
+      "nombreMortNes": 21,
+      "nombreMortNesParPortee": 0.9545454545,
+      "nombreNeVivant": 320,
+      "nombreSevres": 283,
+      "nombreSevresParPortee": 12.8636363636,
+      "nombreTotalPorcelet": 341,
+      "nombreTruie": 25,
+      "nombreTruieMiseBas": 22,
+      "nombreTruiePleinEcho": 25,
+      "pourcentagePerteNesVifs": 11.5625,
+      "pourcentagePleineEcho": 100,
+      "resultatEchoVide": 0,
+      "semaineDateSaillie": 3,
+      "tauxMiseBas": 88
+    },
+    {
+      "bande": "201821",
+      "dateMisBas": {
+        "value": "2018-05-18T00:00:00.000+0000",
+        "calculated": false
+      },
+      "dateSaillie": "2018-01-27T00:00:00.000+0000",
+      "dateSevrage": {
+        "value": "2018-07-13T00:00:00.000+0000",
+        "calculated": false
+      },
+      "identifiantSite": "22LVX",
+      "neeTotauxParPortee": 14,
+      "nesVivantsParPortee": 13.64,
+      "nombreEcrases": 9,
+      "nombreEcrasesParPortee": 0.36,
+      "nombreMortNes": 9,
+      "nombreMortNesParPortee": 0.36,
+      "nombreNeVivant": 341,
+      "nombreSevres": 283,
+      "nombreSevresParPortee": 11.32,
+      "nombreTotalPorcelet": 350,
+      "nombreTruie": 27,
+      "nombreTruieMiseBas": 25,
+      "nombreTruiePleinEcho": 27,
+      "pourcentagePerteNesVifs": 17.00879765,
+      "pourcentagePleineEcho": 100,
+      "resultatEchoVide": 0,
+      "semaineDateSaillie": 4,
+      "tauxMiseBas": 92.59259259
+    },
+    {
+      "bande": "201822",
+      "dateMisBas": {
+        "value": "2018-05-27T00:00:00.000+0000",
+        "calculated": false
+      },
+      "dateSaillie": "2018-02-03T00:00:00.000+0000",
+      "dateSevrage": {
+        "value": "2018-06-27T00:00:00.000+0000",
+        "calculated": false
+      },
+      "identifiantSite": "22LVX",
+      "neeTotauxParPortee": 15.25,
+      "nesVivantsParPortee": 14.5,
+      "nombreEcrases": 19,
+      "nombreEcrasesParPortee": 0.95,
+      "nombreMortNes": 15,
+      "nombreMortNesParPortee": 0.75,
+      "nombreNeVivant": 290,
+      "nombreSevres": 228,
+      "nombreSevresParPortee": 11.4,
+      "nombreTotalPorcelet": 305,
+      "nombreTruie": 25,
+      "nombreTruieMiseBas": 20,
+      "nombreTruiePleinEcho": 25,
+      "pourcentagePerteNesVifs": 21.37931034,
+      "pourcentagePleineEcho": 100,
+      "resultatEchoVide": 0,
+      "semaineDateSaillie": 5,
+      "tauxMiseBas": 80
+    },
+    {
+      "bande": "201823",
+      "dateMisBas": {
+        "value": "2018-06-03T00:00:00.000+0000",
+        "calculated": false
+      },
+      "dateSaillie": "2018-02-10T00:00:00.000+0000",
+      "dateSevrage": {
+        "value": "2018-07-04T00:00:00.000+0000",
+        "calculated": false
+      },
+      "identifiantSite": "22LVX",
+      "neeTotauxParPortee": 15.25,
+      "nesVivantsParPortee": 14.35,
+      "nombreEcrases": 23,
+      "nombreEcrasesParPortee": 1.15,
+      "nombreMortNes": 18,
+      "nombreMortNesParPortee": 0.9,
+      "nombreNeVivant": 287,
+      "nombreSevres": 231,
+      "nombreSevresParPortee": 11.55,
+      "nombreTotalPorcelet": 305,
+      "nombreTruie": 23,
+      "nombreTruieMiseBas": 20,
+      "nombreTruiePleinEcho": 23,
+      "pourcentagePerteNesVifs": 19.51219512,
+      "pourcentagePleineEcho": 100,
+      "resultatEchoVide": 0,
+      "semaineDateSaillie": 6,
+      "tauxMiseBas": 86.95652174
+    },
+    {
+      "bande": "201824",
+      "dateMisBas": {
+        "value": "2018-06-12T00:00:00.000+0000",
+        "calculated": false
+      },
+      "dateSaillie": "2018-02-17T00:00:00.000+0000",
+      "dateSevrage": {
+        "value": "2018-07-13T00:00:00.000+0000",
+        "calculated": false
+      },
+      "identifiantSite": "22LVX",
+      "neeTotauxParPortee": 16.6086956522,
+      "nesVivantsParPortee": 14.652173913,
+      "nombreEcrases": 17,
+      "nombreEcrasesParPortee": 0.7391304348,
+      "nombreMortNes": 45,
+      "nombreMortNesParPortee": 1.9565217391,
+      "nombreNeVivant": 337,
+      "nombreSevres": 302,
+      "nombreSevresParPortee": 13.1304347826,
+      "nombreTotalPorcelet": 382,
+      "nombreTruie": 23,
+      "nombreTruieMiseBas": 23,
+      "nombreTruiePleinEcho": 23,
+      "pourcentagePerteNesVifs": 10.38575668,
+      "pourcentagePleineEcho": 100,
+      "resultatEchoVide": 0,
+      "semaineDateSaillie": 7,
+      "tauxMiseBas": 100
+    },
+    {
+      "bande": "201825",
+      "dateMisBas": {
+        "value": "2018-06-18T00:00:00.000+0000",
+        "calculated": false
+      },
+      "dateSaillie": "2018-02-23T00:00:00.000+0000",
+      "dateSevrage": {
+        "value": "2018-07-19T00:00:00.000+0000",
+        "calculated": false
+      },
+      "identifiantSite": "22LVX",
+      "neeTotauxParPortee": 14.375,
+      "nesVivantsParPortee": 13.3333333333,
+      "nombreEcrases": 21,
+      "nombreEcrasesParPortee": 0.875,
+      "nombreMortNes": 25,
+      "nombreMortNesParPortee": 1.0416666667,
+      "nombreNeVivant": 320,
+      "nombreSevres": 277,
+      "nombreSevresParPortee": 11.5416666667,
+      "nombreTotalPorcelet": 345,
+      "nombreTruie": 28,
+      "nombreTruieMiseBas": 24,
+      "nombreTruiePleinEcho": 27,
+      "pourcentagePerteNesVifs": 13.4375,
+      "pourcentagePleineEcho": 96.42857143,
+      "resultatEchoVide": 1,
+      "semaineDateSaillie": 8,
+      "tauxMiseBas": 85.71428571
+    },
+    {
+      "bande": "201826",
+      "dateMisBas": {
+        "value": "2018-06-25T00:00:00.000+0000",
+        "calculated": false
+      },
+      "dateSaillie": "2018-03-02T00:00:00.000+0000",
+      "dateSevrage": {
+        "value": "2018-07-27T00:00:00.000+0000",
+        "calculated": false
+      },
+      "identifiantSite": "22LVX",
+      "neeTotauxParPortee": 15.4285714286,
+      "nesVivantsParPortee": 14.1428571429,
+      "nombreEcrases": 7,
+      "nombreEcrasesParPortee": 0.3333333333,
+      "nombreMortNes": 27,
+      "nombreMortNesParPortee": 1.2857142857,
+      "nombreNeVivant": 297,
+      "nombreSevres": 241,
+      "nombreSevresParPortee": 11.4761904762,
+      "nombreTotalPorcelet": 324,
+      "nombreTruie": 23,
+      "nombreTruieMiseBas": 21,
+      "nombreTruiePleinEcho": 23,
+      "pourcentagePerteNesVifs": 18.85521886,
+      "pourcentagePleineEcho": 100,
+      "resultatEchoVide": 0,
+      "semaineDateSaillie": 9,
+      "tauxMiseBas": 91.30434783
+    },
+    {
+      "bande": "201827",
+      "dateMisBas": {
+        "value": "2018-07-02T00:00:00.000+0000",
+        "calculated": false
+      },
+      "dateSaillie": "2018-03-09T00:00:00.000+0000",
+      "dateSevrage": {
+        "value": "2018-07-25T00:00:00.000+0000",
+        "calculated": false
+      },
+      "identifiantSite": "22LVX",
+      "neeTotauxParPortee": 15,
+      "nesVivantsParPortee": 13.9411764706,
+      "nombreEcrases": 25,
+      "nombreEcrasesParPortee": 1.4705882353,
+      "nombreMortNes": 18,
+      "nombreMortNesParPortee": 1.0588235294,
+      "nombreNeVivant": 237,
+      "nombreSevres": 203,
+      "nombreSevresParPortee": 11.9411764706,
+      "nombreTotalPorcelet": 255,
+      "nombreTruie": 19,
+      "nombreTruieMiseBas": 17,
+      "nombreTruiePleinEcho": 18,
+      "pourcentagePerteNesVifs": 14.34599156,
+      "pourcentagePleineEcho": 94.73684211,
+      "resultatEchoVide": 1,
+      "semaineDateSaillie": 10,
+      "tauxMiseBas": 89.47368421
+    },
+    {
+      "bande": "201828",
+      "dateMisBas": {
+        "value": "2018-07-08T00:00:00.000+0000",
+        "calculated": false
+      },
+      "dateSaillie": "2018-03-17T00:00:00.000+0000",
+      "dateSevrage": {
+        "value": "2018-08-01T00:00:00.000+0000",
+        "calculated": false
+      },
+      "identifiantSite": "22LVX",
+      "neeTotauxParPortee": 15.3333333333,
+      "nesVivantsParPortee": 14.5238095238,
+      "nombreEcrases": 8,
+      "nombreEcrasesParPortee": 0.380952381,
+      "nombreMortNes": 17,
+      "nombreMortNesParPortee": 0.8095238095,
+      "nombreNeVivant": 305,
+      "nombreSevres": 276,
+      "nombreSevresParPortee": 13.1428571429,
+      "nombreTotalPorcelet": 322,
+      "nombreTruie": 24,
+      "nombreTruieMiseBas": 21,
+      "nombreTruiePleinEcho": 23,
+      "pourcentagePerteNesVifs": 9.50819672,
+      "pourcentagePleineEcho": 95.83333333,
+      "resultatEchoVide": 1,
+      "semaineDateSaillie": 11,
+      "tauxMiseBas": 87.5
+    },
+    {
+      "bande": "201829",
+      "dateMisBas": {
+        "value": "2018-07-17T00:00:00.000+0000",
+        "calculated": false
+      },
+      "dateSaillie": "2018-03-24T00:00:00.000+0000",
+      "dateSevrage": {
+        "value": "2018-08-17T00:00:00.000+0000",
+        "calculated": false
+      },
+      "identifiantSite": "22LVX",
+      "neeTotauxParPortee": 15.25,
+      "nesVivantsParPortee": 14.2142857143,
+      "nombreEcrases": 32,
+      "nombreEcrasesParPortee": 1.1428571429,
+      "nombreMortNes": 29,
+      "nombreMortNesParPortee": 1.0357142857,
+      "nombreNeVivant": 398,
+      "nombreSevres": 348,
+      "nombreSevresParPortee": 12.4285714286,
+      "nombreTotalPorcelet": 427,
+      "nombreTruie": 32,
+      "nombreTruieMiseBas": 28,
+      "nombreTruiePleinEcho": 31,
+      "pourcentagePerteNesVifs": 12.56281407,
+      "pourcentagePleineEcho": 96.875,
+      "resultatEchoVide": 1,
+      "semaineDateSaillie": 12,
+      "tauxMiseBas": 87.5
+    },
+    {
+      "bande": "201830",
+      "dateMisBas": {
+        "value": "2018-07-22T00:00:00.000+0000",
+        "calculated": false
+      },
+      "dateSaillie": "2018-03-31T00:00:00.000+0000",
+      "dateSevrage": {
+        "value": "2018-08-17T00:00:00.000+0000",
+        "calculated": false
+      },
+      "identifiantSite": "22LVX",
+      "neeTotauxParPortee": 15.1578947368,
+      "nesVivantsParPortee": 14.2631578947,
+      "nombreEcrases": 18,
+      "nombreEcrasesParPortee": 0.9473684211,
+      "nombreMortNes": 17,
+      "nombreMortNesParPortee": 0.8947368421,
+      "nombreNeVivant": 271,
+      "nombreSevres": 235,
+      "nombreSevresParPortee": 12.3684210526,
+      "nombreTotalPorcelet": 288,
+      "nombreTruie": 22,
+      "nombreTruieMiseBas": 19,
+      "nombreTruiePleinEcho": 22,
+      "pourcentagePerteNesVifs": 13.28413284,
+      "pourcentagePleineEcho": 100,
+      "resultatEchoVide": 0,
+      "semaineDateSaillie": 13,
+      "tauxMiseBas": 86.36363636
+    },
+    {
+      "bande": "201831",
+      "dateMisBas": {
+        "value": "2018-07-29T00:00:00.000+0000",
+        "calculated": false
+      },
+      "dateSaillie": "2018-04-07T00:00:00.000+0000",
+      "dateSevrage": {
+        "value": "2018-10-03T00:00:00.000+0000",
+        "calculated": false
+      },
+      "identifiantSite": "22LVX",
+      "neeTotauxParPortee": 14.88,
+      "nesVivantsParPortee": 14.08,
+      "nombreEcrases": 19,
+      "nombreEcrasesParPortee": 0.76,
+      "nombreMortNes": 20,
+      "nombreMortNesParPortee": 0.8,
+      "nombreNeVivant": 352,
+      "nombreSevres": 314,
+      "nombreSevresParPortee": 12.56,
+      "nombreTotalPorcelet": 372,
+      "nombreTruie": 26,
+      "nombreTruieMiseBas": 25,
+      "nombreTruiePleinEcho": 25,
+      "pourcentagePerteNesVifs": 10.79545455,
+      "pourcentagePleineEcho": 96.15384615,
+      "resultatEchoVide": 1,
+      "semaineDateSaillie": 14,
+      "tauxMiseBas": 96.15384615
+    },
+    {
+      "bande": "201832",
+      "dateMisBas": {
+        "value": "2018-08-05T00:00:00.000+0000",
+        "calculated": false
+      },
+      "dateSaillie": "2018-04-14T00:00:00.000+0000",
+      "dateSevrage": {
+        "value": "2018-09-05T00:00:00.000+0000",
+        "calculated": false
+      },
+      "identifiantSite": "22LVX",
+      "neeTotauxParPortee": 16.5555555556,
+      "nesVivantsParPortee": 15.6666666667,
+      "nombreEcrases": 17,
+      "nombreEcrasesParPortee": 0.9444444444,
+      "nombreMortNes": 16,
+      "nombreMortNesParPortee": 0.8888888889,
+      "nombreNeVivant": 282,
+      "nombreSevres": 230,
+      "nombreSevresParPortee": 12.7777777778,
+      "nombreTotalPorcelet": 298,
+      "nombreTruie": 21,
+      "nombreTruieMiseBas": 18,
+      "nombreTruiePleinEcho": 21,
+      "pourcentagePerteNesVifs": 18.43971631,
+      "pourcentagePleineEcho": 100,
+      "resultatEchoVide": 0,
+      "semaineDateSaillie": 15,
+      "tauxMiseBas": 85.71428571
+    },
+    {
+      "bande": "201833",
+      "dateMisBas": {
+        "value": "2018-08-13T00:00:00.000+0000",
+        "calculated": false
+      },
+      "dateSaillie": "2018-04-21T00:00:00.000+0000",
+      "dateSevrage": {
+        "value": "2018-09-12T00:00:00.000+0000",
+        "calculated": false
+      },
+      "identifiantSite": "22LVX",
+      "neeTotauxParPortee": 15.6666666667,
+      "nesVivantsParPortee": 14.9583333333,
+      "nombreEcrases": 20,
+      "nombreEcrasesParPortee": 0.8333333333,
+      "nombreMortNes": 17,
+      "nombreMortNesParPortee": 0.7083333333,
+      "nombreNeVivant": 359,
+      "nombreSevres": 294,
+      "nombreSevresParPortee": 12.25,
+      "nombreTotalPorcelet": 376,
+      "nombreTruie": 27,
+      "nombreTruieMiseBas": 24,
+      "nombreTruiePleinEcho": 27,
+      "pourcentagePerteNesVifs": 18.10584958,
+      "pourcentagePleineEcho": 100,
+      "resultatEchoVide": 0,
+      "semaineDateSaillie": 16,
+      "tauxMiseBas": 88.88888889
+    },
+    {
+      "bande": "201834",
+      "dateMisBas": {
+        "value": "2018-08-20T00:00:00.000+0000",
+        "calculated": false
+      },
+      "dateSaillie": "2018-04-28T00:00:00.000+0000",
+      "dateSevrage": {
+        "value": "2018-09-19T00:00:00.000+0000",
+        "calculated": false
+      },
+      "identifiantSite": "22LVX",
+      "neeTotauxParPortee": 15.6315789474,
+      "nesVivantsParPortee": 14.8421052632,
+      "nombreEcrases": 35,
+      "nombreEcrasesParPortee": 1.8421052632,
+      "nombreMortNes": 15,
+      "nombreMortNesParPortee": 0.7894736842,
+      "nombreNeVivant": 282,
+      "nombreSevres": 235,
+      "nombreSevresParPortee": 12.3684210526,
+      "nombreTotalPorcelet": 297,
+      "nombreTruie": 22,
+      "nombreTruieMiseBas": 19,
+      "nombreTruiePleinEcho": 22,
+      "pourcentagePerteNesVifs": 16.66666667,
+      "pourcentagePleineEcho": 100,
+      "resultatEchoVide": 0,
+      "semaineDateSaillie": 17,
+      "tauxMiseBas": 86.36363636
+    },
+    {
+      "bande": "201835",
+      "dateMisBas": {
+        "value": "2018-08-27T00:00:00.000+0000",
+        "calculated": false
+      },
+      "dateSaillie": "2018-05-05T00:00:00.000+0000",
+      "dateSevrage": {
+        "value": "2018-09-26T00:00:00.000+0000",
+        "calculated": false
+      },
+      "identifiantSite": "22LVX",
+      "neeTotauxParPortee": 15.8181818182,
+      "nesVivantsParPortee": 14.9545454546,
+      "nombreEcrases": 26,
+      "nombreEcrasesParPortee": 1.1818181818,
+      "nombreMortNes": 19,
+      "nombreMortNesParPortee": 0.8636363636,
+      "nombreNeVivant": 329,
+      "nombreSevres": 243,
+      "nombreSevresParPortee": 11.0454545455,
+      "nombreTotalPorcelet": 348,
+      "nombreTruie": 25,
+      "nombreTruieMiseBas": 22,
+      "nombreTruiePleinEcho": 25,
+      "pourcentagePerteNesVifs": 26.13981763,
+      "pourcentagePleineEcho": 100,
+      "resultatEchoVide": 0,
+      "semaineDateSaillie": 18,
+      "tauxMiseBas": 88
+    },
+    {
+      "bande": "201836",
+      "dateMisBas": {
+        "value": "2018-09-02T00:00:00.000+0000",
+        "calculated": false
+      },
+      "dateSaillie": "2018-05-11T00:00:00.000+0000",
+      "dateSevrage": {
+        "value": "2018-10-03T00:00:00.000+0000",
+        "calculated": false
+      },
+      "identifiantSite": "22LVX",
+      "neeTotauxParPortee": 16.1818181818,
+      "nesVivantsParPortee": 14.3636363636,
+      "nombreEcrases": 16,
+      "nombreEcrasesParPortee": 0.7272727273,
+      "nombreMortNes": 40,
+      "nombreMortNesParPortee": 1.8181818182,
+      "nombreNeVivant": 316,
+      "nombreSevres": 254,
+      "nombreSevresParPortee": 11.5454545455,
+      "nombreTotalPorcelet": 356,
+      "nombreTruie": 24,
+      "nombreTruieMiseBas": 22,
+      "nombreTruiePleinEcho": 23,
+      "pourcentagePerteNesVifs": 19.62025316,
+      "pourcentagePleineEcho": 95.83333333,
+      "resultatEchoVide": 1,
+      "semaineDateSaillie": 19,
+      "tauxMiseBas": 91.66666667
+    },
+    {
+      "bande": "201837",
+      "dateMisBas": {
+        "value": "2018-09-10T00:00:00.000+0000",
+        "calculated": false
+      },
+      "dateSaillie": "2018-05-19T00:00:00.000+0000",
+      "dateSevrage": {
+        "value": "2018-10-03T00:00:00.000+0000",
+        "calculated": false
+      },
+      "identifiantSite": "22LVX",
+      "neeTotauxParPortee": 14.5,
+      "nesVivantsParPortee": 13.5,
+      "nombreEcrases": 25,
+      "nombreEcrasesParPortee": 0.9615384615,
+      "nombreMortNes": 26,
+      "nombreMortNesParPortee": 1,
+      "nombreNeVivant": 351,
+      "nombreSevres": 315,
+      "nombreSevresParPortee": 12.1153846154,
+      "nombreTotalPorcelet": 377,
+      "nombreTruie": 26,
+      "nombreTruieMiseBas": 26,
+      "nombreTruiePleinEcho": 26,
+      "pourcentagePerteNesVifs": 10.25641026,
+      "pourcentagePleineEcho": 100,
+      "resultatEchoVide": 0,
+      "semaineDateSaillie": 20,
+      "tauxMiseBas": 100
+    },
+    {
+      "bande": "201838",
+      "dateMisBas": {
+        "value": "2018-09-18T00:00:00.000+0000",
+        "calculated": false
+      },
+      "dateSaillie": "2018-05-26T00:00:00.000+0000",
+      "dateSevrage": {
+        "value": "2018-10-17T00:00:00.000+0000",
+        "calculated": false
+      },
+      "identifiantSite": "22LVX",
+      "neeTotauxParPortee": 16.05,
+      "nesVivantsParPortee": 13.95,
+      "nombreEcrases": 31,
+      "nombreEcrasesParPortee": 1.55,
+      "nombreMortNes": 42,
+      "nombreMortNesParPortee": 2.1,
+      "nombreNeVivant": 279,
+      "nombreSevres": 215,
+      "nombreSevresParPortee": 10.75,
+      "nombreTotalPorcelet": 321,
+      "nombreTruie": 24,
+      "nombreTruieMiseBas": 20,
+      "nombreTruiePleinEcho": 24,
+      "pourcentagePerteNesVifs": 22.9390681,
+      "pourcentagePleineEcho": 100,
+      "resultatEchoVide": 0,
+      "semaineDateSaillie": 21,
+      "tauxMiseBas": 83.33333333
+    },
+    {
+      "bande": "201839",
+      "dateMisBas": {
+        "value": "2018-09-24T00:00:00.000+0000",
+        "calculated": false
+      },
+      "dateSaillie": "2018-06-01T00:00:00.000+0000",
+      "dateSevrage": {
+        "value": "2018-10-17T00:00:00.000+0000",
+        "calculated": false
+      },
+      "identifiantSite": "22LVX",
+      "neeTotauxParPortee": 15.4615384615,
+      "nesVivantsParPortee": 14.2307692308,
+      "nombreEcrases": 29,
+      "nombreEcrasesParPortee": 1.1153846154,
+      "nombreMortNes": 32,
+      "nombreMortNesParPortee": 1.2307692308,
+      "nombreNeVivant": 370,
+      "nombreSevres": 295,
+      "nombreSevresParPortee": 11.3461538462,
+      "nombreTotalPorcelet": 402,
+      "nombreTruie": 33,
+      "nombreTruieMiseBas": 26,
+      "nombreTruiePleinEcho": 31,
+      "numeroInterne": "Bande16",
+      "pourcentagePerteNesVifs": 20.27027027,
+      "pourcentagePleineEcho": 93.93939394,
+      "resultatEchoVide": 2,
+      "semaineDateSaillie": 22,
+      "tauxMiseBas": 78.78787879
+    },
+    {
+      "bande": "201840",
+      "dateMisBas": {
+        "value": "2018-09-28T00:00:00.000+0000",
+        "calculated": false
+      },
+      "dateSaillie": "2018-06-09T00:00:00.000+0000",
+      "dateSevrage": {
+        "value": "2018-10-24T00:00:00.000+0000",
+        "calculated": false
+      },
+      "identifiantSite": "22LVX",
+      "neeTotauxParPortee": 15.7083333333,
+      "nesVivantsParPortee": 14.5833333333,
+      "nombreEcrases": 22,
+      "nombreEcrasesParPortee": 0.9166666667,
+      "nombreMortNes": 27,
+      "nombreMortNesParPortee": 1.125,
+      "nombreNeVivant": 350,
+      "nombreSevres": 289,
+      "nombreSevresParPortee": 12.0416666667,
+      "nombreTotalPorcelet": 377,
+      "nombreTruie": 29,
+      "nombreTruieMiseBas": 24,
+      "nombreTruiePleinEcho": 29,
+      "numeroInterne": "B17",
+      "pourcentagePerteNesVifs": 17.42857143,
+      "pourcentagePleineEcho": 100,
+      "resultatEchoVide": 0,
+      "semaineDateSaillie": 23,
+      "tauxMiseBas": 82.75862069
+    },
+    {
+      "bande": "201841",
+      "dateMisBas": {
+        "value": "2018-10-08T00:00:00.000+0000",
+        "calculated": false
+      },
+      "dateSaillie": "2018-06-16T00:00:00.000+0000",
+      "dateSevrage": {
+        "value": "2018-10-31T00:00:00.000+0000",
+        "calculated": false
+      },
+      "identifiantSite": "22LVX",
+      "neeTotauxParPortee": 16.4545454546,
+      "nesVivantsParPortee": 15.7575757576,
+      "nombreEcrases": 34,
+      "nombreEcrasesParPortee": 1.0303030303,
+      "nombreMortNes": 23,
+      "nombreMortNesParPortee": 0.696969697,
+      "nombreNeVivant": 520,
+      "nombreSevres": 375,
+      "nombreSevresParPortee": 11.3636363636,
+      "nombreTotalPorcelet": 543,
+      "nombreTruie": 40,
+      "nombreTruieMiseBas": 33,
+      "nombreTruiePleinEcho": 38,
+      "numeroInterne": "Bande18",
+      "pourcentagePerteNesVifs": 27.88461538,
+      "pourcentagePleineEcho": 95,
+      "resultatEchoVide": 2,
+      "semaineDateSaillie": 24,
+      "tauxMiseBas": 82.5
+    },
+    {
+      "bande": "201842",
+      "dateMisBas": {
+        "value": "2018-10-16T00:00:00.000+0000",
+        "calculated": false
+      },
+      "dateSaillie": "2018-06-23T00:00:00.000+0000",
+      "dateSevrage": {
+        "value": "2018-10-31T00:00:00.000+0000",
+        "calculated": false
+      },
+      "identifiantSite": "22LVX",
+      "neeTotauxParPortee": 13,
+      "nesVivantsParPortee": 13,
+      "nombreEcrases": 0,
+      "nombreEcrasesParPortee": 0,
+      "nombreMortNes": 0,
+      "nombreMortNesParPortee": 0,
+      "nombreNeVivant": 13,
+      "nombreSevres": 0,
+      "nombreSevresParPortee": 0,
+      "nombreTotalPorcelet": 13,
+      "nombreTruie": 24,
+      "nombreTruieMiseBas": 1,
+      "nombreTruiePleinEcho": 24,
+      "numeroInterne": "Bande19",
+      "pourcentagePerteNesVifs": 0,
+      "pourcentagePleineEcho": 100,
+      "resultatEchoVide": 0,
+      "semaineDateSaillie": 25,
+      "tauxMiseBas": 4.16666667
+    },
+    {
+      "bande": "201843",
+      "dateMisBas": {
+        "value": "2018-10-22T00:00:00.000+0000",
+        "calculated": true
+      },
+      "dateSaillie": "2018-06-30T00:00:00.000+0000",
+      "dateSevrage": {
+        "value": "2018-11-12T00:00:00.000+0000",
+        "calculated": true
+      },
+      "identifiantSite": "22LVX",
+      "neeTotauxParPortee": 0,
+      "nesVivantsParPortee": 0,
+      "nombreEcrases": 0,
+      "nombreEcrasesParPortee": 0,
+      "nombreMortNes": 0,
+      "nombreMortNesParPortee": 0,
+      "nombreNeVivant": 0,
+      "nombreSevres": 0,
+      "nombreSevresParPortee": 0,
+      "nombreTotalPorcelet": 0,
+      "nombreTruie": 20,
+      "nombreTruieMiseBas": 0,
+      "nombreTruiePleinEcho": 20,
+      "numeroInterne": "Bande20",
+      "pourcentagePerteNesVifs": 0,
+      "pourcentagePleineEcho": 100,
+      "resultatEchoVide": 0,
+      "semaineDateSaillie": 26,
+      "tauxMiseBas": 0
+    },
+    {
+      "bande": "201844",
+      "dateMisBas": {
+        "value": "2018-10-28T00:00:00.000+0000",
+        "calculated": true
+      },
+      "dateSaillie": "2018-07-06T00:00:00.000+0000",
+      "dateSevrage": {
+        "value": "2018-11-18T00:00:00.000+0000",
+        "calculated": true
+      },
+      "identifiantSite": "22LVX",
+      "neeTotauxParPortee": 0,
+      "nesVivantsParPortee": 0,
+      "nombreEcrases": 0,
+      "nombreEcrasesParPortee": 0,
+      "nombreMortNes": 0,
+      "nombreMortNesParPortee": 0,
+      "nombreNeVivant": 0,
+      "nombreSevres": 0,
+      "nombreSevresParPortee": 0,
+      "nombreTotalPorcelet": 0,
+      "nombreTruie": 27,
+      "nombreTruieMiseBas": 0,
+      "nombreTruiePleinEcho": 27,
+      "numeroInterne": "Bande1",
+      "pourcentagePerteNesVifs": 0,
+      "pourcentagePleineEcho": 100,
+      "resultatEchoVide": 0,
+      "semaineDateSaillie": 27,
+      "tauxMiseBas": 0
+    },
+    {
+      "bande": "201845",
+      "dateMisBas": {
+        "value": "2018-11-05T00:00:00.000+0000",
+        "calculated": true
+      },
+      "dateSaillie": "2018-07-14T00:00:00.000+0000",
+      "dateSevrage": {
+        "value": "2018-11-26T00:00:00.000+0000",
+        "calculated": true
+      },
+      "identifiantSite": "22LVX",
+      "neeTotauxParPortee": 0,
+      "nesVivantsParPortee": 0,
+      "nombreEcrases": 0,
+      "nombreEcrasesParPortee": 0,
+      "nombreMortNes": 0,
+      "nombreMortNesParPortee": 0,
+      "nombreNeVivant": 0,
+      "nombreSevres": 0,
+      "nombreSevresParPortee": 0,
+      "nombreTotalPorcelet": 0,
+      "nombreTruie": 30,
+      "nombreTruieMiseBas": 0,
+      "nombreTruiePleinEcho": 30,
+      "numeroInterne": "Bande2",
+      "pourcentagePerteNesVifs": 0,
+      "pourcentagePleineEcho": 100,
+      "resultatEchoVide": 0,
+      "semaineDateSaillie": 28,
+      "tauxMiseBas": 0
+    },
+    {
+      "bande": "201846",
+      "dateMisBas": {
+        "value": "2018-11-11T00:00:00.000+0000",
+        "calculated": true
+      },
+      "dateSaillie": "2018-07-20T00:00:00.000+0000",
+      "dateSevrage": {
+        "value": "2018-12-02T00:00:00.000+0000",
+        "calculated": true
+      },
+      "identifiantSite": "22LVX",
+      "neeTotauxParPortee": 0,
+      "nesVivantsParPortee": 0,
+      "nombreEcrases": 0,
+      "nombreEcrasesParPortee": 0,
+      "nombreMortNes": 0,
+      "nombreMortNesParPortee": 0,
+      "nombreNeVivant": 0,
+      "nombreSevres": 0,
+      "nombreSevresParPortee": 0,
+      "nombreTotalPorcelet": 0,
+      "nombreTruie": 30,
+      "nombreTruieMiseBas": 0,
+      "nombreTruiePleinEcho": 30,
+      "numeroInterne": "Bande3",
+      "pourcentagePerteNesVifs": 0,
+      "pourcentagePleineEcho": 100,
+      "resultatEchoVide": 0,
+      "semaineDateSaillie": 29,
+      "tauxMiseBas": 0
+    },
+    {
+      "bande": "201847",
+      "dateMisBas": {
+        "value": "2018-11-18T00:00:00.000+0000",
+        "calculated": true
+      },
+      "dateSaillie": "2018-07-27T00:00:00.000+0000",
+      "dateSevrage": {
+        "value": "2018-12-09T00:00:00.000+0000",
+        "calculated": true
+      },
+      "identifiantSite": "22LVX",
+      "neeTotauxParPortee": 0,
+      "nesVivantsParPortee": 0,
+      "nombreEcrases": 0,
+      "nombreEcrasesParPortee": 0,
+      "nombreMortNes": 0,
+      "nombreMortNesParPortee": 0,
+      "nombreNeVivant": 0,
+      "nombreSevres": 0,
+      "nombreSevresParPortee": 0,
+      "nombreTotalPorcelet": 0,
+      "nombreTruie": 23,
+      "nombreTruieMiseBas": 0,
+      "nombreTruiePleinEcho": 23,
+      "numeroInterne": "Bande4",
+      "pourcentagePerteNesVifs": 0,
+      "pourcentagePleineEcho": 100,
+      "resultatEchoVide": 0,
+      "semaineDateSaillie": 30,
+      "tauxMiseBas": 0
+    },
+    {
+      "bande": "201848",
+      "dateMisBas": {
+        "value": "2018-11-26T00:00:00.000+0000",
+        "calculated": true
+      },
+      "dateSaillie": "2018-08-04T00:00:00.000+0000",
+      "dateSevrage": {
+        "value": "2018-12-17T00:00:00.000+0000",
+        "calculated": true
+      },
+      "identifiantSite": "22LVX",
+      "neeTotauxParPortee": 0,
+      "nesVivantsParPortee": 0,
+      "nombreEcrases": 0,
+      "nombreEcrasesParPortee": 0,
+      "nombreMortNes": 0,
+      "nombreMortNesParPortee": 0,
+      "nombreNeVivant": 0,
+      "nombreSevres": 0,
+      "nombreSevresParPortee": 0,
+      "nombreTotalPorcelet": 0,
+      "nombreTruie": 27,
+      "nombreTruieMiseBas": 0,
+      "nombreTruiePleinEcho": 27,
+      "numeroInterne": "Bande5",
+      "pourcentagePerteNesVifs": 0,
+      "pourcentagePleineEcho": 100,
+      "resultatEchoVide": 0,
+      "semaineDateSaillie": 31,
+      "tauxMiseBas": 0
+    },
+    {
+      "bande": "201849",
+      "dateMisBas": {
+        "value": "2018-12-04T00:00:00.000+0000",
+        "calculated": true
+      },
+      "dateSaillie": "2018-08-12T00:00:00.000+0000",
+      "dateSevrage": {
+        "value": "2018-12-25T00:00:00.000+0000",
+        "calculated": true
+      },
+      "identifiantSite": "22LVX",
+      "neeTotauxParPortee": 0,
+      "nesVivantsParPortee": 0,
+      "nombreEcrases": 0,
+      "nombreEcrasesParPortee": 0,
+      "nombreMortNes": 0,
+      "nombreMortNesParPortee": 0,
+      "nombreNeVivant": 0,
+      "nombreSevres": 0,
+      "nombreSevresParPortee": 0,
+      "nombreTotalPorcelet": 0,
+      "nombreTruie": 26,
+      "nombreTruieMiseBas": 0,
+      "nombreTruiePleinEcho": 26,
+      "numeroInterne": "Bande6",
+      "pourcentagePerteNesVifs": 0,
+      "pourcentagePleineEcho": 100,
+      "resultatEchoVide": 0,
+      "semaineDateSaillie": 33,
+      "tauxMiseBas": 0
+    },
+    {
+      "bande": "201850",
+      "dateMisBas": {
+        "value": "2018-12-08T00:00:00.000+0000",
+        "calculated": true
+      },
+      "dateSaillie": "2018-08-16T00:00:00.000+0000",
+      "dateSevrage": {
+        "value": "2018-12-29T00:00:00.000+0000",
+        "calculated": true
+      },
+      "identifiantSite": "22LVX",
+      "neeTotauxParPortee": 0,
+      "nesVivantsParPortee": 0,
+      "nombreEcrases": 0,
+      "nombreEcrasesParPortee": 0,
+      "nombreMortNes": 0,
+      "nombreMortNesParPortee": 0,
+      "nombreNeVivant": 0,
+      "nombreSevres": 0,
+      "nombreSevresParPortee": 0,
+      "nombreTotalPorcelet": 0,
+      "nombreTruie": 24,
+      "nombreTruieMiseBas": 0,
+      "nombreTruiePleinEcho": 24,
+      "numeroInterne": "Bande7",
+      "pourcentagePerteNesVifs": 0,
+      "pourcentagePleineEcho": 100,
+      "resultatEchoVide": 0,
+      "semaineDateSaillie": 33,
+      "tauxMiseBas": 0
+    },
+    {
+      "bande": "201851",
+      "dateMisBas": {
+        "value": "2018-12-17T00:00:00.000+0000",
+        "calculated": true
+      },
+      "dateSaillie": "2018-08-25T00:00:00.000+0000",
+      "dateSevrage": {
+        "value": "2019-01-07T00:00:00.000+0000",
+        "calculated": true
+      },
+      "identifiantSite": "22LVX",
+      "neeTotauxParPortee": 0,
+      "nesVivantsParPortee": 0,
+      "nombreEcrases": 0,
+      "nombreEcrasesParPortee": 0,
+      "nombreMortNes": 0,
+      "nombreMortNesParPortee": 0,
+      "nombreNeVivant": 0,
+      "nombreSevres": 0,
+      "nombreSevresParPortee": 0,
+      "nombreTotalPorcelet": 0,
+      "nombreTruie": 23,
+      "nombreTruieMiseBas": 0,
+      "nombreTruiePleinEcho": 23,
+      "numeroInterne": "Bande8",
+      "pourcentagePerteNesVifs": 0,
+      "pourcentagePleineEcho": 100,
+      "resultatEchoVide": 0,
+      "semaineDateSaillie": 34,
+      "tauxMiseBas": 0
+    },
+    {
+      "bande": "201852",
+      "dateMisBas": {
+        "value": "2018-12-23T00:00:00.000+0000",
+        "calculated": true
+      },
+      "dateSaillie": "2018-08-31T00:00:00.000+0000",
+      "dateSevrage": {
+        "value": "2019-01-13T00:00:00.000+0000",
+        "calculated": true
+      },
+      "identifiantSite": "22LVX",
+      "neeTotauxParPortee": 0,
+      "nesVivantsParPortee": 0,
+      "nombreEcrases": 0,
+      "nombreEcrasesParPortee": 0,
+      "nombreMortNes": 0,
+      "nombreMortNesParPortee": 0,
+      "nombreNeVivant": 0,
+      "nombreSevres": 0,
+      "nombreSevresParPortee": 0,
+      "nombreTotalPorcelet": 0,
+      "nombreTruie": 25,
+      "nombreTruieMiseBas": 0,
+      "nombreTruiePleinEcho": 25,
+      "numeroInterne": "Bande9",
+      "pourcentagePerteNesVifs": 0,
+      "pourcentagePleineEcho": 100,
+      "resultatEchoVide": 0,
+      "semaineDateSaillie": 35,
+      "tauxMiseBas": 0
+    },
+    {
+      "bande": "201901",
+      "dateMisBas": {
+        "value": "2018-12-31T00:00:00.000+0000",
+        "calculated": true
+      },
+      "dateSaillie": "2018-09-08T00:00:00.000+0000",
+      "dateSevrage": {
+        "value": "2019-01-21T00:00:00.000+0000",
+        "calculated": true
+      },
+      "identifiantSite": "22LVX",
+      "neeTotauxParPortee": 0,
+      "nesVivantsParPortee": 0,
+      "nombreEcrases": 0,
+      "nombreEcrasesParPortee": 0,
+      "nombreMortNes": 0,
+      "nombreMortNesParPortee": 0,
+      "nombreNeVivant": 0,
+      "nombreSevres": 0,
+      "nombreSevresParPortee": 0,
+      "nombreTotalPorcelet": 0,
+      "nombreTruie": 26,
+      "nombreTruieMiseBas": 0,
+      "nombreTruiePleinEcho": 26,
+      "numeroInterne": "Bande10",
+      "pourcentagePerteNesVifs": 0,
+      "pourcentagePleineEcho": 100,
+      "resultatEchoVide": 0,
+      "semaineDateSaillie": 36,
+      "tauxMiseBas": 0
+    },
+    {
+      "bande": "201902",
+      "dateMisBas": {
+        "value": "2019-01-06T00:00:00.000+0000",
+        "calculated": true
+      },
+      "dateSaillie": "2018-09-14T00:00:00.000+0000",
+      "dateSevrage": {
+        "value": "2019-01-27T00:00:00.000+0000",
+        "calculated": true
+      },
+      "identifiantSite": "22LVX",
+      "neeTotauxParPortee": 0,
+      "nesVivantsParPortee": 0,
+      "nombreEcrases": 0,
+      "nombreEcrasesParPortee": 0,
+      "nombreMortNes": 0,
+      "nombreMortNesParPortee": 0,
+      "nombreNeVivant": 0,
+      "nombreSevres": 0,
+      "nombreSevresParPortee": 0,
+      "nombreTotalPorcelet": 0,
+      "nombreTruie": 25,
+      "nombreTruieMiseBas": 0,
+      "nombreTruiePleinEcho": 25,
+      "numeroInterne": "Bande11",
+      "pourcentagePerteNesVifs": 0,
+      "pourcentagePleineEcho": 100,
+      "resultatEchoVide": 0,
+      "semaineDateSaillie": 37,
+      "tauxMiseBas": 0
+    },
+    {
+      "bande": "201903",
+      "dateMisBas": {
+        "value": "2019-01-13T00:00:00.000+0000",
+        "calculated": true
+      },
+      "dateSaillie": "2018-09-21T00:00:00.000+0000",
+      "dateSevrage": {
+        "value": "2019-02-03T00:00:00.000+0000",
+        "calculated": true
+      },
+      "identifiantSite": "22LVX",
+      "neeTotauxParPortee": 0,
+      "nesVivantsParPortee": 0,
+      "nombreEcrases": 0,
+      "nombreEcrasesParPortee": 0,
+      "nombreMortNes": 0,
+      "nombreMortNesParPortee": 0,
+      "nombreNeVivant": 0,
+      "nombreSevres": 0,
+      "nombreSevresParPortee": 0,
+      "nombreTotalPorcelet": 0,
+      "nombreTruie": 51,
+      "nombreTruieMiseBas": 0,
+      "nombreTruiePleinEcho": 51,
+      "numeroInterne": "Bande12",
+      "pourcentagePerteNesVifs": 0,
+      "pourcentagePleineEcho": 100,
+      "resultatEchoVide": 0,
+      "semaineDateSaillie": 38,
+      "tauxMiseBas": 0
+    },
+    {
+      "bande": "201904",
+      "dateMisBas": {
+        "value": "2019-01-20T00:00:00.000+0000",
+        "calculated": true
+      },
+      "dateSaillie": "2018-09-28T00:00:00.000+0000",
+      "dateSevrage": {
+        "value": "2019-02-10T00:00:00.000+0000",
+        "calculated": true
+      },
+      "identifiantSite": "22LVX",
+      "neeTotauxParPortee": 0,
+      "nesVivantsParPortee": 0,
+      "nombreEcrases": 0,
+      "nombreEcrasesParPortee": 0,
+      "nombreMortNes": 0,
+      "nombreMortNesParPortee": 0,
+      "nombreNeVivant": 0,
+      "nombreSevres": 0,
+      "nombreSevresParPortee": 0,
+      "nombreTotalPorcelet": 0,
+      "nombreTruie": 28,
+      "nombreTruieMiseBas": 0,
+      "nombreTruiePleinEcho": 27,
+      "numeroInterne": "Bande13",
+      "pourcentagePerteNesVifs": 0,
+      "pourcentagePleineEcho": 96.42857143,
+      "resultatEchoVide": 1,
+      "semaineDateSaillie": 39,
+      "tauxMiseBas": 0
+    },
+    {
+      "bande": "201905",
+      "dateMisBas": {
+        "value": "2019-01-28T00:00:00.000+0000",
+        "calculated": true
+      },
+      "dateSaillie": "2018-10-06T00:00:00.000+0000",
+      "dateSevrage": {
+        "value": "2019-02-18T00:00:00.000+0000",
+        "calculated": true
+      },
+      "identifiantSite": "22LVX",
+      "neeTotauxParPortee": 0,
+      "nesVivantsParPortee": 0,
+      "nombreEcrases": 0,
+      "nombreEcrasesParPortee": 0,
+      "nombreMortNes": 0,
+      "nombreMortNesParPortee": 0,
+      "nombreNeVivant": 0,
+      "nombreSevres": 0,
+      "nombreSevresParPortee": 0,
+      "nombreTotalPorcelet": 0,
+      "nombreTruie": 29,
+      "nombreTruieMiseBas": 0,
+      "nombreTruiePleinEcho": 29,
+      "numeroInterne": "Bande14",
+      "pourcentagePerteNesVifs": 0,
+      "pourcentagePleineEcho": 100,
+      "resultatEchoVide": 0,
+      "semaineDateSaillie": 40,
+      "tauxMiseBas": 0
+    },
+    {
+      "bande": "201906",
+      "dateMisBas": {
+        "value": "2019-02-03T00:00:00.000+0000",
+        "calculated": true
+      },
+      "dateSaillie": "2018-10-12T00:00:00.000+0000",
+      "dateSevrage": {
+        "value": "2019-02-24T00:00:00.000+0000",
+        "calculated": true
+      },
+      "identifiantSite": "22LVX",
+      "neeTotauxParPortee": 0,
+      "nesVivantsParPortee": 0,
+      "nombreEcrases": 0,
+      "nombreEcrasesParPortee": 0,
+      "nombreMortNes": 0,
+      "nombreMortNesParPortee": 0,
+      "nombreNeVivant": 0,
+      "nombreSevres": 0,
+      "nombreSevresParPortee": 0,
+      "nombreTotalPorcelet": 0,
+      "nombreTruie": 21,
+      "nombreTruieMiseBas": 0,
+      "nombreTruiePleinEcho": 21,
+      "numeroInterne": "Bande15",
+      "pourcentagePerteNesVifs": 0,
+      "pourcentagePleineEcho": 100,
+      "resultatEchoVide": 0,
+      "semaineDateSaillie": 41,
+      "tauxMiseBas": 0
+    },
+    {
+      "bande": "201907",
+      "dateMisBas": {
+        "value": "2019-02-11T00:00:00.000+0000",
+        "calculated": true
+      },
+      "dateSaillie": "2018-10-20T00:00:00.000+0000",
+      "dateSevrage": {
+        "value": "2019-03-04T00:00:00.000+0000",
+        "calculated": true
+      },
+      "identifiantSite": "22LVX",
+      "neeTotauxParPortee": 0,
+      "nesVivantsParPortee": 0,
+      "nombreEcrases": 0,
+      "nombreEcrasesParPortee": 0,
+      "nombreMortNes": 0,
+      "nombreMortNesParPortee": 0,
+      "nombreNeVivant": 0,
+      "nombreSevres": 0,
+      "nombreSevresParPortee": 0,
+      "nombreTotalPorcelet": 0,
+      "nombreTruie": 30,
+      "nombreTruieMiseBas": 0,
+      "nombreTruiePleinEcho": 30,
+      "numeroInterne": "B16.07",
+      "pourcentagePerteNesVifs": 0,
+      "pourcentagePleineEcho": 100,
+      "resultatEchoVide": 0,
+      "semaineDateSaillie": 42,
+      "tauxMiseBas": 0
+    },
+    {
+      "bande": "201908",
+      "dateMisBas": {
+        "value": "2019-02-18T00:00:00.000+0000",
+        "calculated": true
+      },
+      "dateSaillie": "2018-10-27T00:00:00.000+0000",
+      "dateSevrage": {
+        "value": "2019-03-11T00:00:00.000+0000",
+        "calculated": true
+      },
+      "identifiantSite": "22LVX",
+      "neeTotauxParPortee": 0,
+      "nesVivantsParPortee": 0,
+      "nombreEcrases": 0,
+      "nombreEcrasesParPortee": 0,
+      "nombreMortNes": 0,
+      "nombreMortNesParPortee": 0,
+      "nombreNeVivant": 0,
+      "nombreSevres": 0,
+      "nombreSevresParPortee": 0,
+      "nombreTotalPorcelet": 0,
+      "nombreTruie": 24,
+      "nombreTruieMiseBas": 0,
+      "nombreTruiePleinEcho": 24,
+      "numeroInterne": "B17.08",
+      "pourcentagePerteNesVifs": 0,
+      "pourcentagePleineEcho": 100,
+      "resultatEchoVide": 0,
+      "semaineDateSaillie": 43,
+      "tauxMiseBas": 0
+    },
+    {
+      "bande": "201909",
+      "dateMisBas": {
+        "value": "2019-02-25T00:00:00.000+0000",
+        "calculated": true
+      },
+      "dateSaillie": "2018-11-03T00:00:00.000+0000",
+      "dateSevrage": {
+        "value": "2019-03-18T00:00:00.000+0000",
+        "calculated": true
+      },
+      "identifiantSite": "22LVX",
+      "neeTotauxParPortee": 0,
+      "nesVivantsParPortee": 0,
+      "nombreEcrases": 0,
+      "nombreEcrasesParPortee": 0,
+      "nombreMortNes": 0,
+      "nombreMortNesParPortee": 0,
+      "nombreNeVivant": 0,
+      "nombreSevres": 0,
+      "nombreSevresParPortee": 0,
+      "nombreTotalPorcelet": 0,
+      "nombreTruie": 34,
+      "nombreTruieMiseBas": 0,
+      "nombreTruiePleinEcho": 34,
+      "numeroInterne": "B18.09",
+      "pourcentagePerteNesVifs": 0,
+      "pourcentagePleineEcho": 100,
+      "resultatEchoVide": 0,
+      "semaineDateSaillie": 44,
+      "tauxMiseBas": 0
+    }
+  ],
+  "metadata": {
+    "dateExecution": "2018-11-18T00:00:00.000+0000",
+    "filteredRows": 50,
+    "pages": null,
+    "totalRows": 1904
+  }
+}

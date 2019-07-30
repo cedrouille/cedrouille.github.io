@@ -1,0 +1,37 @@
+{
+  "production": false,
+  "hosts": {
+    "report": "/passreport-ws/",
+    "param": "/passparam-ws/",
+    "eleveur": "/passeleveur-ws/",
+    "pharma": "/passpharma-ws/",
+    "as400": "/csuite/v1/"
+  },
+  "cdnUrl": "assets/css",
+  "keyCloack": {
+    "config": {
+      "url": "http://recette.mycooperlsuite.io/auth",
+      "realm": "CSuite",
+      "clientId": "passweb",
+      "redirection": "http://localhost:4200/"
+    },
+    "initOptions": {
+      "onLoad": "login-required",
+      "checkLoginIframe": false
+    },
+    "enableBearerInterceptor": true,
+    "bearerPrefix": "Bearer",
+    "bearerExcludedUrls": ["/assets", "/clients/public"]
+  },
+  "cookie": {
+    "idName": "COOPERL-SUITE-IDENTITY",
+    "expiration": 3600,
+    "path": "/",
+    "domain": ".domainetest.com",
+    "secure": false
+  },
+  "i18nFilesPath": "http://localhost:4200/assets/i18n/",
+  "ga": {
+    "codeUa": "UA-119173580-10"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "featuresToggle": {},
+  "features": {
+    "parametre_admin_onglets": {
+      "multilevel": true,
+      "defaultOngletId": "REPRODUCTION",
+      "onglets": [
+        {
+          "id": "SMART_SOW",
+          "label": "Smart Sow",
+          "index": 0,
+          "childrens": [
+            {
+              "id": "REPRODUCTION",
+              "label": "Reproduction"
+            },
+            {
+              "id": "MISE_BAS",
+              "label": "Mise bas"
+            },
+            {
+              "id": "SEVRAGE",
+              "label": "Sevrage"
+            },
+            {
+              "id": "REFORME",
+              "label": "Réforme"
+            },
+            {
+              "id": "SANITAIRE",
+              "label": "Sanitaire"
+            },
+            {
+              "id": "GENETIQUE",
+              "label": "Génétique"
+            }
+          ]
+        },
+        {
+          "id": "SMART_PIG",
+          "label": "Smart Pig",
+          "index": 1,
+          "childrens": [{ "id": "COMING_SOON", "label": "Coming soon" }]
+        }
+      ]
+    },
+    "gestion_site_parametres": {
+      "parametres": [
+        "gestionStructures",
+        "sep",
+        "gestionStadePhysio",
+        "sep",
+        "gestionPharmacie",
+        "sep",
+        "importVSIAutorise",
+        "sep",
+        "passPorc",
+        "sep",
+        "passCheptel",
+        "sep",
+        "races"
+      ]
+    }
+  },
+  "paths": {
+    "style": "assets/css/myfarm-by-nucleus.css",
+    "logo-brand": "assets/customers/myfarm-by-nucleus/logos/logo-brand.png",
+    "logo-brand@2x": "assets/customers/myfarm-by-nucleus/logos/logo-brand@2x.png 2x",
+    "logo-square": "assets/customers/myfarm-by-nucleus/logos/logo-square.png",
+    "logo-square@2x": "assets/customers/myfarm-by-nucleus/logos/logo-square@2x.png 2x",
+    "logo_couleur_x2": "assets/customers/myfarm-by-nucleus/logos/logo-brand@2x.png"
+  },
+  "labels": {
+    "parametre_truie_onglet_title": "Smart Sow",
+    "parametre_porc_onglet_title": "Smart Pig"
+  }
+}

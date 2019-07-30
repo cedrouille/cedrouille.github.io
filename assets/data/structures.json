@@ -1,0 +1,111 @@
+{
+  "data": [
+    {
+      "idReferentiel": "BATIMENT:99ZZZ:2c10fbd9-ab89-4cf2-8c64-eae26407fdda",
+      "version": 5,
+      "identifiantSite": "99ZZZ",
+      "nom": "ENGAISSEMENT",
+      "rang": 3,
+      "actif": true,
+      "key": "2c10fbd9-ab89-4cf2-8c64-eae26407fdda",
+      "salles": [
+        {
+          "version": 0,
+          "nom": "SALLE1",
+          "rang": 1,
+          "actif": true,
+          "keyId": 1,
+          "truies": [],
+          "producteurs": [],
+          "cases": [
+            {
+              "version": 0,
+              "dateModification": "2018-10-22T00:00:00",
+              "userModification": "postman-test",
+              "nom": "Toto case",
+              "rang": 1,
+              "rfid": "0000000000000000000000C1",
+              "actif": true,
+              "keyId": 1,
+              "truies": [],
+              "producteurs": [],
+              "capacite": 25
+            },
+            {
+              "version": 0,
+              "dateModification": "2018-10-22T00:00:00",
+              "userModification": "postman-test",
+              "nom": "Toto case",
+              "rang": 1,
+              "rfid": "0000000000000000000000C1",
+              "actif": true,
+              "keyId": 2,
+              "truies": [],
+              "producteurs": [],
+              "capacite": 25
+            },
+            {
+              "version": 0,
+              "dateModification": "2018-10-22T00:00:00",
+              "userModification": "postman-test",
+              "nom": "Toto case",
+              "rang": 1,
+              "rfid": "0000000000000000000000C1",
+              "actif": true,
+              "keyId": 3,
+              "truies": [],
+              "producteurs": [],
+              "capacite": 25
+            }
+          ]
+        },
+        {
+          "version": 0,
+          "nom": "SALLE2",
+          "rang": 2,
+          "actif": true,
+          "keyId": 2,
+          "truies": [],
+          "producteurs": [],
+          "cases": []
+        }
+      ]
+    },
+    {
+      "idReferentiel": "BATIMENT:99ZZZ:0f136660-60e6-48e2-a5b7-7024a90d2d80",
+      "version": 0,
+      "identifiantSite": "99ZZZ",
+      "nom": "MATERNITE",
+      "rang": 1,
+      "actif": true,
+      "key": "0f136660-60e6-48e2-a5b7-7024a90d2d80",
+      "salles": []
+    },
+    {
+      "idReferentiel": "BATIMENT:99ZZZ:ae6e26c0-f8c2-46af-b7f4-3ee3d05e3ce5",
+      "version": 0,
+      "identifiantSite": "99ZZZ",
+      "nom": "POST-SEVRAGE",
+      "rang": 2,
+      "actif": true,
+      "key": "ae6e26c0-f8c2-46af-b7f4-3ee3d05e3ce5",
+      "salles": []
+    },
+    {
+      "idReferentiel": "BATIMENT:99ZZZ:7dc27964-2dcd-4b8b-aff7-0ab7f6d7e882",
+      "version": 0,
+      "dateModification": "2018-10-22T00:00:00",
+      "userModification": "postman-test",
+      "identifiantSite": "99ZZZ",
+      "nom": "Toto case",
+      "rang": 1,
+      "actif": true,
+      "key": "7dc27964-2dcd-4b8b-aff7-0ab7f6d7e882",
+      "salles": []
+    }
+  ],
+  "result": {
+    "status": 200,
+    "message": "Succès de l'opération."
+  }
+}

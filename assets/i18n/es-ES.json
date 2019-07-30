@@ -1,0 +1,1462 @@
+{
+  "ACTION": {
+    "UPDATE": "Poner Al Día",
+    "SAVE": "Guardar",
+    "REFRESH": "Renovar",
+    "CLOSE": "Cerrar",
+    "RELOAD": "Recargar",
+    "CANCEL": "Anular",
+    "DOWNLOAD": "Descargar",
+    "EXPORT": "Exportación",
+    "ADD": "añadir",
+    "MODIFY": "Editar",
+    "FILTER": "filtro",
+    "OK": "OK",
+    "LOADING": "Cargando ...",
+    "VALIDATE": "validar",
+    "VALIDATE_INVENTORY": "Validar el inventario",
+    "INVENTORY": "inventario",
+    "SEARCH": "Buscar",
+    "CLICK_EDIT": "Haga clic para modificar",
+    "CLEAN": "Vaciar",
+    "CONFIRM": "confirmar",
+    "CONFIRMATION": "Confirmación",
+    "GOTO": "Irse hacia la página",
+    "LEAVE_PAGE": "Abandonar la página",
+    "NEXT": "Suivant",
+    "PREVIOUS": "Précédent",
+    "SEND": "Envoyer",
+    "CREATE-USER": "Créer l'utilisateur",
+    "DECONNECT_ME": "Me déconnecter"
+  },
+  "COMMONS": {
+    "UNDER_CONSTRUCTION": "Página En Construcción",
+    "GENERAL_INFORMATION": "Información General",
+    "ID": "Identificación",
+    "NAME": "Apellido",
+    "FIRSTNAME": "Nombre",
+    "COUNTRY": "País",
+    "CITY": "Ciudad",
+    "SALARY": "Sueldo",
+    "MAIL": "Correo Electrónico",
+    "LOGIN": "Login",
+    "CREATE": "crear",
+    "CAPACITY": "capacidad",
+    "UNDER_CONSTRUCTION_DATA": "En construcción",
+    "ANIMAUX_INFORMATION": "Información de animales",
+    "RFID": "RFID",
+    "STAGE_PHYSIOLOGICAL": "Etapa fisiológica",
+    "CONGRATS": "¡Enhorabuena!",
+    "BANDE_INFORMATION": "Información de la Banda",
+    "GLOBAL": "general",
+    "ALL": "todos",
+    "CATEGORY": "Categoría",
+    "TYPE": "Tipo ",
+    "SITE": "Sitio",
+    "BATIMENT": "Edificio",
+    "SALLE": "Sala",
+    "CASE": "Casilla ",
+    "DISCARD_CHANGES_PAGE": " Estás a punto de abandonar la página. <br/>. Todos los datos no guardado seran perdido",
+    "PDF": "PDF",
+    "CSV": "CSV",
+    "OFFLINE_CONNECTION_TITLE": "Aucune connexion Internet",
+    "OFFLINE_CONNECTION_MESSAGE": "Vous devez être connecté pour utiliser l'application",
+    "ONLINE_CONNECTION": "Connexion retrouvée",
+    "NEW_VERSION_APP_TITLE": "Une nouvelle version de l'application est disponible",
+    "NEW_VERSION_APP_MESSAGE": "Cliquez pour mettre à jour",
+    "INSTALL_APP_TITLE": "Souhaitez-vous installer My Cooperl Suite ?",
+    "INSTALL_APP_MESSAGE": "Cliquez pour ajouter l'application sur votre page d'accueil",
+    "CATEGORIE": "Catégorie",
+    "DU": "Du",
+    "AU": "au"
+  },
+  "ERROR": {
+    "NOT_FOUND": {
+      "PAGE": "No Podemos Encontrar La Página Que Estás Buscando.",
+      "SITE": {
+        "TITLE": "Le site ### est inexistant",
+        "MESSAGE": "Cliquez sur le bouton ci-dessous pour vous déconnecter."
+      }
+    },
+    "NOT_AUTHORIZED": "No Tienes Los Derechos Necesarios Para Acceder A Esta Página.",
+    "UNKNOWN": "Ocurrió Un Error Desconocido",
+    "CODE_STATUS": "Código De Error:",
+    "NO_DATA": "No hay datos disponibles",
+    "FILTER_REQUIRED": "Este campo es obligatorio"
+  },
+  "PAGE": {
+    "ADMIN": {
+      "USERS": {
+        "DESCRIPTION": {
+          "FIRST": "Has Abierto La Consola De Administración De Usuarios.",
+          "SECOND": "Si Tiene \"Suplantar\" A Un Usuario, Vuelva A Cargar La Página Para Iniciar Sesión Como Esta.",
+          "THIRD": "De Lo Contrario, Puede Cerrar Este Mensaje."
+        },
+        "LIST": "Lista De Usuarios",
+        "SITE": {
+          "MARKING": "Marca De Sitio Web"
+        },
+        "ACTION": "Acción"
+      }
+    },
+    "CHEPTEL": {
+      "BANDE": "Banda",
+      "MORTALITY": "Bajas",
+      "TREATMENTS": "Tratamientos",
+      "WEIGHING": "Peso",
+      "HISTORICAL": "Histórico",
+      "DEPARTURES": "Salidas",
+      "MY_CHEPTEL": "Mi Ganado",
+      "SELECT_BANDE": "Selecciona Una Banda",
+      "NUMERO": {
+        "BANDE": "Banda No.",
+        "INTERN": "Numero Interno",
+        "ERROR_INTERN": "Sólo caracteres autorizados: A-Z, a-z, 0-9 y."
+      },
+      "LOSS_RATE": {
+        "TITLE": "Tasa De Baja",
+        "DESCRIPTION": "Tasa De Baja De Todos Los Animales Identificados Al Nacer.",
+        "NUMBER_DEATH": "N °. muerto",
+        "RATE_DEATH": "Tasa de baja",
+        "BUTTON_DETAIL": "Detalle",
+        "BUTTON_DETAIL_TOOLTIP": "Historia de bajas",
+        "GRAPH_UNIT": "cerdos"
+      },
+      "ACCESS_TIME": "Datos Generados Hace {{access_time}}",
+      "LIST_ANIMAL": {
+        "TITLE": "Lista De Animales"
+      },
+      "MY_BANDES": "Mis bandas",
+      "TREATMENT_RATE": "% de tratamiento:",
+      "SOWS_FILE": "Ficha cerdas",
+      "NUMBER": {
+        "SOWS": "N °. animales",
+        "MALE": "N °. Machos",
+        "FEMALE": "N °. hembras",
+        "SLAUGHTERHOUSE": "N °. Matadero",
+        "PRODUCTING_SOWS": "Número de cerdas cubiertas"
+      },
+      "ERROR": "No hay bandas disponibles",
+      "MODAL": {
+        "TITLE": "Cambios de datos generales",
+        "NUMERO_INTERNE_PLACEHOLDER": "Ingrese el número interno",
+        "ERROR_NUMERO_INTERNE": "Número interno requerido"
+      },
+      "DEATH_CARD": {
+        "CAUSES": "Motivo de muerte"
+      },
+      "TOAST": {
+        "NO_ANIMALS_PDF": "No hay animales en esta banda, o el informe no fue construido",
+        "ERROR_PDF": "Se ha producido un error en el servidor.",
+        "VALIDATION_PDF": "El PDF fue creado"
+      },
+      "INFO_COMMERCIALE_CARD": {
+        "TITLE": "Informacion comercial",
+        "NOMBRE_TRAITE": "N °. tratada",
+        "TAUX_TRAITEMENT": "% de tratamiento",
+        "CAHIER_DES_CHARGES": "Requesitos",
+        "BUTTON_DETAIL": "Detalle",
+        "BUTTON_DETAIL_TOOLTIP": "Lista de animales",
+        "BUTTON_EDIT": "Edición",
+        "BUTTON_EDIT_TOOLTIP": "Editar la banda",
+        "GRAPH_UNIT": "Cerdos"
+      },
+      "INFO_CARD": {
+        "BUTTON_DETAIL": "Detalle",
+        "BUTTON_DETAIL_TOOLTIP": "Lista de animales",
+        "BUTTON_EDIT": "Edición",
+        "BUTTON_EDIT_TOOLTIP": "Editar la banda",
+        "BUTTON_RAPPORT_TOOLIP": "Consulter le rapport Historique truie"
+      },
+      "LISTE_PORCELET_MODAL": {
+        "TITLE": "Lista de animales",
+        "RFID": "RFID",
+        "DATE_NAISSANCE": "Fecha de nacimiento",
+        "MERE_COURANTE": "Madre actual",
+        "CAHIER_DES_CHARGES": "Especificaciones",
+        "DERNIER_TRAITEMENT_ANTIBIO": "Último tratamiento antibiótico."
+      },
+      "LISTE_PERTES_MODAL": {
+        "TITLE": "Historia de bajas",
+        "RFID": "RFID",
+        "DATE_MORT": "Fecha De Baja",
+        "AGE_MORT": "Edad muerta (día)",
+        "CAUSE": "Causa",
+        "COMMENTAIRE": "Comentario"
+      },
+      "STATUTS_TRUIES_CARD": {
+        "TITLE": "Estatutos cerdas",
+        "LACTATION": "lactancia",
+        "PLEINE": "Plena",
+        "PRETROUPEAU": "Antes rebaño ",
+        "INCONNU": "Desconocido",
+        "VIDE": "vacío ",
+        "ANIMAL": "animal",
+        "ANIMALS": "animales"
+      },
+      "DEMOGRAPHIE_WIDGET": {
+        "TITLE": "Demografía de las cerdas",
+        "NOMBRE_ANIMAUX": "Numero de animales",
+        "RANG": "categoría"
+      },
+      "HISTORIQUE_TRAITEMENT_MODAL": {
+        "TITLE": "Historique des traitements",
+        "DATE": "Date",
+        "TYPE_TRAITEMENT": "Type de traitement",
+        "PRODUIT": "Produit",
+        "QUANTITE": "Quantité",
+        "UNITE": "Unité",
+        "PATHOLOGIE": "Pathologie",
+        "ANTIBIO": "antibio"
+      }
+    },
+    "REPORT": {
+      "CHART": {
+        "GOAL": "Valor Del Objetivo"
+      },
+      "TARGET": "Objectivo"
+    },
+    "STRUCTURE": {
+      "TITLE": "Mis estructuras",
+      "CREATE_BATIMENT": "Crear una nave",
+      "CREATE_SALLE": "Crear una sala",
+      "CREATE_CASE": "Crear una cuadra",
+      "ENTER_NAME_BATIMENT": "Introduce el nombre de la nave",
+      "ENTER_NAME_CASE": "Ingrese el nombre de la cuadra",
+      "ENTER_NAME_SALLE": "Introduce el nombre de la sala",
+      "ENTER_CAPACITY_SALLE": "Introduce la capacidad de la sala",
+      "ENTER_CAPACITY_CASE": "Introduce capacidad de la cuadra",
+      "REQUIRED_NAME": "El nombre es obligatorio",
+      "REQUIRED_CAPACITY": "Se requiere capacidad",
+      "VALIDATION_CREATION_BATIMENT": "Nave creada",
+      "VALIDATION_CREATION_SALLE": "Sala creada",
+      "VALIDATION_CREATION_CASE": "Cuadra creada",
+      "ERROR_CREATION_BATIMENT": "Error al crear la nave",
+      "ERROR_CREATION_SALLE": "Error al crear la sala",
+      "ERROR_CREATION_CASE": "Error creando cuadra",
+      "TOOLTIP": {
+        "ANIMALS_ALIVE": "animales vivos",
+        "DISABLED_BUTTON_CASE": "La sala contiene animales.",
+        "CREATE_BATIMENT": "Crear una nave",
+        "CREATE_SALLE": "Crear una sala",
+        "CREATE_CASE": "Crear una cuadra",
+        "REORDER_TREE": "Reordenar las estructuras",
+        "TRANSFERT_ANIMALS": "Desplazar los animales"
+      },
+      "REQUIRED_STADE": "El estado fisiológico es obligatorio",
+      "SELECT_STADE": "Selecciona un estado fisiológico.",
+      "NB_TOTAL_ANIMAUX": "N °. total",
+      "BANDES": "Fecha de entrada",
+      "NB_MALE": "N °. machos",
+      "NB_FEMALE": "N °. Hembras",
+      "RFID": "RFID",
+      "SELECT_STRUCTURE": "filtros",
+      "UPDATE_BATIMENT": "Modificación edificio ",
+      "UPDATE_SALLE": "Modificación sala",
+      "UPDATE_CASE": "Modificación casilla ",
+      "INVALID_CAPACITY_CASE": "La capacidad de una casilla debe ser entre 1 y 1000",
+      "VALIDATION_UPDATE_BATIMENT": "Edificio actualizaba",
+      "VALIDATION_UPDATE_SALLE": "Sala actualizaba",
+      "VALIDATION_UPDATE_CASE": "Casilla actualizaba",
+      "DEPLACER_ANIMAUX_TITLE": "mover los animales",
+      "DEPART_TITLE": "salida",
+      "DESTINATION_TITLE": "Destinación",
+      "DATE_DEPART": "fecha de baja",
+      "CHECK_VALIDATION": "Haga clic sobre \" confirmar\" para afirmar el desplazamiento ",
+      "DEPLACER_ANIMAUX_PLACEHOLDER_SELECTBOX": "Elegir una estructura",
+      "ERROR_MESSAGE_DESTINATION": "La estructura de destinación es obligatorio",
+      "ERROR_MESSAGE_DEPART": "La estructura de baja es obligatorio ",
+      "INFO_TOAST_1": "Los animales serán movidos de la estructura",
+      "INFO_TOAST_2": "a la estructura",
+      "INFO_TOAST_3": "Este operación puede tomar algunos minutos",
+      "CLEAN": {
+        "CONTENT": "vaciar una estructura provoca la supresión definitiva de las hebillas todavía presentes. Ya no será posible de registrar datos sobre los animales. Estas seguro(a)  que quieres continuar",
+        "VALID_BUTTON": "vaciar la estructura",
+        "SUCCESS": "vaciado de la estructura en curso"
+      },
+      "DATE_DERNIER_LAVAGE": "Date dernier lavage",
+      "NUMERO_TRAVAIL_TRUIE": "N° travail truie",
+      "NB_TOTAL_PORCELETS": "Nb. porcelets",
+      "NB_TRUIES": "Nb. truies"
+    },
+    "PHARMACY": {
+      "TABLE": {
+        "LABEL": {
+          "ARTICLE": "artículo",
+          "NUMBER_DRUGS_NOT_USED": "Número de productos sin abrir.",
+          "NUMBER_DRUGS_LEAD_OFF": "Cantidad de productos iniciados",
+          "ACTION": "acción",
+          "ARTICLE_PLACEHOLDER": "selecciona un producto "
+        }
+      },
+      "ACTION": {
+        "HISTORY": "Historial de movimientos",
+        "ADD_STOCK": "Añadir un medicamento"
+      },
+      "MOUVEMENT": {
+        "TITLE": "Historial de movimientos",
+        "LEGEND": "leyenda",
+        "TABLE-HEADER": {
+          "TYPE": "tipo",
+          "QUANTITE": "cantidad",
+          "DATE": "fecha",
+          "MOTIF": "razón"
+        },
+        "TYPE": {
+          "LIVRAISON_ENTREE": "Entrada de entrega",
+          "TRAITEMENT_SORTIE": "Salida de tratamiento",
+          "SORTIE_MANUELLE": "Salida manual",
+          "REGULE_INVENTAIRE_ENTREE": "Correctivo inventario de entrada.",
+          "REGULE_INVENTAIRE_SORTIE": "Correctivo inventario de salida.",
+          "REGULE_LIVRAISON_SUP": "Correctivo de una entrega superior.",
+          "REGULE_LIVRAISON_INF": "Correctivo la entrega inferior.",
+          "TRANSFERT_VERS_PHARMACIE": "Traslado a farmacia",
+          "TRANSFERT_DEPUIS_PHARMACIE": "Traslado de farmacia"
+        }
+      },
+      "TOOLTIP": {
+        "STOCK_NEGATIF": "Existencia del producto negativo"
+      },
+      "NO_STOCK": {
+        "FIRST_USE": "Eso es su primer acceso a la farmacia ",
+        "INIT_INFO": "Debe realizar un primer inventario para inicializar su farmacia ",
+        "INIT_BUTTON": "Comenzar la inicialización",
+        "FINISH_BUTTON": "Validar"
+      },
+      "INIT": {
+        "DELETE_BUTTON": "Suprimir",
+        "FINISH_BUTTON": "Terminar la inicialización"
+      },
+      "NEW_ARTICLE": {
+        "TITLE": "Añadir un nuevo medicamento",
+        "ARTICLE": "Artículo ",
+        "NUMBER_DRUGS_NOT_USED": "Número de productos sin abrir.",
+        "NUMBER_DRUGS_LEAD_OFF": "Cantidad de productos iniciados",
+        "TOAST_VALIDE": "Medicamentos añadió",
+        "PLACEHOLDER": "Seleccionar un medicamento "
+      }
+    },
+    "DEPARTURES": {
+      "FORM_SELECTION": {
+        "TITLE": "selección",
+        "OPEN_MODAL": "Editar filtros"
+      }
+    },
+    "STATISTIQUE": {
+      "ALL": "todos",
+      "MESSAGE": {
+        "UPDATED": "Actualización"
+      },
+      "FILTER": {
+        "TITLE": "filtros",
+        "DATE_FILTER": {
+          "SELECT": "Selecciona una fecha",
+          "MONTHS": {
+            "THREE": "Últimos 3 meses",
+            "SIX": "Últimos 6 meses",
+            "NINE": "Últimos 9 meses",
+            "TWELVE": "Últimos 12 meses",
+            "TWENTY_FOUR": "Últimos 24 meses",
+            "THIRTY_SIX": "Últimos 36 meses"
+          },
+          "CUSTOMIZED": "Période personnalisée",
+          "DATE_FIN": "Date fin",
+          "DATE_DEBUT": "Date début"
+        },
+        "REQUIRED": "este campo es obligatorio",
+        "GLOBAL": "general"
+      },
+      "SPECIFIC": {
+        "PILOTAGE_CHEPTEL": {
+          "MESSAGE": {
+            "REFRESH": "Actualizar los datos"
+          },
+          "HEADER": {
+            "REFCAA": "REF CAA",
+            "PERIOD": "período",
+            "SITES": "sitios",
+            "AVERAGE": "promedio",
+            "REFCAAEXPLAIN": "Referencia Cooperl Arc Atlantique del año 2017 para todas las granjas sin esquema "
+          },
+          "LABEL": {
+            "PRODUCTIVITY": "productividad",
+            "RESUlT_SCOPE": "Resultados por camadas",
+            "BORN_TOTAL_SCOPE": "Total de nacidos por camada",
+            "BORN_ALIVE_SCOPE": "Nacido vivo en la camada",
+            "BORN_DEAD_SCOPE": "Nacidos muertos por camada",
+            "CRUSHED_SCOPE": "Aplastado por camada",
+            "WEANED_SCOPE": "Destetados por la camada",
+            "LOSS_RATE_ALL_SCOPE": "% bajas sobre nacidos totales",
+            "LOSS_RATE_ALIVE_SCOPE": "% bajas sobre nacidos vivos",
+            "LOSS_DEAD_ALIVE_ALL_SCOPE": "% Nacidos muertos sobre totales",
+            "REPRODUCTION": "reproducción",
+            "AGE_PIGLETS_WEANING": "Edad de los lechones al destete.",
+            "ISS1": "IDC1",
+            "ISSF": "IDCF",
+            "AVERAGE_RANK_SCOPE": "Rango promedio de la camada.",
+            "FULL_RATE_SCAN": "% cubiertas al ecografía",
+            "FULL_RATE_FARROWING": "% de parto",
+            "PREGNANCY_TIME": "Duración gestación",
+            "RATE_WEANING_BEFORE_EIGHTEEN_DAYS": "% destetado antes de 18d",
+            "RATE_FARROWING_BEFORE_365_DAYS": "% partos antes de la edad 365d",
+            "REFORMS": "Desvieje",
+            "NUMBER_FEMALES_REFORMED": "Número de hembras desvieje.",
+            "NUMBER_FEMALES_DEAD": "Número de hembras de baja",
+            "RATE_ANNUAL_REFORM": "% de reposición anual",
+            "INTERVAL_LAST_WEANING_REFORM": "Intervalo ultimo destete-desvieje.",
+            "EFFECTIVE": "Número",
+            "NUMBER_SOWS_PRESENT": "Número de cerdas presentes",
+            "NUMBER_TOTAL_LIVE_BIRTHS": "Número de nacidos vivos totales",
+            "NUMBER_TOTAL_WEANED": "Número destetados tatales",
+            "NUMBER_WEANED_NORMAL_SCOPE": "Número de destetados / camadas normales",
+            "NUMBER_WEANED_ADOPTIVE_SCOPE": "Número de destetados /camadas adoptivas",
+            "NUMBER_NORMAL_SCOPE": "Número de camadas normales",
+            "NUMBER_WEANED_SOW_PRODUCTIVITY_YEAR": "Número de destetados / cerda productiva / año",
+            "NUMBER_WEANED_SOW_PRESENT_YEAR": "Número de destetados / cerda presente / año"
+          },
+          "PDF": {
+            "IDENTIFIANT_SITE": "Id de la pagína web:"
+          }
+        },
+        "DASHBOARD": {
+          "TITLE": "Informacion util",
+          "MESSAGE": {
+            "NO_DATA": "No hay datos disponibles",
+            "TITLE_GOALS": "objetivos"
+          },
+          "INFORMATIONS": {
+            "SOW_VISIBLE": "Obj. cerdas presentes:",
+            "WEANED_BY_BAND": "Obj. Destetado por bandas:",
+            "STEARING": "Manejo:",
+            "BAND": "bandas",
+            "DAYS": "días",
+            "WEANING": "Destete",
+            "UPDATE": "Actualizado el:"
+          },
+          "ACTIONS": {
+            "EXPORT_CSV": "Exportar a CSV",
+            "MANAGE_GOAL": "Manejar objetivos",
+            "ACTIVATE_COLOR_CODE": "Habilitar códigos de color objetivo",
+            "DESACTIVATE_COLOR_CODE": "Desactivar códigos de color objetivos",
+            "EXPORT_PDF": "Exportar a PDF"
+          }
+        },
+        "HISTORIQUE_TRUIE": {
+          "TITLE": "Historique truie"
+        },
+        "HISTORIQUE_TRUIE_ET_PORCELET": {
+          "TITLE": "Historique truie"
+        },
+        "TAUX_PERTE_BANDE_STADE_PHYSIO": {
+          "TITLE": "Taux de perte par bande et par stade physiologique"
+        }
+      },
+      "TILE": {
+        "REPORT_TITLE": "Titulo del informe"
+      },
+      "TABLE": {
+        "EMPTY": "No hay datos disponibles",
+        "LENGTH_MENU": "Mostrar entradas _MENU_"
+      },
+      "RAPPORT_CSV": {
+        "DATE_MISE_A_JOUR": "Fecha de actualización",
+        "DATE_EXPORT": "Fecha de exportación",
+        "NO_DATA": "No hay datos disponibles"
+      },
+      "SORT": {
+        "SORT_BY": "clasificar por",
+        "PLACEHOLDER_CRITERIA": "criterio 1, criterio 2, ...",
+        "ADD_CRITERIA": "añadir un criterio",
+        "REMOVE_CRITERIA": "retirer este criterio ",
+        "ASC_LABEL": "orden creciente",
+        "DESC_LABEL": "orden decreciente"
+      },
+      "REFRESH_TITLE": "nuevos datos disponibles",
+      "REFRESH_MESSAGE": "haga clic para actualizar el informe"
+    },
+    "PARAMETRES": {
+      "STADE_PHYSIO": "Listado de estadios fisiológicos.",
+      "PORCELET": {
+        "TAB": "Pass'Porc",
+        "GLOBAL": "Ajustes generales",
+        "PHYSIO": "Listas de estadios fisiológicos de la localisación.",
+        "OBS": "Comentarios del productor"
+      },
+      "CHEPTEL": {
+        "TAB": "Pass'Cheptel",
+        "OBS": "Comentarios cerdas"
+      },
+      "ADMIN": {
+        "CAUSE_MORTS": {
+          "TAB": "Motivo bajas",
+          "PLACEHOLDER": "Nuevo motivo"
+        },
+        "OBSERVATIONS": {
+          "TAB": "Comentarios",
+          "PLACEHOLDER": "Nuevo comentario"
+        },
+        "PATHOLOGIES": {
+          "TAB": "Patologías",
+          "PLACEHOLDER": "Nueva patologia"
+        },
+        "CAUSE_REFORME": {
+          "TAB": "Hacer desvieje",
+          "PLACEHOLDER": "Nuevo motivo de desvieje."
+        },
+        "TYPE_REFORME": {
+          "TAB": "Tipo de desvieje",
+          "PLACEHOLDER": "Nuevo tipo de desvieje"
+        },
+        "TYPE_SAILLIE": {
+          "TAB": "Tipos de cubriciones",
+          "PLACEHOLDER": "Nuevo tipo de cubriciones"
+        },
+        "TYPE_ABATTOIR": {
+          "TAB": "matadero",
+          "PLACEHOLDER": "Nuevo matadero"
+        },
+        "GROUPEMENT": {
+          "TAB": "Agrupación ",
+          "PLACEHOLDER": "Nueva Agrupación "
+        },
+        "CATEGORIE_ELEVEUR": {
+          "TAB": "Categoría criador ",
+          "PLACEHOLDER": "Nueva categoría criador "
+        },
+        "TYPE_RACE": {
+          "TAB": "Races",
+          "PLACEHOLDER": "Nouvelle race"
+        },
+        "TYPE_CROISEMENT": {
+          "TAB": "Croisements",
+          "PLACEHOLDER": "Nouveau croisement"
+        },
+        "ANOMALIE": {
+          "TAB": "Anomalies porcelets",
+          "PLACEHOLDER": "Nouvelle anomalie porcelet"
+        },
+        "MISEBAS_FACILITE": {
+          "TAB": "Facilité",
+          "PLACEHOLDER": "Nouvelle mise bas facilité"
+        },
+        "MISEBAS_COMPORTEMENT_TRUIE": {
+          "TAB": "Comportement",
+          "PLACEHOLDER": "Nouvelle mise bas comportement"
+        },
+        "MISEBAS_INDUCTION": {
+          "TAB": "Induction",
+          "PLACEHOLDER": "Nouvelle mise bas induction"
+        }
+      },
+      "ADD": "Añadir un nuevo valor",
+      "TABLE-HEADER": {
+        "CODE_IFIP": "Código IFIP",
+        "LABEL": "Texto",
+        "ACTION": "acción",
+        "CODE_TYPE_GENETIQUE": "CTG",
+        "CODE_TYPE_GENETIQUE_PERE": "CTG père",
+        "CODE_TYPE_GENETIQUE_MERE": "CTG mère",
+        "CODE_TYPE_GENETIQUE_ENFANT": "CTG enfant",
+        "CARACTERISTIQUE": "Caractéristique"
+      },
+      "CREATE": {
+        "SUCCESS": " creado exitosamente",
+        "FAILED": "La creación del parámetro falló"
+      },
+      "UPDATE": {
+        "SUCCESS": " actualizado",
+        "FAILED": "Falló la actualización del parámetro"
+      },
+      "MODAL": {
+        "TITLE": {
+          "NEW": "Nuevo valor",
+          "MODIFY": "Modificación de"
+        },
+        "CODE_IFIP": "Código IFIP"
+      }
+    },
+    "PROBLEMATIC": {
+      "NEW_PROBLEMATIC": "Elige otro problema",
+      "ROLLBACK": "Volver a esta pregunta",
+      "PROPOSED_ACTIONS": "Acciones propuestas",
+      "PROPOSED_NEW_PROBLEMATIC": "Elige otro problema",
+      "GO_DASHBOARD": "Ir al cuadro de control",
+      "CLICK_PROPOSITION": "Haga clic en la propuesta de su elección.",
+      "WHAT_PROBLEMATIC": "Cual es tu problema",
+      "SELECT_PROBLEMATIC": "Selecciona tu problema",
+      "LIST_GUIDE": "En la lista adjunta y déjate guiar."
+    },
+    "SITE-MANAGEMENT": {
+      "TABLE-HEADER": {
+        "SITE": "Localisación",
+        "SOCIAL-REASON": "Razón social",
+        "ADDRESS": "dirección",
+        "CP": "Código postal",
+        "CITY": "ciudad",
+        "ACTION": "acción",
+        "PARTNER-SITES": "Sitios asociados",
+        "CATEGORY": "Categoría de cría",
+        "CONSORTIUM": "Agrupación ",
+        "TITLE_SITES": "Sites",
+        "TITLE_USERS": "Utilisateurs",
+        "LASTNAME_AND_FIRSTNAME": "Nom & Prénom",
+        "USERNAME": "Identifiant",
+        "EMAIL": "Email",
+        "LANGUAGE": "Langue",
+        "ACCES": "Accés",
+        "STATUS": "Statut",
+        "WAITING_FOR_ACTIVATION": "en attente d'activation",
+        "ACTIVATED": "activé",
+        "EMAIL_NOT_SENT": "email pas envoyé"
+      },
+      "TOOLTIP": {
+        "ACTION": "Editar la configuración de la localisación",
+        "SHOW_PARTNERS": "Ver la lista de socios",
+        "ACTION_USERS": "Modifier les informations de l'utilisateur",
+        "ACTION-EMAIL": "Envoyer le lien d'activation à l'utilisateur",
+        "SHOW_MODULES": "Afficher la liste des modules"
+      },
+      "MODAL": {
+        "TITLE": "Edición de la configuración de la localisación",
+        "NO_DATA": "No se encontraron parámetros para esta localisación",
+        "ADD": "Crear un sitio",
+        "SEARCH": {
+          "TITLE": "Creación de un nuevo sitio.",
+          "FORM": {
+            "TITLE": "Buscar en la base de datos Cooperl",
+            "PLACEHOLDER": "ID de marca",
+            "SITE-REQUIRED": "Le site est obligatoire",
+            "SITE-LENGTH": "Le site doit comporter au moins 3 caractères",
+            "REASON-REQUIRED": "La raison sociale est obligatoire",
+            "REASON-LENGTH": "La raison sociale doit comporter au moins 5 caractères",
+            "ADDRESS-REQUIRED": "L'adresse est obligatoire",
+            "ADDRESS-LENGTH": "L'adresse doit comporter au moins 5 caractères",
+            "POSTAL-CODE-REQUIRED": "Le code postal est obligatoire",
+            "POSTAL-CODE-LENGTH": "Le code postal doit comporter au moins 5 caractères",
+            "CITY-REQUIRED": "La commune est obligatoire",
+            "CITY-LENGTH": "La commune doit comporter au moins 2 caractères",
+            "CATEGORY-REQUIRED": "La categorie d'élevage est obligatoire",
+            "GROUPEMENT-REQUIRED": "Le groupement est obligatoire"
+          },
+          "RESULT": {
+            "TITLE": "Resultado de la búsqueda",
+            "PRINCIPAL": "Sitio principal",
+            "PARTENAIRE": "Socia",
+            "SITE": {
+              "RAISON": "Razón social",
+              "IDM": "IDM",
+              "RUE": "Calle",
+              "CP": "Código postal",
+              "COMMUNE": "Ciudad"
+            }
+          },
+          "NO_DATA": "No se encontraron sitios que coincidan con ",
+          "CREATE": "Crear el sitio",
+          "CREATE_SUCCESS": "Sitio creado con éxito",
+          "CREATE_FAILED": "La creación del sitio falló",
+          "EXIST": "El sitio ya existe en el repositorio criador",
+          "PARAMETERS": {
+            "TITLE": "Parámetros",
+            "PLACEHOLDER": "Seleccione un valor ",
+            "CATEGORY": "Categoría de cría",
+            "GROUPEMENT": "Agrupación "
+          },
+          "UPDATE_SUCCESS": "Site mis à jour avec succès",
+          "UPDATE_FAILED": "La mise à jour du site a échoué",
+          "CREATE_DUPLICATED": "L'Utilisateur ou l'e-mail existe déjà",
+          "STEPS": {
+            "SITE": "Informations site",
+            "USER": "Informations utilisateur"
+          },
+          "CREATE_USER_SUCCESS": "l'utilisateur créé avec succès",
+          "CREATE_USER_FAILED": "La création de l'utilisateur a échoué",
+          "UPDATE_USER_FAILED": "La mise à jour de l'utilisateur a échoué",
+          "UPDATE_USERS_SUCCESS": "Utilisateur mis à jour avec succès",
+          "SEND_EMAIL_SUCCESS": "L'e-mail a été envoyé avec succès ",
+          "SEND_EMAIL_FAILED": "L'envoi de l'e-mail a échoué"
+        },
+        "TABS": {
+          "INFOS_GENERALES": "Infos générales",
+          "PARAMETRES": "Paramètres site"
+        },
+        "ADD-USER": "Créer un utilisateur"
+      },
+      "MODAL-PARTNER": {
+        "TITLE": "Lista de sitios asociados",
+        "TABLE-HEADER": {
+          "IDM": "IDM",
+          "RAISON-SOCIALE": "Razón social"
+        }
+      },
+      "USER": {
+        "TITLE": "Création d'un utilisateur",
+        "USERNAME": "Identifiant de connexion",
+        "E-MAIL-ADDRESS": "Adresse email",
+        "FIRST-NAME": "Prénom",
+        "LASTNAME": "Nom",
+        "LANGUAGE": "Langue",
+        "ACTIVE-ROLES": "Accès",
+        "PLACEHOLDER": {
+          "USERNAME": "Entrez votre identifiant de connexion",
+          "USERNAME-REQUIERD": "Le nom est obligatoire",
+          "USERNAME-MINLENGTH": "Le nom doit comporter au moins 5 caractères",
+          "E-MAIL-ADDRESS": "Exemple@mail.com",
+          "FIRST-NAME": "Jean",
+          "LASTNAME": "Bon",
+          "LANGUAGE": "Langue par défaut",
+          "ACTIVE-ROLES": "Accès aux modules...",
+          "E-MAIL-ADDRESS-REQUIRED": "L'email est obligatoire",
+          "LANG-REQUIRED": "La langue est obligatoire",
+          "SOCIAL-REASON": "La raison sociale est obligatoire",
+          "ROLES-REQUIRED": "Au moins un rôle doit être sélectionné"
+        },
+        "ACTIVE-NEW": "Activer maintenant",
+        "TAMPORARY-PASSWORD": "Mot de passe temporaire:",
+        "TEXT-INFO-1": "Pour activer le compte utilisateur, vous devez vous connecter sur",
+        "TEXT-INFO-2": "Vous serez invité à définir un mot de passe permanent."
+      },
+      "MODAL-ROLES": {
+        "TITLE": "Liste des modules "
+      },
+      "MODAL-USERS": {
+        "TITLE": "Modification des informations utilisateur ",
+        "TITLE-CREATE": "Créer un utilisateur"
+      },
+      "MODAL-EMAIL": {
+        "TITLE": " Envoi du lien d'activation du compte",
+        "MODAL_BODY_1": "En cliquant sur \"Envoyer\"",
+        "MODAL_BODY_2": "recevra un email\n    l'invitant à activer son compte sur My Cooperl Suite.",
+        "MODAL_BODY_3": "Il devra alors créer son propre mot de passe avant de pouvoir se connecter sur les applications web et mobiles."
+      }
+    },
+    "VSI": {
+      "MODAL": {
+        "IMPORT": {
+          "TITLE": "Importar VSI",
+          "DROP-ZONE": "Arrastra y suelta archivos ZIP en esta zona",
+          "DROP-ZONE-EXTRA": "o haga clic aquí",
+          "ERROR": "Problema al importar el archivo",
+          "UNAUTHORIZED": "Importación VSI no permitida en esta localisación",
+          "SUCCESS": {
+            "TITLE": "Importación de archivos VSI en curso",
+            "MESSAGE": "Solicitud de importación completada exitosamente"
+          }
+        },
+        "EXPORT": {
+          "TITLE": "Exportación VSI en formato ZIP",
+          "ERROR": "Error al descargar el archivo",
+          "LABEL": "Nombre de archivo"
+        },
+        "RESULT": {
+          "TITLE": "Resultado de la última importación VSI"
+        }
+      },
+      "TABLE-HEADER": {
+        "SITE": "Localisación",
+        "NAME": "apellido",
+        "SOCIAL-REASON": "Razón social",
+        "ADDRESS": "dirección",
+        "CP": "Código postal",
+        "CITY": "ciudad",
+        "ACTION": "acción",
+        "DATE": "Estado de importación"
+      },
+      "RESULT": {
+        "UPDATED": "Actualizado",
+        "ADDED": "creado",
+        "IGNORED": "ignorado",
+        "NO_CHANGE": "No modificado",
+        "REFORMED": "Desvieje",
+        "ERROR": "No importado"
+      },
+      "ACTION": {
+        "UPLOAD": "Importar VSI",
+        "DOWNLOAD": "Exportar VSI",
+        "UPLOAD_IN_PROGRESS": "Imposible importación.\nUna importación VSI está en progreso."
+      },
+      "STATUS": {
+        "SUCCESS": "Ver el último informe de importación VSI",
+        "ERROR": "Error",
+        "ERROR_TITLE": "Se produjo un error durante la última importación VSI",
+        "PROGRESS": "Importando ...\ncomenzado ",
+        "DEFAULT": "No importa",
+        "TODO": "PENDIENTE",
+        "TODO_TITLE": "importación pendiente ...\nPide"
+      },
+      "NO_IMPORT": "no importación"
+    },
+    "DEPART": {
+      "DESTINATION": "Destino",
+      "NUMBER_WITH_RFID": "N °. Crotalados",
+      "BY_BANDE": "Por banda",
+      "SELECT_RANGE": "fechas",
+      "TYPE_DEPART": "Tipo de salida",
+      "SELECT_TYPE": "Seleccione un tipo",
+      "SELECT_DATE": "Selecciona una fecha",
+      "TYPE_DEPARTS": {
+        "SALE": "venta",
+        "ALL": "todos",
+        "TRANSFER": "transferencia",
+        "SLAUGHTERHOUSE": "matadero"
+      },
+      "NO_DEPARTURE": "No hay salida para este periodo.",
+      "REQUIRED_TYPE_DEPART": "Se requiere tipo de salida",
+      "SELECT_RANGE_START": "Fecha de inicio",
+      "SELECT_RANGE_END": "Fecha de finalización",
+      "DESTINATION_NON_PRECISE": "No especificado",
+      "NUMBER_WITHOUT_RFID": "Num. sin pendientes",
+      "BY_PSA": "Por pliego de condiciones",
+      "REQUIRED_DATE_DEBUT": "La date de début est obligatoire",
+      "REQUIRED_DATE_FIN": "La date de fin est obligatoire"
+    },
+    "DASHBOARD": {
+      "CONFIG": {
+        "WIDGET_TOOLTIP": "Configurar el widget",
+        "PERIOD_HELP": "El periodo es propio a cada usario",
+        "TARGET_HELP": "El objetivo esta común a todos los usarios del sitio ",
+        "WIDGET_SWITCH_COLUMN_TOOLTIP": "visualizar en histograma",
+        "WIDGET_SWITCH_SPLINE_TOOLTIP": "visualizar en curva"
+      },
+      "PORCS_ABATTUS_WIDGET": {
+        "TITLE": "Evolución del número de cerdos enviados al matadero",
+        "X_AXYS_TITLE": "Animales sacrificados",
+        "Y_AXYS_FIXED_TITLE": "Objectivo",
+        "TOOLTIP": "Cerdos"
+      },
+      "SEVRE_ANNUEL_WIDGET": {
+        "TITLE": "Lechones destetados / cerda presente / año"
+      },
+      "SEVRE_BANDE_WIDGET": {
+        "TITLE": "Lechones destetados / banda"
+      },
+      "TAUX_PERTE_WIDGET": {
+        "TITLE": "Evolución de la tasa de bajas nacimiento-venta",
+        "X_AXIS_TITLE": "% de baja",
+        "Y_AXYS_FIXED_TITLE": "Objectivo",
+        "TOOLTIP": "%"
+      },
+      "TRUIES_PRESENTES_WIDGET": {
+        "TITLE": "Número de cerdas presentes"
+      },
+      "TAUX_QUALIFICATION_WIDGET": {
+        "TITLE": "Informacion comercial"
+      },
+      "PORCS_ABATTUS_ANNUEL_WIDGET": {
+        "TITLE": "Número de cerdos enviados al matadero"
+      },
+      "TAUX_PERTE_ANNUEL_WIDGET": {
+        "TITLE": "Tasa de bajas nacimiento-venta"
+      },
+      "WIDGET_ANNUEL": {
+        "UPDATE_PERIODE": "Edición del widget",
+        "PERIODE": "Período",
+        "TARGET": "Objectivo",
+        "DU": "Du",
+        "AU": "au",
+        "LAST_MONTHS": "derniers mois",
+        "TODAY": "à aujourd'hui",
+        "TODAY_DATE": "Date du jour",
+        "REQUIRED_DATE_DEBUT": "La date de début est obligatoire",
+        "REQUIRED_DATE_FIN": "La date de fin est obligatoire"
+      },
+      "TAUX_TRAITEMTENT_WIDGET": {
+        "TITLE": "Tx. tratamiento nacimiento-venta sobre bucles"
+      },
+      "ERROR_MESSAGE": {
+        "TARGET_MAX": "Objetivo máximo superado"
+      },
+      "WIDGET_CONFIGURATION": {
+        "TITLE": "Configuración de los Widgets",
+        "BUTTON_TOOLTIP": "Configurer les widgets"
+      },
+      "COMMON": {
+        "TARGET": "Objectivo",
+        "TARGET_ABBREGE": "Obj."
+      },
+      "INVENTAIRE_PORCS_CHARCUTIERS_WIDGET": {
+        "TITLE": "inventario cerdos magros con pendiente",
+        "IND_VENDUS": "vendido",
+        "IND_VENDUS_SANS_BOUCLE": "sin pendiente",
+        "IND_ENGRAISSEMENT": "Entradas eng.",
+        "IND_SEVRES": "Destetas",
+        "IND_TAUX_PERTE_MATERNITE": "pérdida mater",
+        "IND_TAUX_PERTE_ENGRAISSEMENT": "pérdida eng.",
+        "IND_TAUX_PERTE_POST_SEVRAGE": "pérdida PS",
+        "TOOLTIP": {
+          "RAPPORT_TABLEAU_BORD": "Consultar el informe salpicadero ",
+          "RAPPORT_TAUX_PERTE_STRUCTURE": "Consultar el informe tasa de pérdida por estructura",
+          "RAPPORT_TAUX_PERTE_BANDE": "Consulter le rapport Taux de perte par bande"
+        }
+      },
+      "INFO_SYNCHRO_WIDGET": {
+        "TITLE": "últimas sincronizaciónes",
+        "LAST_IMPORT_VSI": "Import VSI",
+        "LAST_SYNCHRO_CHEPTEL": "Pass'Cheptel",
+        "LAST_SYNCHRO_PORC": "Pass'Porc",
+        "NO_SYNCHRO": "Sin sincronización "
+      },
+      "PORCS_STADE_PHYSIO_WIDGET": {
+        "TITLE": "Nb animales por estadio fisiológico",
+        "ANIMALS": "animales"
+      },
+      "INVENTAIRE_TRUIES_WIDGET": {
+        "TITLE": "Inventaire truies",
+        "IND_MISES_BAS": "Nb. Mises bas",
+        "IND_MORTES": "Nb. Mortes",
+        "IND_TAUX_MISES_BAS": "Tx Mises bas",
+        "IND_TAUX_PERTE": "Tx Perte",
+        "IND_NB_TRUIES": "Nb. Truies",
+        "TOOLTIP": {
+          "RAPPORT_HISTORIQUE_TRUIE": "Consulter le rapport Historique truies",
+          "RAPPORT_PILOTAGE_CHEPTEL": "Consulter le rapport Pilotage cheptel"
+        }
+      },
+      "DEMOGRAPHIE_TRUIE_WIDGET": {
+        "TITLE": "Démographie reproducteurs",
+        "X_AXYS_TITLE": "Rang",
+        "Y_AXYS_TITLE": "Nb. truies",
+        "TOOLTIP": " Truies"
+      },
+      "EXPORT_BUTTONS": {
+        "CSV": "Exporter au format CSV",
+        "PDF": "Exporter au format PDF"
+      },
+      "INVENTAIRE_TRUIE_WIDGET": {
+        "TITLE": "Inventaire truies"
+      },
+      "INVENTAIRE_TRUIE_PERTE_WIDGET": {
+        "TITLE": ""
+      },
+      "ONGLET": {
+        "TABLEAU_BORD": "Tableau de bord",
+        "SANITAIRE": "Sanitaire",
+        "MORTALITE": "Mortalité",
+        "PRODUCTIVITE": "Productivité",
+        "GENERAL": "Général",
+        "BUTTON_FAVORITE_TOOLTIP": "Définir comme favori"
+      }
+    },
+    "RAPPORT": {
+      "RAPPORTS": {
+        "TAUX_PERTE_BANDE_STADE_PHYSIO": {
+          "TITLE": "Taux de perte bande par stade physiologique",
+          "X_AXIS_LABEL": "N° Bande",
+          "Y_AXIS_LABEL": "Pourcentage de perte"
+        },
+        "TAUX_PERTE_RANG": {
+          "CATEGORIES_X_AXIS": {
+            "RANG1": "Rang 1",
+            "RANG2": "Rang 2",
+            "RANG35": "Rang 3-5",
+            "RANG6": "Rang 6+"
+          },
+          "TITLE": "Taux de perte par rang",
+          "X_AXIS_LABEL": "Rang",
+          "Y_AXIS_LABEL": "Pourcentage de perte"
+        }
+      },
+      "FILTRES": {
+        "SITE": {
+          "TITLE": "Site",
+          "PLACEHOLDER": "Site"
+        },
+        "TRUIES": {
+          "TITLE": "Truies",
+          "PLACEHOLDER": "Toutes les truies"
+        },
+        "BANDES": {
+          "TITLE": "Bandes",
+          "PLACEHOLDER": "Toutes les bandes"
+        },
+        "STADE_PHYSIO": {
+          "TITLE": "Stades physiologiques",
+          "PLACEHOLDER": "Tous les stades"
+        },
+        "PERIODE": {
+          "TITLE": "Période",
+          "PLACEHOLDER": "Toutes les périodes"
+        }
+      },
+      "METRIQUES": {
+        "NUMERO_TRAVAIL": "N° travail",
+        "RFID": "RFID",
+        "BANDE": "Bande",
+        "RANG": "Rang",
+        "DATE_SAILLIE": "Date saillie",
+        "DATE_DERNIERE_ECHO": "Date dernière écho",
+        "RESULTAT_DERNIERE_ECHO": "Résultat dernière écho",
+        "DATE_RETOUR": "Date retour",
+        "DATE_AVORTEMENT": "Date avortement",
+        "DATE_MISE_BAS": "Date mise base",
+        "NV": "NV",
+        "MN": "MN",
+        "NT": "NT",
+        "MO": "MO",
+        "AD": "AD",
+        "RE": "RE",
+        "DATE_SEVRAGE": "Date sevrage",
+        "NS": "NS",
+        "TAUX_TRAITEMENT_SEVRES": "Tx traitement sevrés par",
+        "TAUX_PERTE_SEVRES": "Tx pertes sevrés par",
+        "ELD1": "ELD1",
+        "ELD2": "ELD2",
+        "OBSERVATION": "Observation",
+        "DATE_REFORME": "Date réforme",
+        "CAUSE_REFORME": "Cause Réforme",
+        "ELD_ENTREE_MATER": "ELD entrée mater.",
+        "ELD_SORTIE_MATER": "ELD sortie mater.",
+        "ELD_SALLIE": "ELD IA/Régumate",
+        "ELD_GESTANTE": "ELD gestante",
+        "ELD_AUTRE": "ELD autre",
+        "TYPE_REFORME": "Type réforme",
+        "NOMBRE_DOSES": "Nb. doses",
+        "TAUX_PERTE_NES_VIFS": "Tx perte / NV"
+      },
+      "LEGEND": {
+        "TITLE": "Causes sélectionnées",
+        "SUBTITLE": "(Cliquez pour masquer)"
+      }
+    }
+  },
+  "SHARED": {
+    "BREADCRUMB": {
+      "ADMIN": "Administración",
+      "CONNECT_WITH": "Iniciar Sesión Como",
+      "REPORT": "Informe",
+      "PHARMACY": {
+        "TITLE": "Mi farmacia",
+        "CONSULTATION": "Consulta de farmacia",
+        "INVENTORY": "Inventario de Stock",
+        "INIT": "Inicialización farmacia"
+      },
+      "STATISTIQUES": "Mis estadisticas",
+      "DEPARTURES": {
+        "TITLE": "Historial de salida"
+      },
+      "PROBLEMATIC": {
+        "TITLE": "Mis problemas"
+      },
+      "PARAMETRES": {
+        "BREEDING": "Mis parametros",
+        "ADMIN": "Parámetros comunes"
+      },
+      "SITE-MANAGEMENT": "Gestión de la localisaciones",
+      "VSI": "Gestión de datos VSI",
+      "HISTORIQUES": {
+        "TITLE": "Mon historique"
+      }
+    },
+    "LANGUAGE": {
+      "TOOLTIP": "Cambiar El Idioma"
+    },
+    "OPTIONS": {
+      "YES": "Sí",
+      "NO": "No",
+      "ACTIVE": "Activo",
+      "INACTIVE": "inactivo",
+      "LABEL": "Texto"
+    },
+    "MODALS": {
+      "CSV_MODAL": {
+        "EXPORT": "Exportar Datos En Formato Csv",
+        "TITLE": "Nombre Del Archivo A Descargar."
+      },
+      "PDF_MODAL": {
+        "EXPORT": "Exportar Datos En Formato Pdf.",
+        "TITLE": "Nombre Del Archivo",
+        "FORMAT": "Formato",
+        "ORIENTATION": "Orientación",
+        "ZOOM": "Zoom",
+        "DATA_UPDATE": "Datos Actualizados En",
+        "SELECT_FORMAT": "Seleccione el formato PDF",
+        "SELECT_ORIENTATION": "Seleccione orientación del PDF"
+      },
+      "MANDATORY_TARGET_MODAL": {
+        "FILL_TARGETS": "Por favor, informe estos objetivos"
+      },
+      "TARGET_MODAL": {
+        "UPDATE_TARGETS": "Modificación de objetivos"
+      },
+      "PHARAMCY_INVENTORY": {
+        "ANNULATION_CONFIRMATION_MESSAGE": "¿Seguro que quieres cancelar tus cambios?",
+        "VALIDATE": "Validar el inventario",
+        "TOAST_VALIDATE": "El inventario ha sido actualizado.",
+        "TOAST_CANCEL": "El inventario no está actualizado",
+        "CONFIRMATION": "confirmación"
+      }
+    },
+    "COOKIES": {
+      "MESSAGE": "Al continuar navegando en el sitio www.mycooperlsuite.io, acepta el uso de cookies y tecnologías similares para recopilar sus datos, a fin de personalizar su experiencia."
+    },
+    "NO_DATA": "No hay datos disponibles",
+    "LABELS": {
+      "PORCS": "Porcs"
+    }
+  },
+  "MENU": {
+    "LABEL": {
+      "DASHBOARD": "Panel De Control",
+      "ANIMALS": "Mis Animales",
+      "STRUCTURES": "Mis Estructuras",
+      "DEPARTURES": "Mis Salidas",
+      "PHARMACY": "Mi Farmacia",
+      "HELP": "Ayuda",
+      "REPRODUCERS": "Reproductores",
+      "PORK_BUTCHERS": "Cerdos de engorde",
+      "SETTINGS": {
+        "TITLE": {
+          "BREEDING": "Mis parametros"
+        },
+        "BREEDING": "Granja",
+        "ADMIN": "común"
+      },
+      "ADMINISTRATION": {
+        "LABEL": "administración",
+        "SETTINGS": {
+          "LABEL": "Parámetros comunes",
+          "DETAILS": "com"
+        },
+        "SITE": {
+          "LABEL": "Gestión de la pagína web",
+          "DETAILS": "Pagína web"
+        },
+        "VSI": {
+          "LABEL": "Gestión VSI",
+          "DETAILS": "VSI"
+        }
+      },
+      "STATISTIQUES": "Mis estadisticas",
+      "PROBLEMATIC": "Mis problemas",
+      "HISTORIQUES": "Mon historique"
+    },
+    "DETAILS": {
+      "DASHBOARD": "Panel De Control",
+      "ANIMALS": "Mis Animales",
+      "STRUCTURES": "Estructuras",
+      "DEPARTURES": "Salidas",
+      "PHARMACY": "8 Nuevos Productos",
+      "SETTINGS": "Mis Parametros",
+      "HELP": "Ayuda",
+      "STATISTIQUES": "4 nuevos informes",
+      "PROBLEMATIC": "problemático"
+    }
+  },
+  "HEADER": {
+    "ADMINISTRATION": "Administración",
+    "LOGIN_WITH": "Iniciar Sesión Como",
+    "LOGOUT": "Desconectarse",
+    "CONFIGURATION": "Configuración "
+  },
+  "FOOTER": {
+    "COPYRIGHT": "Copyright © Socobati. Todos Los Derechos Reservados.",
+    "LEGAL_MENTION": "Avisos Legales",
+    "CONFIDENTIALITY": "Confidencialidad",
+    "CONFIDENTIALITY_PAGE": "Política De Confidencialidad\n==================================================\nPass'Web Es Una Aplicación Publicada Por Socobati, Una Filial Del Grupo Cooperl, Que Le Permite Registrar Todos Los Eventos Relacionados Con La Vida De Sus Animales Durante La Cría: Adopciones, Tratamientos, Pesajes, Movimientos Entre Estructuras, Crotalado , Adición De Observaciones, O La Partida De Animales.\nAl Usar Estos Servicios, Comparte Datos Con Socobati, Una Filial Del Grupo Cooperl. La Siguiente Política De Privacidad Lo Ayudará A Comprender Qué Datos Recopilamos, Cómo Se Utilizan Y Con Quién Los Compartimos.\n\nDatos Que Recopilamos\n==================================================\nPass'Web Recibe O Recopila Datos Cuando Utiliza Nuestros Servicios:\n\n1. Los Datos Que Obtenemos Al Utilizar Nuestros Servicios.\n-------------------------------------------------- ---------------------------------------\nDatos Sobre El Uso De Los Servicios:\nRecopilamos Diversos Datos Sobre Los Servicios Utilizados, La Forma En Que Los Usa, Las Horas De Uso, La Secuencia De Los Servicios Realizados.\n\nDatos Sobre El Dispositivo Utilizado:\nLos Datos Relacionados Con El Dispositivo Utilizado Se Recopilan Automáticamente: El Modelo, La Versión Del Sistema Operativo, El Idioma Y Su Identificador Único.\n\nRegistrar Datos Del Archivo:\nLos Datos Sobre Servicios, Diagnósticos, Incidentes Y Rendimiento Se Recopilan En Archivos De Registro.\n\n2. Los Datos Que Ingreses A Través De La Aplicación.\n-------------------------------------------------- ---------------------------------------\nPara Acceder A Nuestros Servicios, Debe Tener Una Cuenta Personal. Debemos Recopilar Información Personal, Como Su Nombre De Usuario, Su Dirección De Correo Electrónico Y Su Contraseña.\nAdemás, Los Datos Introducidos A Través De Nuestros Diversos Servicios También Se Recopilan Y Almacenan.\n\nUso De Los Datos Recogidos.\n==================================================\nLa Información Recopilada Se Utiliza Para Producir Servicios Cada Vez Más Funcionales Y Confiables.\n\nLos Objetivos Que Se Persiguen Son Los Siguientes:\n- Mejora De La Seguridad De Nuestros Servicios.\n- Desarrollo, Explotación, Mejora De Nuestros Servicios.\n- Investigar, Desarrollar Y Probar Nuevas Funcionalidades.\n- Monitorear Patrones De Uso Y Usos.\n\nDatos Que Compartimos\n==================================================\nNingún Dato Recopilado Dentro De Nuestros Servicios Se Comparte Con Proveedores Externos, Servicios De Terceros O Una Compañía De Terceros.\nLos Datos Que Recopilamos Pueden Compartirse Con Empresas Del Grupo Socobati, Una Filial Del Grupo Cooperl.\nSin Embargo, No Se Comparten Con Ningún Tercero.\n\nPeriodo De Validez De Los Datos Recogidos.\n==================================================\nLos Datos Recopilados Se Conservan Durante La Duración Del Uso De La Aplicación. Una Vez Que La Aplicación Ha Sido Desinstalada De Su Teléfono, Los Datos Se Guardan Durante 5 Años Y Se Archivan.\n\nDatos Personales\n==================================================\nDe Conformidad Con La Ley \"De Datos Y Libertad\" N ° 78-17 Del 6 De Enero De 1978 Modificada, Usted Tiene Derecho A Acceder, Modificar, Rectificar Y Eliminar Los Datos Que Lo Conciernen (Artículo 34). Puede Ejercer Este Derecho Enviando Una Carta A Société Socobati- Customer Service 5 Rue D'Armor Bp 60328 - 22403 Lamballe Cedex. ",
+    "LEGAL_MENTION_PAGE": "Notas Legales\n\n1. Información Sobre La Empresa\n=================================================\nEste Sitio Es Publicado Por La Empresa Socobati: Sociedad Anónima Unipersonal Simplificada Con Un Capital De 3.972.400 Euros.\nSirene: 341 796 027 Rcs Saint Brieuc\nSede: Socobati, Zona Industrial, Rue De La Jeannaie, 22400 Lamballe\n\n2. Creditos\n=================================================\nSocobati Es El Editor Del Sitio Web Mycooperlsuite.Io.\nDirectores De La Publicación: Sr. Pierre Le Guilloux, Director.\n\n3. Condiciones De Uso\n=================================================\nCualquier Persona Que Acceda Al Sitio Web Mycooperlsuite.Io Acepta Cumplir Con Estos Términos De Uso.\nCualquier Persona Que Visite El Sitio Es Responsable De Los Datos Que Difunde, Utiliza Y / O Transfiere Y Se Compromete A Cumplir Con Las Regulaciones Francesas Vigentes, En Particular Las Relacionadas Con El Contenido Que Es Claramente Ilegal (Delitos Contra La Moral, Incitación A Odio Racial, Pedofilia ...) O La Protección De Los Derechos De Terceros (Derechos De Propiedad Intelectual ...). Socobati No Es Responsable Del Uso De Los Datos, El Contenido Emitido Por Otra Persona Y Que, En Particular, No Cumple Con La Normativa Vigente.\nEl Establecimiento De Un Enlace De Hipertexto Al Sitio Requiere Una Autorización Previa Por Escrito De La Compañía Socobati, Que De Ninguna Manera Puede Ser Responsable De Los Sitios Con Un Enlace De Hipertexto Al Sitio Y Declina Toda Responsabilidad Por Su Contenido Y A Su Uso.\nEl Sitio Está Sujeto A La Ley Francesa, Los Tribunales Franceses Solo Son Competentes En Caso De Disputa.\n\n4. Propiedad - Derecho De Autor\n=================================================\nLa Presentación Y El Contenido Del Sitio Web Mycooperlsuite.Io Juntos Constituyen Una Obra Protegida Por Las Leyes Vigentes De Derechos De Autor, Propiedad Intelectual E Industrial. Las Marcas Comerciales, Denominaciones O Designaciones, Logotipos, Nombres De Dominio Son, A Menos Que Se Especifique Lo Contrario, Marcas Comerciales. Las Creaciones Que Posiblemente Aparezcan En El Sitio, Dibujos, Fotografías, Imágenes, Textos, Secuencias Animadas Con O Sin Sonido Y Otras Documentaciones Representadas, Son Objetos De Derechos De Autor, De Propiedad Industrial Y / O Intelectual Y Son, Según Los Casos, Propiedad De Socobati O Terceros Que Hayan Autorizado A Socobati A Utilizarlos.\nNinguna Explotación Comercial, Reproducción, Representación, Uso, Adaptación, Modificación, Incorporación, Traducción, Comercialización, Parcial O Completa De Estos Elementos (Incluidos Los Descargables O Copiables) No Puede Realizarse Sin El Acuerdo Previo Por Escrito De La Empresa Socobati. , Excepto Para Uso Privado Sujeto A Disposiciones Diferentes O Incluso Más Restrictivas Del Código De Propiedad Intelectual.\n\n5. Datos Personales\n=================================================\nLa Información Recopilada En El Sitio Está Destinada Al Uso Exclusivo De Socobati.\nDe Conformidad Con La Ley Informatique Et Liberté\" N ° 78-17 Del 6 De Enero De 1978, Tiene Derecho A Acceder, Modificar, Rectificar Y Eliminar Los Datos Que Lo Conciernen (Artículo 34). Puede Ejercer Este Derecho Enviando Un Correo Electrónico A Servicio Al Cliente De Socobati: Compañía De Socobati - Servicio Al Cliente 5 Rue D'Armor Bp 60328 - 22403 Lamballe Cedex"
+  },
+  "PDF": {
+    "BAND": "Banda",
+    "FILENAME": "Ficha cerda",
+    "RANK": "rango",
+    "SOWS_PLUG": {
+      "DATE_FARROWING": "Parto previsto el",
+      "NATIONAL_NUM": "Número nacional",
+      "DATE_BIRD": "Fecha de nacimiento",
+      "DATE_ENTERED": "Fecha de entrada",
+      "NO_DATA_HISTORY": "Ningún historico ",
+      "MESSAGE": "mensaje",
+      "HISTORIC": {
+        "MESSAGE": "mensaje",
+        "TITLE": "Historial vida",
+        "RANK": "rango",
+        "FIRST_SAILLIE": "1er día_x000D_ cubrición",
+        "ISSF": "IDCF",
+        "GESTATION_TIME": "Duración_x000D_ gestación ",
+        "ELD_1": "ETD 1",
+        "ELD_2": "ETçD 2",
+        "NV": "NV",
+        "MN": "MN",
+        "MO": "MB",
+        "LOST": "Bajas",
+        "WEANED": "Dest.",
+        "OBSERVATIONS": "Comentarios"
+      },
+      "CYCLE": {
+        "TITLE": "Información del ciclo actual",
+        "RANK": "rango",
+        "ELD_1": "ETD 1",
+        "ELD_2": "ETD 2",
+        "DATE_FARROWING": "Fecha parto ",
+        "NV": "NV",
+        "MN": "MN",
+        "MO": "MB",
+        "AD": "Ad",
+        "RE": "re",
+        "DATE_WEANED": "Fecha destete ",
+        "WEANED": "Dest."
+      },
+      "REMARKS": "Commentarios",
+      "AGE_MISE_BAS": "Age à la\r\nprochaine mise bas"
+    },
+    "NUMERO_INTERNE": "Numero interno",
+    "PATTERN": {
+      "NB_JOURS": "d 'jour(s)'",
+      "NB_ANNEES_MOIS_JOURS": "y 'année(s)' M 'mois' d 'jour(s)'"
+    }
+  },
+  "DAYS": {
+    "1": "domingo",
+    "2": "lunes",
+    "3": "martes",
+    "4": "miércoles",
+    "5": "jueves",
+    "6": "viernes",
+    "7": "sábado"
+  },
+  "DAY": {
+    "MONDAY": "lunes",
+    "TUESDAY": "martes",
+    "WEDNESDAY": "miércoles",
+    "THURSDAY": "jueves",
+    "FRIDAY": "viernes",
+    "SATURDAY": "sábado",
+    "SUNDAY": "domingo",
+    "NONE": "Nada"
+  },
+  "sProcessing": "Tratamiento en curso...",
+  "sSearch": "Buscar :",
+  "sLengthMenu": "Mostrar elementos _MENU_",
+  "sInfo": "Mostrando _START_para_END_ en _TOTAL_ elementos",
+  "sInfoEmpty": "Mostrando artículo 0 a 0 de 0 artículo",
+  "sInfoFiltered": "(filtrado de _MAX_ total de artículos)",
+  "sInfoPostFix": " ",
+  "sLoadingRecords": "Cargando...",
+  "sZeroRecords": "No hay artículos para mostrar",
+  "sEmptyTable": "No hay datos disponibles en la tabla.",
+  "oPaginate": {
+    "sFirst": "primero",
+    "sPrevious": "anterior",
+    "sNext": "Próximo",
+    "sLast": "Último"
+  },
+  "oAria": {
+    "sSortAscending": ": activar para ordenar la columna en orden ascendente",
+    "sSortDescending": ": activar para ordenar la columna en orden descendente"
+  },
+  "select": {
+    "rows": {
+      "_": "% de líneas seleccionadas",
+      "0": "No hay línea seleccionada",
+      "1": "1 línea seleccionada"
+    }
+  },
+  "PARAMETRE": {
+    "AGESEVRAGE": {
+      "LABEL": "Edad de los lechones al destete.",
+      "DESCRIPTION": "Se utiliza para determinar el número de días a partir de los cuales se destetan los lechones."
+    },
+    "GESTIONSEXAGE": {
+      "LABEL": "Gestion del sexage",
+      "DESCRIPTION": "Permite darle un sexo al animal durante su registro al momento del parto."
+    },
+    "JOURNAISSANCE": {
+      "LABEL": "Día de nacimiento",
+      "DESCRIPTION": "Se utiliza para determinar el día de la semana a la que se asignó a los lechones durante el parto."
+    },
+    "JOURSEVRAGE": {
+      "LABEL": "Dia de destete",
+      "DESCRIPTION": "Se utiliza para determinar el día de la semana en que se realiza el destete."
+    },
+    "GESTIONTRUIES": {
+      "LABEL": "Manejo de cerdas",
+      "DESCRIPTION": "Activar la gestión de cerdas en la aplicación. La adición de lechones a una cerda y el tratamiento de la cerda son entonces posibles."
+    },
+    "AUTORENOUVELLEMENT": {
+      "LABEL": "Gestión de la reposición",
+      "DESCRIPTION": "Permite pasar animales de producción a animales reproductores."
+    },
+    "GESTIONPHARMACIE": {
+      "LABEL": "Gestión de la farmacia",
+      "DESCRIPTION": "Le permite activar la gestión de la farmacia y proponer en los móviles los productos véterinarios presentes en el almacen durante un tratamiento"
+    },
+    "GESTIONSTADEPHYSIO": {
+      "LABEL": "Gestión de estadios fisiológicos.",
+      "DESCRIPTION": "Permite activar el manejo de estadios fisiológicos."
+    },
+    "CONDUITEBANDE": {
+      "LABEL": "Manejo en banda",
+      "DESCRIPTION": "Permite especificar el manejo en bandas establecidos en la granja.",
+      "PLACEHOLDER": "Manejo en banda"
+    },
+    "GESTIONSTRUCTURES": {
+      "LABEL": "Gestión de estructuras",
+      "DESCRIPTION": "Permite activar la gestión de estructuras en la granja."
+    },
+    "IMMPORTVSI": {
+      "LABEL": "Importar VSI",
+      "DESCRIPTION": "Permite la autorización de la importación VSI en la granja."
+    },
+    "PASSPORC": {
+      "LABEL": "Acceso PassPorc",
+      "DESCRIPTION": "Permite al usuario de la pagina web tener acceso a Pass'Porc"
+    },
+    "PASSCHEPTEL": {
+      "LABEL": "Acceso Pass'Cheptel",
+      "DESCRIPTION": "Permite al usuario de la pagína web tener acceso a Pass'Cheptel"
+    },
+    "GMQ": {
+      "LABEL": "Ganancia media diaria",
+      "DESCRIPTION": "Permite definir la media del GMD de la localisación (gramos / día)"
+    },
+    "POIDSTHEORIQUESEVRAGE": {
+      "LABEL": "Peso teórico al destete.",
+      "DESCRIPTION": "Utilizado para determinar el peso teórico de los animales al destete.",
+      "VALIDATIONERROR": "El valor debe estar entre {{min}} y {{max}}"
+    },
+    "DUREEGESTATION": {
+      "LABEL": "El período de gestación",
+      "DESCRIPTION": "Permite precisar el período medio de gestación de una cerda",
+      "PLACEHOLDER": " Período de gestación"
+    },
+    "SMARTPIG": {
+      "LABEL": "Acces Smart'Pig",
+      "DESCRIPTION": "Permet à l'utilisateur du site d'avoir les accès à Smart'Pig."
+    },
+    "SMARTSOW": {
+      "LABEL": "Acces Smart'Sow",
+      "DESCRIPTION": "Permet à l'utilisateur du site d'avoir les accès à Smart'Sow."
+    },
+    "RACES": {
+      "LABEL": "Races site",
+      "DESCRIPTION": "Permet de choisir les races du site."
+    }
+  },
+  "MONTHS": [
+    "Ene",
+    "Feb",
+    "Mar",
+    "Abr",
+    "May",
+    "Jun",
+    "Jul",
+    "Ago",
+    "Sep",
+    "Oct",
+    "Nov",
+    "Dec"
+  ],
+  "ERROR_MESSAGE": {
+    "TARGET": {
+      "TARGET.GET": "Error al cargar los objetivos",
+      "UPDATE_TARGETS": "Error al actualizar los goles"
+    },
+    "DATA": {
+      "GET_BY_ID_AND_FILTER": "Error al cargar los datos"
+    },
+    "USER_PREFERENCES": {
+      "GET": "Error al cargar las preferencias del usuario",
+      "CREATE": "Error al crear las preferencias del usuario",
+      "UPDATE": "Error al actualizar las preferencias del usuario"
+    },
+    "PARAMETRES_ADMIN": {
+      "GET": "Error al cargar la configuración del usuario",
+      "CREATE": "Error al crear la configuración del usuario",
+      "UPDATE": "Error al actualizar la configuración del usuario"
+    },
+    "PHARMACIE": {
+      "LOAD_STOCK": "Error al cargar el stock de farmacia",
+      "UPDATE_STOCK": "Error al actualizar el stock de farmacia",
+      "GET_LABEL_MEDICAMENTS": "Error al cargar las etiquetas de los medicamentos",
+      "GET_MOUVEMENT_MEDICAMENTS": "Error al cargar los movimientos de la droga",
+      "GET_MEDICAMENTS": "Error de carga de los medicamentos "
+    },
+    "SITE": {
+      "GET_ALL": "Error al cargar los sitios",
+      "CREATE": "Error al crear el sitio",
+      "SEARCH": "Error al buscar el sitio"
+    },
+    "STRUCTURE": {
+      "LOAD_STRUCTURES": "Error al cargar las estructuras",
+      "GET_SITE_INFO": "Error al cargar la información del sitio",
+      "CREATE_SITE": "Error al crear el sitio",
+      "GET_BATIMENT_INFO": "Error al cargar la información de la nave",
+      "CREATE_BATIMENT": "Error al crear la nave",
+      "GET_SALLE_INFO": "Error al cargar la información de la sala",
+      "GET_SALLE_INFO_COMMERCIALE": "Error al cargar información comercial de la sala",
+      "CREATE_SALLE": "Error al crear la sala",
+      "GET_CASE_INFO": "Error al cargar la información de la cuadra",
+      "CREATE_CASE": "Error creando cuadra",
+      "UPDATE_RANG": "Error al actualizar el rango de la estructura.",
+      "GET_TAUX_PERTE": "Error al cargar la tasa de baja de la estructura",
+      "GET_INFO_COMMERCIALE": "Error de carga de las informaciónes comerciales",
+      "UPDATE": "Error de actualización de la estructura",
+      "VIDER": "Error en el vaciado de la estructura",
+      "DEPLACER_SALLE": "error durante el desplazamiento de la  sala",
+      "DEPLACER_CASE": "error durante el desplazamiento de la sala"
+    },
+    "ADMIN": {
+      "GET_ALL_CLIENT_USERS_ADMIN": "Error al cargar usuarios",
+      "IMPERSONATE_ADMIN": "No se puede conectar"
+    },
+    "WIDGET": {
+      "GET_PORCS_SEVRES_INDICATOR": "Error al cargar los datos del lechón detestados",
+      "GET_PORCS_ABATTUS_CHART": "Error al cargar los datos de la carta de cerdo sacrificado",
+      "GET_TAUX_PERTE_CHART": "Error al cargar la tasa de baja de datos del gráfico",
+      "GET_PORCS_SEVRES_BANDE_INDICATOR": "Error al cargar los datos del indicador de cerdo destetado en banda",
+      "GET_INFO_SYNCHRO": "Error al cargar los datos de información de sincronización",
+      "GET_PORCS_STADE_PHYSIO": "Error al cargar los datos del cerdo por etapas fisiológicas.",
+      "GET_TRUIES_PRESENTES_INDICATOR": "Error al cargar los datos del indicador de cerda presentes",
+      "GET_TAUX_QUALIFICATION": "Error al cargar los datos de tasa de calificación",
+      "GET_PORCS_ABATTUS_INDICATOR": "Error al cargar los datos del indicador de cerdo sacrificado",
+      "GET_TAUX_PERTE_INDICATOR": "Error al cargar los datos del indicador de tasa de baja",
+      "GET_TAUX_TRAITEMENT_INDICATOR": "Error de carga de los datos indicadores de tasa de tratamiento",
+      "GET_DEMOGRAPHIE_BANDE": "error durante el cargamento de los datos por la demografía de la banda",
+      "GET_INVENTAIRE_PORCS_CHARCUTIER": "Error durante al cargar de los datos del indicador de inventario de cerdo charcutero ",
+      "GET_INVENTAIRE_TRUIES": "Erreur lors du chargement des données de l'indicateur inventaire truies",
+      "GET_DEMOGRAPHIE_TRUIE": "Erreur lors du chargement des données de l'indicateur démographie truie"
+    },
+    "DEPART": {
+      "GET_ALL": "Error al cargar salidas"
+    },
+    "PROBLEMATIQUE": {
+      "LOAD_ALL": "Error al cargar problemas",
+      "GET_TOPIC": "Error al cargar el tema"
+    },
+    "BANDE": {
+      "LOAD_ALL": "Error al cargar las bandas",
+      "UPDATE": "Error al actualizar las bandas",
+      "GET_INFO_PERTE": "Error al cargar la información de baja de banda",
+      "GET_INFO": "Error al cargar la información de la banda",
+      "GET_INFO_COMMERCIALE": "Error al cargar la información del negocio de la banda",
+      "GET_TAUX_PERTE": "Error al cargar la tasa de baja de banda",
+      "GET_STATUTS_TRUIES": "error durante el cargamento de los estatus de cerdas",
+      "GET_HISTORIQUE_TRAITEMENT": "Erreur lors du chargement de l'historique du traitement de la bande"
+    },
+    "RAPPORT": {
+      "GET_DW_FILTERS": "Error al cargar los filtros",
+      "GET": "Error al cargar el informe",
+      "GET_ALL": "Error al cargar los informes"
+    },
+    "VSI": {
+      "DOWNLOAD": "Error al descargar VSI",
+      "GET_ALL_RAPPORTS": "Error al cargar los informes",
+      "GET_RAPPORT": "Error al cargar el informe"
+    },
+    "USERS_KEYCLOAK": {
+      "CREATE": "Erreur lors de La création de l'utilisateur",
+      "GET": "Erreur lors du chargement des utilisateurs"
+    },
+    "ROLES_KEYCLOAK": {
+      "GET": "Erreur lors du chargement des rôles"
+    },
+    "PARAMETRES_RACE": {
+      "GET": "Erreur lors du chargement des paramètres race."
+    },
+    "PARAMETRES_CROISEMENT": {
+      "GET": "Erreur lors du chargement des paramètres croisement."
+    },
+    "LANGUAGE_KEYCLOAK": {
+      "GET": "Erreur lors du chargement des langues"
+    }
+  }
+}

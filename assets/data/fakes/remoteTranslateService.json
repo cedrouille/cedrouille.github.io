@@ -1,0 +1,58 @@
+{
+    "items": [
+        {
+            "idReferentiel": "PARAMETRE:TypeCauseMort:CAUSE_MORT_ARTHRITES",
+            "traductions": {
+                "FR": "Arthrite"
+            }
+        },
+        {
+            "idReferentiel": "PARAMETRE:TypeCauseMort:CAUSE_MORT_AUTRE",
+            "traductions": {
+                "FR": "Autres"
+            }
+        },
+        {
+            "idReferentiel": "PARAMETRE:TypeCauseMort:CAUSE_MORT_CHETIFS",
+            "traductions": {
+                "FR": "Chétifs"
+            }
+        },
+        {
+            "idReferentiel": "PARAMETRE:TypeCauseMort:CAUSE_MORT_DIGESTIF",
+            "traductions": {
+                "FR": "Digestif"
+            }
+        },
+        {
+            "idReferentiel": "PARAMETRE:TypeCauseMort:CAUSE_MORT_ECRASES",
+            "traductions": {
+                "FR": "Ecrasés"
+            }
+        },
+        {
+            "idReferentiel": "PARAMETRE:TypeCauseMort:CAUSE_MORT_LOCOMOTEUR",
+            "traductions": {
+                "FR": "Locomoteur"
+            }
+        },
+        {
+            "idReferentiel": "PARAMETRE:TypeCauseMort:CAUSE_MORT_NERVEUX",
+            "traductions": {
+                "FR": "Nerveux"
+            }
+        },
+        {
+            "idReferentiel": "PARAMETRE:TypeCauseMort:CAUSE_MORT_NON_PRECISE",
+            "traductions": {
+                "FR": "Non précisé"
+            }
+        },
+        {
+            "idReferentiel": "PARAMETRE:TypeCauseMort:CAUSE_MORT_RESPIRATOIRE",
+            "traductions": {
+                "FR": "Respiratoire"
+            }
+        }
+    ]
+}

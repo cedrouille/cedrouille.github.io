@@ -1,0 +1,555 @@
+{
+    "success": true,
+    "data": [
+        {
+            "article_id": 71,
+            "dose": "4.00",
+            "unite_dose": "GR",
+            "delai_attente": 7,
+            "acd1": 50000,
+            "libelle": "ACTITETRA B 50%   SAC 10KG",
+            "quantiteInentames": "0",
+            "quantiteEntames": "0 GR",
+            "voie_orale": true,
+            "tarif": "216.72",
+            "duree": 5,
+            "pharmacies": [
+                23
+            ],
+            "interval": 1,
+            "actif": true
+        },
+        {
+            "article_id": 233,
+            "dose": "30.00",
+            "unite_dose": "ML",
+            "delai_attente": 12,
+            "acd1": 2381,
+            "libelle": "ADJUSOL TMP SULFA   BID 5L",
+            "quantiteInentames": "0",
+            "quantiteEntames": "0 ML",
+            "voie_orale": true,
+            "tarif": "61.77",
+            "duree": 7,
+            "pharmacies": [
+                23
+            ],
+            "interval": 1,
+            "actif": true
+        },
+        {
+            "article_id": 267,
+            "dose": "8.00",
+            "unite_dose": "GR",
+            "delai_attente": 1,
+            "acd1": 0,
+            "libelle": "ASPIRINE 50%   SAC 5KG",
+            "quantiteInentames": "0",
+            "quantiteEntames": "0 GR",
+            "voie_orale": true,
+            "tarif": "33.75",
+            "duree": 3,
+            "pharmacies": [
+                23,
+                23
+            ],
+            "interval": 1,
+            "actif": true
+        },
+        {
+            "article_id": 334,
+            "dose": "15.00",
+            "unite_dose": "ML",
+            "delai_attente": 3,
+            "acd1": 0,
+            "libelle": "BIAMINTHIC 5%   BID 5L",
+            "quantiteInentames": "3",
+            "quantiteEntames": "0 ML",
+            "voie_orale": true,
+            "tarif": "44.99",
+            "duree": 1,
+            "pharmacies": [
+                23
+            ],
+            "interval": 1,
+            "actif": true
+        },
+        {
+            "article_id": 42,
+            "dose": "0.40",
+            "unite_dose": "ML",
+            "delai_attente": 0,
+            "acd1": 0,
+            "libelle": "BIOCYTOCINE   FL 50ML",
+            "quantiteInentames": "3",
+            "quantiteEntames": "0 ML",
+            "voie_orale": false,
+            "tarif": "2.75",
+            "duree": 1,
+            "pharmacies": [
+                23
+            ],
+            "interval": 1,
+            "actif": true
+        },
+        {
+            "article_id": 38,
+            "dose": "2.00",
+            "unite_dose": "GR",
+            "delai_attente": 0,
+            "acd1": 0,
+            "libelle": "COFAVIT C   SEAU 5KG",
+            "quantiteInentames": "0",
+            "quantiteEntames": "0 GR",
+            "voie_orale": true,
+            "tarif": "84.06",
+            "duree": 3,
+            "pharmacies": [
+                23,
+                23
+            ],
+            "interval": 1,
+            "actif": true
+        },
+        {
+            "article_id": 468,
+            "dose": "5.00",
+            "unite_dose": "ML",
+            "delai_attente": 1,
+            "acd1": 4016,
+            "libelle": "COLIPRO 2 MUI   BID 1L",
+            "quantiteInentames": "1",
+            "quantiteEntames": "0 ML",
+            "voie_orale": true,
+            "tarif": "20.16",
+            "duree": 5,
+            "pharmacies": [
+                23
+            ],
+            "interval": 1,
+            "actif": true
+        },
+        {
+            "article_id": 463,
+            "dose": "3.00",
+            "unite_dose": "ML",
+            "delai_attente": 2,
+            "acd1": 0,
+            "libelle": "DEXA-JECT SOLUTION   FL 100ML",
+            "quantiteInentames": "0",
+            "quantiteEntames": "0 ML",
+            "voie_orale": false,
+            "tarif": "18.73",
+            "duree": 1,
+            "pharmacies": [
+                23,
+                23
+            ],
+            "interval": 1,
+            "actif": true
+        },
+        {
+            "article_id": 49,
+            "dose": "3.00",
+            "unite_dose": "ML",
+            "delai_attente": 2,
+            "acd1": 0,
+            "libelle": "DEXA-JECT SOLUTION   FL 100ML",
+            "quantiteInentames": "0",
+            "quantiteEntames": "0 ML",
+            "voie_orale": false,
+            "tarif": "18.28",
+            "duree": 1,
+            "pharmacies": [
+                23
+            ],
+            "interval": 1,
+            "actif": true
+        },
+        {
+            "article_id": 177,
+            "dose": "10.00",
+            "unite_dose": "ML",
+            "delai_attente": 13,
+            "acd1": 1000,
+            "libelle": "DRAXXIN 25MG   FL 100ML",
+            "quantiteInentames": "0",
+            "quantiteEntames": "0 ML",
+            "voie_orale": false,
+            "tarif": "68.79",
+            "duree": 1,
+            "pharmacies": [
+                23
+            ],
+            "interval": 1,
+            "actif": true
+        },
+        {
+            "article_id": 244,
+            "dose": "2.50",
+            "unite_dose": "ML",
+            "delai_attente": 13,
+            "acd1": 4000,
+            "libelle": "DRAXXIN SOL INJ   FL 100ML",
+            "quantiteInentames": "1",
+            "quantiteEntames": "0 ML",
+            "voie_orale": false,
+            "tarif": "275.18",
+            "duree": 1,
+            "pharmacies": [
+                23,
+                23
+            ],
+            "interval": 1,
+            "actif": true
+        },
+        {
+            "article_id": 193,
+            "dose": "10.00",
+            "unite_dose": "ML",
+            "delai_attente": 14,
+            "acd1": 1250,
+            "libelle": "DUPHAMOX L.A.   FL 250ML",
+            "quantiteInentames": "12",
+            "quantiteEntames": "161 ML",
+            "voie_orale": false,
+            "tarif": "47.24",
+            "duree": 3,
+            "pharmacies": [
+                23,
+                23
+            ],
+            "interval": 2,
+            "actif": true
+        },
+        {
+            "article_id": 169,
+            "dose": "5.00",
+            "unite_dose": "ML",
+            "delai_attente": 15,
+            "acd1": 0,
+            "libelle": "ESTOCELAN   FL 100ML",
+            "quantiteInentames": "0",
+            "quantiteEntames": "0 ML",
+            "voie_orale": false,
+            "tarif": "32.52",
+            "duree": 1,
+            "pharmacies": [
+                23,
+                23
+            ],
+            "interval": 1,
+            "actif": true
+        },
+        {
+            "article_id": 456,
+            "dose": "8.00",
+            "unite_dose": "ML",
+            "delai_attente": 60,
+            "acd1": 167,
+            "libelle": "G4   FL 100ML",
+            "quantiteInentames": "0",
+            "quantiteEntames": "0 ML",
+            "voie_orale": false,
+            "tarif": "23.50",
+            "duree": 3,
+            "pharmacies": [
+                23
+            ],
+            "interval": 1,
+            "actif": true
+        },
+        {
+            "article_id": 185,
+            "dose": "10.00",
+            "unite_dose": "ML",
+            "delai_attente": 21,
+            "acd1": 2500,
+            "libelle": "LONGICINE   FL 250ML",
+            "quantiteInentames": "0",
+            "quantiteEntames": "0 ML",
+            "voie_orale": false,
+            "tarif": "32.36",
+            "duree": 1,
+            "pharmacies": [
+                23,
+                23
+            ],
+            "interval": 1,
+            "actif": true
+        },
+        {
+            "article_id": 56,
+            "dose": "1.60",
+            "unite_dose": "ML",
+            "delai_attente": 3,
+            "acd1": 0,
+            "libelle": "MONZAL   FL 50ML",
+            "quantiteInentames": "1",
+            "quantiteEntames": "0 ML",
+            "voie_orale": false,
+            "tarif": "24.20",
+            "duree": 1,
+            "pharmacies": [
+                23
+            ],
+            "interval": 1,
+            "actif": true
+        },
+        {
+            "article_id": 95,
+            "dose": "5.00",
+            "unite_dose": "ML",
+            "delai_attente": 18,
+            "acd1": 1000,
+            "libelle": "MYCOFLOR 30%   FL 100ML",
+            "quantiteInentames": "2",
+            "quantiteEntames": "98 ML",
+            "voie_orale": false,
+            "tarif": "35.28",
+            "duree": 2,
+            "pharmacies": [
+                23
+            ],
+            "interval": 2,
+            "actif": true
+        },
+        {
+            "article_id": 202,
+            "dose": "10.00",
+            "unite_dose": "ML",
+            "delai_attente": 1,
+            "acd1": 0,
+            "libelle": "PIRETAMOL   BID 5 L",
+            "quantiteInentames": "2",
+            "quantiteEntames": "0 ML",
+            "voie_orale": true,
+            "tarif": "67.71",
+            "duree": 5,
+            "pharmacies": [
+                23
+            ],
+            "interval": 1,
+            "actif": true
+        },
+        {
+            "article_id": 432,
+            "dose": "2.00",
+            "unite_dose": "ML",
+            "delai_attente": 0,
+            "acd1": 0,
+            "libelle": "PORCILIS PCV M HYO  FL 100ML/50D",
+            "quantiteInentames": "3",
+            "quantiteEntames": "0 ML",
+            "voie_orale": false,
+            "tarif": null,
+            "duree": null,
+            "pharmacies": [
+                23
+            ],
+            "interval": 1,
+            "actif": true
+        },
+        {
+            "article_id": 433,
+            "dose": "2.00",
+            "unite_dose": "ML",
+            "delai_attente": 0,
+            "acd1": 0,
+            "libelle": "PORCILIS PCV M HYO  FL 200ML/100",
+            "quantiteInentames": "5",
+            "quantiteEntames": "180 ML",
+            "voie_orale": false,
+            "tarif": null,
+            "duree": null,
+            "pharmacies": [
+                23
+            ],
+            "interval": 1,
+            "actif": true
+        },
+        {
+            "article_id": 183,
+            "dose": "10.00",
+            "unite_dose": "ML",
+            "delai_attente": 10,
+            "acd1": 500,
+            "libelle": "POTENCIL   FL 250ML",
+            "quantiteInentames": "0",
+            "quantiteEntames": "0 ML",
+            "voie_orale": false,
+            "tarif": "68.18",
+            "duree": 3,
+            "pharmacies": [
+                23,
+                23
+            ],
+            "interval": 1,
+            "actif": true
+        },
+        {
+            "article_id": 341,
+            "dose": "1.00",
+            "unite_dose": "ML",
+            "delai_attente": 0,
+            "acd1": 0,
+            "libelle": "PROLONGAL   FL 100ML",
+            "quantiteInentames": "9",
+            "quantiteEntames": "50 ML",
+            "voie_orale": false,
+            "tarif": null,
+            "duree": null,
+            "pharmacies": [
+                23
+            ],
+            "interval": 1,
+            "actif": true
+        },
+        {
+            "article_id": 32,
+            "dose": "2.00",
+            "unite_dose": "ML",
+            "delai_attente": 5,
+            "acd1": 0,
+            "libelle": "RECOCAM 20MG/ML   FL 100ML",
+            "quantiteInentames": "3",
+            "quantiteEntames": "0 ML",
+            "voie_orale": false,
+            "tarif": "70.01",
+            "duree": 1,
+            "pharmacies": [
+                23
+            ],
+            "interval": 1,
+            "actif": true
+        },
+        {
+            "article_id": 135,
+            "dose": "6.00",
+            "unite_dose": "ML",
+            "delai_attente": 12,
+            "acd1": 1244,
+            "libelle": "SEPTOTRYL 24%   FL 250ML",
+            "quantiteInentames": "0",
+            "quantiteEntames": "0 ML",
+            "voie_orale": false,
+            "tarif": "28.64",
+            "duree": 0,
+            "pharmacies": [
+                23,
+                23
+            ],
+            "interval": 1,
+            "actif": true
+        },
+        {
+            "article_id": 445,
+            "dose": "2.00",
+            "unite_dose": "ML",
+            "delai_attente": 0,
+            "acd1": 0,
+            "libelle": "SERGOTONINE FL 20 ML",
+            "quantiteInentames": "80",
+            "quantiteEntames": "0 ML",
+            "voie_orale": false,
+            "tarif": "6.46",
+            "duree": 1,
+            "pharmacies": [
+                23
+            ],
+            "interval": 1,
+            "actif": true
+        },
+        {
+            "article_id": 184,
+            "dose": "10.00",
+            "unite_dose": "ML",
+            "delai_attente": 39,
+            "acd1": 2500,
+            "libelle": "SHOTAPEN   FL 250ML",
+            "quantiteInentames": "3",
+            "quantiteEntames": "199 ML",
+            "voie_orale": false,
+            "tarif": "47.82",
+            "duree": 1,
+            "pharmacies": [
+                23
+            ],
+            "interval": 1,
+            "actif": true
+        },
+        {
+            "article_id": 189,
+            "dose": "10.00",
+            "unite_dose": "ML",
+            "delai_attente": 21,
+            "acd1": 418,
+            "libelle": "SODIBIO   FL 250ML",
+            "quantiteInentames": "0",
+            "quantiteEntames": "0 ML",
+            "voie_orale": false,
+            "tarif": "29.64",
+            "duree": 3,
+            "pharmacies": [
+                23
+            ],
+            "interval": 1,
+            "actif": true
+        },
+        {
+            "article_id": 94,
+            "dose": "5.00",
+            "unite_dose": "ML",
+            "delai_attente": 17,
+            "acd1": 0,
+            "libelle": "STRESNIL   FL 100ML",
+            "quantiteInentames": "1",
+            "quantiteEntames": "0 ML",
+            "voie_orale": false,
+            "tarif": "25.36",
+            "duree": 1,
+            "pharmacies": [
+                23
+            ],
+            "interval": 1,
+            "actif": true
+        },
+        {
+            "article_id": 180,
+            "dose": "10.00",
+            "unite_dose": "ML",
+            "delai_attente": 8,
+            "acd1": 1250,
+            "libelle": "VETRIMOXIN 48H CLAS   FL 250ML",
+            "quantiteInentames": "1",
+            "quantiteEntames": "0 ML",
+            "voie_orale": false,
+            "tarif": "45.69",
+            "duree": 3,
+            "pharmacies": [
+                23
+            ],
+            "interval": 2,
+            "actif": true
+        },
+        {
+            "article_id": 103,
+            "dose": "5.00",
+            "unite_dose": "ML",
+            "delai_attente": 21,
+            "acd1": 837,
+            "libelle": "VIRGOCILLINE   FL 250ML",
+            "quantiteInentames": "0",
+            "quantiteEntames": "0 ML",
+            "voie_orale": false,
+            "tarif": "38.60",
+            "duree": 3,
+            "pharmacies": [
+                23,
+                23
+            ],
+            "interval": 1,
+            "actif": true
+        }
+    ]
+}

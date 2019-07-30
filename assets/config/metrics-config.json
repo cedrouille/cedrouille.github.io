@@ -1,0 +1,174 @@
+{
+  "metrics": {
+    "numeroTravail": {
+      "id": "numeroTravail",
+      "label": "PAGE.RAPPORT.METRIQUES.NUMERO_TRAVAIL"
+    },
+    "rfid": {
+      "id": "rfid",
+      "label": "PAGE.RAPPORT.METRIQUES.RFID"
+    },
+    "bande": {
+      "id": "bande",
+      "label": "PAGE.RAPPORT.METRIQUES.BANDE"
+    },
+    "rang": {
+      "id": "rang",
+      "label": "PAGE.RAPPORT.METRIQUES.RANG",
+      "datatype": "NUMBER"
+    },
+    "dateSaillie": {
+      "id": "dateSaillie",
+      "label": "PAGE.RAPPORT.METRIQUES.DATE_SAILLIE",
+      "datatype": "DATE"
+    },
+    "dateDerniereEcho": {
+      "id": "dateDerniereEcho",
+      "label": "PAGE.RAPPORT.METRIQUES.DATE_DERNIERE_ECHO",
+      "datatype": "DATE"
+    },
+    "resultatDerniereEcho": {
+      "id": "resultatDerniereEcho",
+      "label": "PAGE.RAPPORT.METRIQUES.RESULTAT_DERNIERE_ECHO"
+    },
+    "dateRetour": {
+      "id": "dateRetour",
+      "label": "PAGE.RAPPORT.METRIQUES.DATE_RETOUR",
+      "datatype": "DATE"
+    },
+    "dateAvortement": {
+      "id": "dateAvortement",
+      "label": "PAGE.RAPPORT.METRIQUES.DATE_AVORTEMENT",
+      "datatype": "DATE"
+    },
+    "dateMisBas": {
+      "id": "dateMisBas",
+      "label": "PAGE.RAPPORT.METRIQUES.DATE_MISE_BAS",
+      "datatype": "DATE"
+    },
+    "NV": {
+      "id": "NV",
+      "label": "PAGE.RAPPORT.METRIQUES.NV",
+      "tooltip": "nv",
+      "datatype": "NUMBER_TWO_DECIMAL"
+    },
+    "MN": {
+      "id": "MN",
+      "label": "PAGE.RAPPORT.METRIQUES.MN",
+      "tooltip": "mn",
+      "datatype": "NUMBER_TWO_DECIMAL"
+    },
+    "NT": {
+      "id": "NT",
+      "label": "PAGE.RAPPORT.METRIQUES.NT",
+      "tooltip": "nt",
+      "datatype": "NUMBER_TWO_DECIMAL"
+    },
+    "MO": {
+      "id": "MO",
+      "label": "PAGE.RAPPORT.METRIQUES.MO",
+      "tooltip": "mo",
+      "datatype": "NUMBER_TWO_DECIMAL"
+    },
+    "AD": {
+      "id": "AD",
+      "label": "PAGE.RAPPORT.METRIQUES.AD",
+      "tooltip": "ad",
+      "datatype": "NUMBER_TWO_DECIMAL"
+    },
+    "RE": {
+      "id": "RE",
+      "label": "PAGE.RAPPORT.METRIQUES.RE",
+      "tooltip": "re",
+      "datatype": "NUMBER_TWO_DECIMAL"
+    },
+    "dateSevrage": {
+      "id": "dateSevrage",
+      "label": "PAGE.RAPPORT.METRIQUES.DATE_SEVRAGE",
+      "datatype": "DATE"
+    },
+    "NS": {
+      "id": "NS",
+      "label": "PAGE.RAPPORT.METRIQUES.NS",
+      "datatype": "NUMBER_TWO_DECIMAL"
+    },
+    "nombreDoses": {
+      "id": "nombreDoses",
+      "label": "PAGE.RAPPORT.METRIQUES.NOMBRE_DOSES",
+      "datatype": "NUMBER"
+    },
+    "txTraitementSevresPar": {
+      "id": "txTraitementSevresPar",
+      "label": "PAGE.RAPPORT.METRIQUES.TAUX_TRAITEMENT_SEVRES",
+      "datatype": "PERCENT_TWO_DECIMAL"
+    },
+    "txMortSevresPar": {
+      "id": "txMortSevresPar",
+      "label": "PAGE.RAPPORT.METRIQUES.TAUX_PERTE_SEVRES",
+      "datatype": "PERCENT_TWO_DECIMAL"
+    },
+    "eld1": {
+      "id": "eld1",
+      "label": "PAGE.RAPPORT.METRIQUES.ELD1",
+      "tooltip": "ELD1",
+      "datatype": "NUMBER_TWO_DECIMAL"
+    },
+    "eld2": {
+      "id": "eld2",
+      "label": "PAGE.RAPPORT.METRIQUES.ELD2",
+      "tooltip": "ELD2",
+      "datatype": "NUMBER_TWO_DECIMAL"
+    },
+    "eldEntreeMater": {
+      "id": "eldEntreeMater",
+      "label": "PAGE.RAPPORT.METRIQUES.ELD_ENTREE_MATER",
+      "datatype": "NUMBER_TWO_DECIMAL"
+    },
+    "eldSortieMater": {
+      "id": "eldSortieMater",
+      "label": "PAGE.RAPPORT.METRIQUES.ELD_SORTIE_MATER",
+      "datatype": "NUMBER_TWO_DECIMAL"
+    },
+    "eldSaillie": {
+      "id": "eldSaillie",
+      "label": "PAGE.RAPPORT.METRIQUES.ELD_SALLIE",
+      "datatype": "NUMBER_TWO_DECIMAL"
+    },
+    "eldGestante": {
+      "id": "eldGestante",
+      "label": "PAGE.RAPPORT.METRIQUES.ELD_GESTANTE",
+      "datatype": "NUMBER_TWO_DECIMAL"
+    },
+    "eldAutre": {
+      "id": "eldAutre",
+      "label": "PAGE.RAPPORT.METRIQUES.ELD_AUTRE",
+      "datatype": "NUMBER_TWO_DECIMAL"
+    },
+    "observation": {
+      "id": "observation",
+      "label": "PAGE.RAPPORT.METRIQUES.OBSERVATION",
+      "translated": true,
+      "datatype": "STRING_LIST"
+    },
+    "dateReforme": {
+      "id": "dateReforme",
+      "label": "PAGE.RAPPORT.METRIQUES.DATE_REFORME",
+      "datatype": "DATE"
+    },
+    "typeReforme": {
+      "id": "typeReforme",
+      "label": "PAGE.RAPPORT.METRIQUES.TYPE_REFORME",
+      "translated": true
+    },
+    "txPerteNesVifs": {
+      "id": "txPerteNesVifs",
+      "label": "PAGE.RAPPORT.METRIQUES.TAUX_PERTE_NES_VIFS",
+      "datatype": "PERCENT_TWO_DECIMAL"
+    },
+    "causeReforme": {
+      "id": "causeReforme",
+      "label": "PAGE.RAPPORT.METRIQUES.CAUSE_REFORME",
+      "translated": true
+    }
+  }
+}

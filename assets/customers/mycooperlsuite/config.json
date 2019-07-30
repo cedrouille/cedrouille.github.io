@@ -1,0 +1,46 @@
+{
+  "featuresToggle": {
+    "test": false
+  },
+  "features": {
+    "parametre_admin_onglets": {
+      "multilevel": false,
+      "defaultOngletId": "GLOBAL",
+      "onglets": [
+        { "id": "GLOBAL", "label": "Global" },
+        { "id": "PRODUCTEUR", "label": "Pass'Porc" },
+        { "id": "REPRODUCTEUR", "label": "Pass'Cheptel" },
+        { "id": "pharma", "label": "Pass'Pharma" }
+      ]
+    },
+    "gestion_site_parametres": {
+      "parametres": [
+        "gestionStructures",
+        "sep",
+        "gestionStadePhysio",
+        "sep",
+        "gestionTruies",
+        "sep",
+        "gestionPharmacie",
+        "sep",
+        "importVSIAutorise",
+        "sep",
+        "passPorc",
+        "sep",
+        "passCheptel"
+      ]
+    }
+  },
+  "paths": {
+    "style": "assets/css/mycooperlsuite.css",
+    "logo-brand": "assets/customers/mycooperlsuite/logos/logo-brand.png",
+    "logo-brand@2x": "assets/customers/mycooperlsuite/logos/logo-brand@2x.png 2x",
+    "logo-square": "assets/customers/mycooperlsuite/logos/logo-square.png",
+    "logo-square@2x": "assets/customers/mycooperlsuite/logos/logo-square@2x.png 2x",
+    "logo_couleur_x2": "assets/customers/mycooperlsuite/logos/logo-csuite-couleur-2x.png"
+  },
+  "labels": {
+    "parametre_truie_onglet_title": "Pass'Cheptel",
+    "parametre_porc_onglet_title": "Pass'Porc"
+  }
+}

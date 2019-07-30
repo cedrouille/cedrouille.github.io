@@ -1,0 +1,95 @@
+{
+  "filters": {
+    "identifiantSite": {
+      "id": "identifiantSite",
+      "label": "PAGE.RAPPORT.FILTRES.SITE.TITLE",
+      "type": "LIST",
+      "metricId": "identifiantSite",
+      "mandatory": true,
+      "datasource": {
+        "datasourceType": "GLOBAL",
+        "datasourceName": "SITE"
+      },
+      "config": {
+        "placeholder": "PAGE.RAPPORT.FILTRES.SITE.PLACEHOLDER",
+        "multipleSelect": true,
+        "operator": "IN"
+      },
+      "ready": false
+    },
+    "numeroTravail": {
+      "id": "numeroTravail",
+      "mandatory": false,
+      "sortingOrder": "ASC",
+      "label": "PAGE.RAPPORT.FILTRES.TRUIES.TITLE",
+      "type": "LIST",
+      "metricId": "numeroTravail",
+      "datasource": {
+        "datasourceType": "DYNAMIC",
+        "filterName": "truie"
+      },
+      "config": {
+        "placeholder": "PAGE.RAPPORT.FILTRES.TRUIES.PLACEHOLDER",
+        "multipleSelect": true,
+        "operator": "IN",
+        "defaultValue": "all"
+      },
+      "ready": false
+    },
+    "numeroOfficiel": {
+      "id": "numeroOfficiel",
+      "metricId": "numeroOfficiel",
+      "metricLabel": "numeroInterne",
+      "label": "PAGE.RAPPORT.FILTRES.BANDES.TITLE",
+      "type": "LIST",
+      "mandatory": false,
+      "sortingOrder": "DESC",
+      "sortingField": "METRIC_ID",
+      "datasource": {
+        "datasourceType": "DYNAMIC",
+        "filterName": "bande"
+      },
+      "config": {
+        "placeholder": "PAGE.RAPPORT.FILTRES.BANDES.PLACEHOLDER",
+        "multipleSelect": true,
+        "operator": "IN",
+        "defaultValue": "all"
+      },
+      "ready": false
+    },
+    "stadePhysio": {
+      "id": "stadePhysio",
+      "metricId": "id",
+      "label": "PAGE.RAPPORT.FILTRES.STADE_PHYSIO.TITLE",
+      "type": "LIST",
+      "mandatory": false,
+      "sortingOrder": "DESC",
+      "sortingField": "METRIC_ID",
+      "datasource": {
+        "datasourceType": "DYNAMIC",
+        "filterName": "stadePhysio"
+      },
+      "config": {
+        "placeholder": "PAGE.RAPPORT.FILTRES.STADE_PHYSIO.PLACEHOLDER",
+        "multipleSelect": true,
+        "operator": "IN",
+        "defaultValue": "all"
+      },
+      "ready": false
+    },
+    "periode": {
+      "id": "date",
+      "label": "PAGE.RAPPORT.FILTRES.PERIODE.TITLE",
+      "type": "DATE",
+      "mandatory": false,
+      "metricId": "date",
+      "config": {
+        "placeholder": "PAGE.RAPPORT.FILTRES.PERIODE.PLACEHOLDER",
+        "multipleSelect": false,
+        "operator": "GREATER_THAN",
+        "slidingDate": true
+      },
+      "ready": false
+    }
+  }
+}
